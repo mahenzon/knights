@@ -1,0 +1,3 @@
+# Preserve recovered assets byte-for-byte, including the fonts' CRLF endings.
+dist/assets/** -text
+dist/assets/*.fnt whitespace=cr-at-eol

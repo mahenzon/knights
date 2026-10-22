@@ -1,0 +1,1366 @@
+{
+  "volleys": [
+    {
+      "device": 6,
+      "tier": 0,
+      "shots": [
+        {
+          "type": 0,
+          "x": 410.0,
+          "y": 257.0,
+          "z": 0.0,
+          "vx": -600.0,
+          "vy": 0.0,
+          "vz": 0.0,
+          "arg_float1": 20.0,
+          "age": -0.0,
+          "direct_damage": 300,
+          "piercing": 0,
+          "negative_gravity": -1200.0,
+          "lifetime": 0.6000000238418579,
+          "upgrade": 0
+        }
+      ],
+      "sounds": [
+        [
+          16,
+          0
+        ]
+      ]
+    },
+    {
+      "device": 6,
+      "tier": 3,
+      "shots": [
+        {
+          "type": 2,
+          "x": 410.0,
+          "y": 257.0,
+          "z": 0.0,
+          "vx": -600.0,
+          "vy": 0.0,
+          "vz": 0.0,
+          "arg_float1": 20.0,
+          "age": -0.0,
+          "direct_damage": 0,
+          "piercing": 1,
+          "negative_gravity": 0.0,
+          "lifetime": 1.399999976158142,
+          "upgrade": 0
+        }
+      ],
+      "sounds": [
+        [
+          17,
+          0
+        ]
+      ]
+    },
+    {
+      "device": 6,
+      "tier": 6,
+      "shots": [
+        {
+          "type": 1,
+          "x": 410.0,
+          "y": 257.0,
+          "z": 0.0,
+          "vx": -600.0,
+          "vy": 0.0,
+          "vz": 0.0,
+          "arg_float1": 20.0,
+          "age": -0.0,
+          "direct_damage": 300,
+          "piercing": 1,
+          "negative_gravity": 0.0,
+          "lifetime": 1.399999976158142,
+          "upgrade": 0
+        }
+      ],
+      "sounds": [
+        [
+          18,
+          0
+        ]
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 0,
+      "shots": [
+        {
+          "type": 3,
+          "x": 446.0,
+          "y": 92.0,
+          "z": 0.0,
+          "vx": -600.0,
+          "vy": 0.0,
+          "vz": 0.0,
+          "arg_float1": 20.0,
+          "age": -0.0,
+          "direct_damage": 300,
+          "piercing": 1,
+          "negative_gravity": -600.0,
+          "lifetime": 10.0,
+          "upgrade": 0
+        }
+      ],
+      "sounds": [
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 1,
+      "shots": [
+        {
+          "type": 3,
+          "x": 446.0,
+          "y": 92.0,
+          "z": 0.0,
+          "vx": -600.0,
+          "vy": 0.0,
+          "vz": 0.0,
+          "arg_float1": 20.0,
+          "age": -0.0,
+          "direct_damage": 300,
+          "piercing": 1,
+          "negative_gravity": -600.0,
+          "lifetime": 10.0,
+          "upgrade": 1
+        }
+      ],
+      "sounds": [
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 2,
+      "shots": [
+        {
+          "type": 3,
+          "x": 446.0,
+          "y": 92.0,
+          "z": 0.0,
+          "vx": -600.0,
+          "vy": 0.0,
+          "vz": 0.0,
+          "arg_float1": 20.0,
+          "age": -0.0,
+          "direct_damage": 300,
+          "piercing": 1,
+          "negative_gravity": -600.0,
+          "lifetime": 10.0,
+          "upgrade": 2
+        }
+      ],
+      "sounds": [
+        [
+          4,
+          4
+        ]
+      ]
+    }
+  ],
+  "drawings": [
+    {
+      "device": 6,
+      "tier": 0,
+      "elapsed": 0.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "upgrade_window_gun.png",
+          "x": 424.8006591796875,
+          "y": 260.0133056640625,
+          "radians": 0.20000000298023224
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_window.png",
+          "x": 437.0,
+          "y": 229.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "timer.png",
+          "x": 454.0,
+          "y": 247.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": -1.0
+        }
+      ]
+    },
+    {
+      "device": 6,
+      "tier": 0,
+      "elapsed": 7.5,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "upgrade_window_gun.png",
+          "x": 424.8006591796875,
+          "y": 260.0133056640625,
+          "radians": 0.20000000298023224
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_window.png",
+          "x": 437.0,
+          "y": 229.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "timer.png",
+          "x": 454.0,
+          "y": 247.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 2.1415927410125732
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 0.0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 0.6283185482025146
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 1.2566370964050293
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 1.884955644607544
+        }
+      ]
+    },
+    {
+      "device": 6,
+      "tier": 0,
+      "elapsed": 30.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "upgrade_window_gun.png",
+          "x": 429.8006591796875,
+          "y": 260.0133056640625,
+          "radians": 0.20000000298023224
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_window.png",
+          "x": 437.0,
+          "y": 229.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "device": 6,
+      "tier": 3,
+      "elapsed": 0.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "upgrade_window_freezer.png",
+          "x": 424.8006591796875,
+          "y": 260.0133056640625,
+          "radians": 0.20000000298023224
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_window.png",
+          "x": 437.0,
+          "y": 229.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "timer.png",
+          "x": 454.0,
+          "y": 247.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": -1.0
+        }
+      ]
+    },
+    {
+      "device": 6,
+      "tier": 3,
+      "elapsed": 7.5,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "upgrade_window_freezer.png",
+          "x": 424.8006591796875,
+          "y": 260.0133056640625,
+          "radians": 0.20000000298023224
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_window.png",
+          "x": 437.0,
+          "y": 229.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "timer.png",
+          "x": 454.0,
+          "y": 247.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 2.1415927410125732
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 0.0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 0.6283185482025146
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 1.2566370964050293
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 1.884955644607544
+        }
+      ]
+    },
+    {
+      "device": 6,
+      "tier": 3,
+      "elapsed": 30.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "upgrade_window_freezer.png",
+          "x": 429.8006591796875,
+          "y": 260.0133056640625,
+          "radians": 0.20000000298023224
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_window.png",
+          "x": 437.0,
+          "y": 229.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "device": 6,
+      "tier": 6,
+      "elapsed": 0.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "upgrade_window_flamer.png",
+          "x": 424.8006591796875,
+          "y": 260.0133056640625,
+          "radians": 0.20000000298023224
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_window.png",
+          "x": 437.0,
+          "y": 229.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "timer.png",
+          "x": 454.0,
+          "y": 247.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": -1.0
+        }
+      ]
+    },
+    {
+      "device": 6,
+      "tier": 6,
+      "elapsed": 7.5,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "upgrade_window_flamer.png",
+          "x": 424.8006591796875,
+          "y": 260.0133056640625,
+          "radians": 0.20000000298023224
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_window.png",
+          "x": 437.0,
+          "y": 229.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "timer.png",
+          "x": 454.0,
+          "y": 247.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 2.1415927410125732
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 0.0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 0.6283185482025146
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 1.2566370964050293
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 468.5,
+          "y": 262.0,
+          "radians": 1.884955644607544
+        }
+      ]
+    },
+    {
+      "device": 6,
+      "tier": 6,
+      "elapsed": 30.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "upgrade_window_flamer.png",
+          "x": 429.8006591796875,
+          "y": 260.0133056640625,
+          "radians": 0.20000000298023224
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_window.png",
+          "x": 437.0,
+          "y": 229.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 0,
+      "elapsed": 0.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "tower_pod_ballista1.png",
+          "x": 400.0,
+          "y": 94.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "td_ballista1_fire_0003.png",
+          "x": 436.90032958984375,
+          "y": 100.0133056640625,
+          "radians": 0.20000000298023224,
+          "sx": 1.0,
+          "sy": -1.0,
+          "flip": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "timer.png",
+          "x": 452.0,
+          "y": 129.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": -1.0
+        }
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 0,
+      "elapsed": 7.5,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "tower_pod_ballista1.png",
+          "x": 400.0,
+          "y": 94.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "td_ballista1_fire_0003.png",
+          "x": 436.90032958984375,
+          "y": 100.0133056640625,
+          "radians": 0.20000000298023224,
+          "sx": 1.0,
+          "sy": -1.0,
+          "flip": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "timer.png",
+          "x": 452.0,
+          "y": 129.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 3.7123889923095703
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 0.0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 0.6283185482025146
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 1.2566370964050293
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 1.884955644607544
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 2.5132741928100586
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 3.1415927410125732
+        }
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 0,
+      "elapsed": 30.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "tower_pod_ballista1.png",
+          "x": 400.0,
+          "y": 94.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "td_ballista1_fire_0003.png",
+          "x": 436.90032958984375,
+          "y": 100.0133056640625,
+          "radians": 0.20000000298023224,
+          "sx": 1.0,
+          "sy": -1.0,
+          "flip": 0
+        }
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 1,
+      "elapsed": 0.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "tower_pod_ballista2.png",
+          "x": 400.0,
+          "y": 94.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "td_ballista2_fire_0003.png",
+          "x": 436.90032958984375,
+          "y": 100.0133056640625,
+          "radians": 0.20000000298023224,
+          "sx": 1.0,
+          "sy": -1.0,
+          "flip": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "timer.png",
+          "x": 452.0,
+          "y": 129.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": -1.0
+        }
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 1,
+      "elapsed": 7.5,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "tower_pod_ballista2.png",
+          "x": 400.0,
+          "y": 94.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "td_ballista2_fire_0003.png",
+          "x": 436.90032958984375,
+          "y": 100.0133056640625,
+          "radians": 0.20000000298023224,
+          "sx": 1.0,
+          "sy": -1.0,
+          "flip": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "timer.png",
+          "x": 452.0,
+          "y": 129.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 4.890486240386963
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 0.0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 0.6283185482025146
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 1.2566370964050293
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 1.884955644607544
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 2.5132741928100586
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 3.1415927410125732
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 3.769911289215088
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": 4.398229598999023
+        }
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 1,
+      "elapsed": 30.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "tower_pod_ballista2.png",
+          "x": 400.0,
+          "y": 94.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "td_ballista2_fire_0003.png",
+          "x": 436.90032958984375,
+          "y": 100.0133056640625,
+          "radians": 0.20000000298023224,
+          "sx": 1.0,
+          "sy": -1.0,
+          "flip": 0
+        }
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 2,
+      "elapsed": 0.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "tower_pod_ballista3.png",
+          "x": 400.0,
+          "y": 94.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "td_ballista3_fire_0003.png",
+          "x": 436.90032958984375,
+          "y": 100.0133056640625,
+          "radians": 0.20000000298023224,
+          "sx": 1.0,
+          "sy": -1.0,
+          "flip": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "timer.png",
+          "x": 452.0,
+          "y": 129.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "timer_segment.png",
+          "x": 466.5,
+          "y": 144.0,
+          "radians": -1.0
+        }
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 2,
+      "elapsed": 7.5,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "tower_pod_ballista3.png",
+          "x": 400.0,
+          "y": 94.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "td_ballista3_fire_0003.png",
+          "x": 436.90032958984375,
+          "y": 100.0133056640625,
+          "radians": 0.20000000298023224,
+          "sx": 1.0,
+          "sy": -1.0,
+          "flip": 0
+        }
+      ]
+    },
+    {
+      "device": 8,
+      "tier": 2,
+      "elapsed": 30.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "tower_pod_ballista3.png",
+          "x": 400.0,
+          "y": 94.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "td_ballista3_fire_0003.png",
+          "x": 436.90032958984375,
+          "y": 100.0133056640625,
+          "radians": 0.20000000298023224,
+          "sx": 1.0,
+          "sy": -1.0,
+          "flip": 0
+        }
+      ]
+    },
+    {
+      "device": 7,
+      "tier": 0,
+      "elapsed": 0.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "jump_platform_0000.png",
+          "x": -5.0,
+          "y": 230.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "device": 7,
+      "tier": 0,
+      "elapsed": 7.5,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "jump_platform_0000.png",
+          "x": -5.0,
+          "y": 230.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "device": 7,
+      "tier": 0,
+      "elapsed": 30.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "jump_platform_0000.png",
+          "x": -5.0,
+          "y": 230.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "device": 7,
+      "tier": 1,
+      "elapsed": 0.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "jump_platform_0000.png",
+          "x": -5.0,
+          "y": 230.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "device": 7,
+      "tier": 1,
+      "elapsed": 7.5,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "jump_platform_0000.png",
+          "x": -5.0,
+          "y": 230.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "device": 7,
+      "tier": 1,
+      "elapsed": 30.0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "jump_platform_0000.png",
+          "x": -5.0,
+          "y": 230.0,
+          "radians": 0
+        }
+      ]
+    }
+  ],
+  "missile_draws": [
+    {
+      "type": 0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "flamer_gun_fx_flash.png",
+          "x": 200.0,
+          "y": 150.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "gun_gun_patron.png",
+          "x": 200.0,
+          "y": 150.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "fireball_oreol_fx.png",
+          "x": 200.0,
+          "y": 163.0,
+          "radians": 3.1415927410125732,
+          "sx": -0.0,
+          "sy": 0.0,
+          "flip": 0
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "freeze_gun_patron.png",
+          "x": 200.0,
+          "y": 150.0,
+          "radians": 0.0
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "rotated",
+          "image": "td_ballista1_arrow.png",
+          "x": 200.0,
+          "y": 150.0,
+          "radians": 6.2831854820251465
+        }
+      ]
+    }
+  ],
+  "surface_bindings": {
+    "_g_lightnings": {
+      "0": "ray.png"
+    },
+    "_g_rocks": {
+      "0": "stone_64.png",
+      "1": "stone_medium.png",
+      "2": "stone_big.png",
+      "5": "column_small.png",
+      "6": "column_medium.png",
+      "7": "column.png",
+      "20": "barrel.png",
+      "25": "catapult_stone.png",
+      "30": "wizard_fireball.png",
+      "35": "ballista_arrow.png",
+      "40": "td_ballista1_arrow.png",
+      "45": "td_ballista2_arrow.png",
+      "50": "td_ballista3_arrow.png"
+    },
+    "_g_rockShadow": {
+      "0": "stone_64_shadow.png"
+    },
+    "_g_basicButton": {
+      "0": "shop_button_pas.png",
+      "1": "shop_button_act.png"
+    },
+    "_g_smoke": {
+      "0": "fx_smoke_red_dark.png",
+      "1": "wave_explosion_bright.png",
+      "2": "column_smoke.png",
+      "3": "flamer_gun_fx_flash.png",
+      "4": "flamer_gun_particle_bright.png",
+      "5": "megaboom_64x64.png",
+      "6": "gun_gun_particle_bright.png",
+      "7": "freeze_gun_star.png",
+      "8": "freeze_gun_patron.png",
+      "9": "wizard_fireball_explosion.png",
+      "10": "freeze_gun_fx_flash.png",
+      "11": "wave_explosion_iceball.png",
+      "12": "iceball_oreol_FX.png"
+    },
+    "_g_ammo": {
+      "0": "gun_gun_patron.png",
+      "2": "freeze_gun_patron.png"
+    },
+    "_g_sun": {
+      "0": "sun.png"
+    },
+    "_g_star": {
+      "0": "star.png"
+    },
+    "_g_artefacts": {
+      "0": "altar_dragon.png",
+      "20": "tower_pod_stones.png",
+      "50": "tower_pod_fireballs.png",
+      "71": "jump_platform_0000.png",
+      "72": "jump_platform_0001.png",
+      "73": "jump_platform_0002.png",
+      "74": "jump_platform_0003.png",
+      "75": "jump_platform_0004.png",
+      "76": "jump_platform_0005.png",
+      "77": "jump_platform_0006.png",
+      "78": "jump_platform_0007.png",
+      "81": "tower_pod_ballista1.png",
+      "82": "tower_pod_ballista2.png",
+      "83": "tower_pod_ballista3.png"
+    },
+    "_g_artefactBallista": {
+      "0": "td_ballista1_fire_0000.png",
+      "1": "td_ballista1_fire_0001.png",
+      "2": "td_ballista1_fire_0002.png",
+      "3": "td_ballista1_fire_0003.png",
+      "6": "td_ballista2_fire_0000.png",
+      "7": "td_ballista2_fire_0001.png",
+      "8": "td_ballista2_fire_0002.png",
+      "9": "td_ballista2_fire_0003.png",
+      "12": "td_ballista3_fire_0000.png",
+      "13": "td_ballista3_fire_0001.png",
+      "14": "td_ballista3_fire_0002.png",
+      "15": "td_ballista3_fire_0003.png"
+    },
+    "_g_mapPanel2": {
+      "0": "map_interface_up.png"
+    },
+    "_g_mapStar": {
+      "0": "mapstar.png"
+    },
+    "_g_castle": {
+      "0": "castle_1.png"
+    },
+    "_g_castleArc": {
+      "0": "castle_enter_rez.png"
+    },
+    "_g_door": {
+      "0": "castle_door_1_default.png",
+      "1": "castle_door_2_steel.png",
+      "2": "castle_door_3_gold.png",
+      "3": "castle_door_4_magic.png",
+      "4": "castle_door_5_horrendous.png"
+    },
+    "_g_dragon": {
+      "0": "reddrake_head.png",
+      "1": "reddrake_jaw.png"
+    },
+    "_g_hole": {
+      "0": "hole_zad.png",
+      "1": "hole_per.png"
+    },
+    "_g_holeCap": {
+      "0": "hole_krishka.png"
+    },
+    "_g_columnThrower": {
+      "0": "tower_pod_column_back.png",
+      "1": "tower_pod_column_front.png"
+    },
+    "_g_columnThrowerButton": {
+      "0": "tower_pod_column_button.png"
+    },
+    "_g_guns": {
+      "0": "upgrade_window_gun.png",
+      "1": "upgrade_window_freezer.png",
+      "2": "upgrade_window_flamer.png"
+    },
+    "_g_fireball": {
+      "6": "fireball_0001.png",
+      "7": "fireball_0002.png",
+      "8": "fireball_0003.png",
+      "9": "fireball_0004.png",
+      "10": "fireball_0005.png",
+      "11": "fireball_0006.png",
+      "12": "fireball_big_0001.png",
+      "13": "fireball_big_0002.png",
+      "14": "fireball_big_0003.png",
+      "15": "fireball_big_0004.png",
+      "16": "fireball_big_0005.png",
+      "17": "fireball_big_0006.png",
+      "0": "fireball_small_0001.png",
+      "1": "fireball_small_0002.png",
+      "2": "fireball_small_0003.png",
+      "3": "fireball_small_0004.png",
+      "4": "fireball_small_0005.png",
+      "5": "fireball_small_0006.png",
+      "18": "iceball_0001.png",
+      "19": "iceball_0002.png",
+      "20": "iceball_0003.png",
+      "21": "iceball_0004.png",
+      "22": "iceball_0005.png",
+      "23": "iceball_0006.png"
+    },
+    "_g_fireballFX": {
+      "0": "fireball_oreol_fx.png"
+    },
+    "_g_gunShelter": {
+      "0": "castle_window.png"
+    },
+    "_g_fragments": {
+      "0": "ice_fragment_01.png",
+      "1": "ice_fragment_02.png",
+      "2": "ice_fragment_03.png",
+      "3": "catapult_destruct_weel.png",
+      "4": "catapult_destruct_wood1.png",
+      "5": "catapult_destruct_wood2.png",
+      "6": "stone1_crash_1.png",
+      "7": "stone1_crash_2.png",
+      "8": "stone1_crash_3.png",
+      "9": "stone2_crash_1.png",
+      "10": "stone2_crash_2.png",
+      "11": "stone2_crash_3.png",
+      "12": "stone3_crash_1.png",
+      "13": "stone3_crash_2.png",
+      "14": "stone3_crash_3.png",
+      "15": "door_iskra1.png",
+      "16": "door_iskra2.png",
+      "17": "door_iskra3.png"
+    },
+    "_g_shopBackground": {
+      "0": "shop_background.png"
+    },
+    "_g_shopDialog": {
+      "0": "shop_buble.png"
+    },
+    "_g_wizardShield": {
+      "0": "wizard_shield_fx.png"
+    },
+    "_g_timer": {
+      "0": "timer.png"
+    },
+    "_g_timerSegment": {
+      "0": "timer_segment.png"
+    },
+    "_g_flag": {
+      "0": "flag.png"
+    },
+    "_g_altarHook": {
+      "0": "altar_hook.png"
+    },
+    "_g_buttonI": {
+      "0": "button_i_pass.png",
+      "1": "button_i_act.png"
+    },
+    "_g_largeButton": {
+      "0": "menu_big_button.png",
+      "1": "menu_big_button_active.png"
+    },
+    "_g_radio": {
+      "0": "menu_checkbox_x.png",
+      "1": "menu_checkbox_v.png",
+      "2": "menu_checkbox.png"
+    },
+    "_g_moverButton": {
+      "0": "menu_roller_music.png"
+    },
+    "_g_soundBar": {
+      "0": "menu_music_line.png"
+    },
+    "_g_nameFrame": {
+      "0": "frame_name.png"
+    },
+    "_g_aimer": {
+      "0": "aim_ball.png"
+    }
+  }
+}

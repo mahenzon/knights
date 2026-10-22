@@ -1,0 +1,581 @@
+{
+  "binary_sha256": "a4c5b8a013d79b55532e038674fbe752fdb98877cf54e5106251ae4e6d9330e1",
+  "samples": [
+    {
+      "hp": 100,
+      "max_hp": 100,
+      "draws": [
+        {
+          "op": "stretch",
+          "image": "bottom_podlozhka.png",
+          "x": 0.0,
+          "y": 320.0,
+          "x2": 480.0,
+          "y2": 291.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progressbar.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progress_blue.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0,
+          "crop": [
+            0,
+            0,
+            32,
+            174
+          ]
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_gold.png",
+          "x": 1.0,
+          "y": 292.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 22.0,
+          "y": 294.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_sacrifice.png",
+          "x": 95.0,
+          "y": 287.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 118.0,
+          "y": 294.0
+        }
+      ]
+    },
+    {
+      "hp": 76,
+      "max_hp": 100,
+      "draws": [
+        {
+          "op": "stretch",
+          "image": "bottom_podlozhka.png",
+          "x": 0.0,
+          "y": 320.0,
+          "x2": 480.0,
+          "y2": 291.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progressbar.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progress_blue.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0,
+          "crop": [
+            0,
+            0,
+            32,
+            138
+          ]
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_gold.png",
+          "x": 1.0,
+          "y": 292.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 22.0,
+          "y": 294.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_sacrifice.png",
+          "x": 95.0,
+          "y": 287.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 118.0,
+          "y": 294.0
+        }
+      ]
+    },
+    {
+      "hp": 75,
+      "max_hp": 100,
+      "draws": [
+        {
+          "op": "stretch",
+          "image": "bottom_podlozhka.png",
+          "x": 0.0,
+          "y": 320.0,
+          "x2": 480.0,
+          "y2": 291.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progressbar.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progress_blue.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0,
+          "crop": [
+            0,
+            0,
+            32,
+            136
+          ]
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_gold.png",
+          "x": 1.0,
+          "y": 292.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 22.0,
+          "y": 294.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_sacrifice.png",
+          "x": 95.0,
+          "y": 287.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 118.0,
+          "y": 294.0
+        }
+      ]
+    },
+    {
+      "hp": 74,
+      "max_hp": 100,
+      "draws": [
+        {
+          "op": "stretch",
+          "image": "bottom_podlozhka.png",
+          "x": 0.0,
+          "y": 320.0,
+          "x2": 480.0,
+          "y2": 291.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progressbar.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progress_yellow.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0,
+          "crop": [
+            0,
+            0,
+            32,
+            135
+          ]
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_gold.png",
+          "x": 1.0,
+          "y": 292.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 22.0,
+          "y": 294.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_sacrifice.png",
+          "x": 95.0,
+          "y": 287.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 118.0,
+          "y": 294.0
+        }
+      ]
+    },
+    {
+      "hp": 50,
+      "max_hp": 100,
+      "draws": [
+        {
+          "op": "stretch",
+          "image": "bottom_podlozhka.png",
+          "x": 0.0,
+          "y": 320.0,
+          "x2": 480.0,
+          "y2": 291.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progressbar.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progress_yellow.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0,
+          "crop": [
+            0,
+            0,
+            32,
+            99
+          ]
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_gold.png",
+          "x": 1.0,
+          "y": 292.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 22.0,
+          "y": 294.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_sacrifice.png",
+          "x": 95.0,
+          "y": 287.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 118.0,
+          "y": 294.0
+        }
+      ]
+    },
+    {
+      "hp": 40,
+      "max_hp": 100,
+      "draws": [
+        {
+          "op": "stretch",
+          "image": "bottom_podlozhka.png",
+          "x": 0.0,
+          "y": 320.0,
+          "x2": 480.0,
+          "y2": 291.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progressbar.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progress_yellow.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0,
+          "crop": [
+            0,
+            0,
+            32,
+            84
+          ]
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_gold.png",
+          "x": 1.0,
+          "y": 292.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 22.0,
+          "y": 294.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_sacrifice.png",
+          "x": 95.0,
+          "y": 287.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 118.0,
+          "y": 294.0
+        }
+      ]
+    },
+    {
+      "hp": 39,
+      "max_hp": 100,
+      "draws": [
+        {
+          "op": "stretch",
+          "image": "bottom_podlozhka.png",
+          "x": 0.0,
+          "y": 320.0,
+          "x2": 480.0,
+          "y2": 291.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progressbar.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progress_red.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0,
+          "crop": [
+            0,
+            0,
+            32,
+            82
+          ]
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_gold.png",
+          "x": 1.0,
+          "y": 292.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 22.0,
+          "y": 294.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_sacrifice.png",
+          "x": 95.0,
+          "y": 287.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 118.0,
+          "y": 294.0
+        }
+      ]
+    },
+    {
+      "hp": 1,
+      "max_hp": 100,
+      "draws": [
+        {
+          "op": "stretch",
+          "image": "bottom_podlozhka.png",
+          "x": 0.0,
+          "y": 320.0,
+          "x2": 480.0,
+          "y2": 291.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progressbar.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progress_red.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0,
+          "crop": [
+            0,
+            0,
+            32,
+            25
+          ]
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_gold.png",
+          "x": 1.0,
+          "y": 292.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 22.0,
+          "y": 294.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_sacrifice.png",
+          "x": 95.0,
+          "y": 287.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 118.0,
+          "y": 294.0
+        }
+      ]
+    },
+    {
+      "hp": 0,
+      "max_hp": 100,
+      "draws": [
+        {
+          "op": "stretch",
+          "image": "bottom_podlozhka.png",
+          "x": 0.0,
+          "y": 320.0,
+          "x2": 480.0,
+          "y2": 291.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progressbar.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "castle_progress_red.png",
+          "x": 270.0,
+          "y": 291.0,
+          "radians": 0,
+          "crop": [
+            0,
+            0,
+            32,
+            24
+          ]
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_gold.png",
+          "x": 1.0,
+          "y": 292.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 22.0,
+          "y": 294.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "icon_sacrifice.png",
+          "x": 95.0,
+          "y": 287.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "0",
+          "x": 118.0,
+          "y": 294.0
+        }
+      ]
+    }
+  ]
+}

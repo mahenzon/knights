@@ -1,0 +1,38 @@
+{
+  "binary_sha256": "a4c5b8a013d79b55532e038674fbe752fdb98877cf54e5106251ae4e6d9330e1",
+  "cases": [
+    {
+      "owned_tier": 2,
+      "item": 100,
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "owned_tier": 2,
+      "item": 101,
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "owned_tier": 2,
+      "item": 102,
+      "dialogs": []
+    },
+    {
+      "owned_tier": 2,
+      "item": 103,
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "owned_tier": 3,
+      "item": 102,
+      "dialogs": [
+        0
+      ]
+    }
+  ]
+}

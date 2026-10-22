@@ -1,0 +1,6216 @@
+{
+  "binary_sha256": "a4c5b8a013d79b55532e038674fbe752fdb98877cf54e5106251ae4e6d9330e1",
+  "callbacks": [
+    {
+      "actor": "creep",
+      "action": "resume",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            100,
+            200
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 100,
+              "target_y": 200
+            },
+            "creep_pointer": [
+              100,
+              200
+            ],
+            "sounds": [
+              [
+                3,
+                0
+              ]
+            ],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "c502d89bab2637484d0c4cdf632a8c8f14aeeecb1d97b8a1e502cd0b630cc8e3",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            150,
+            100
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "paused": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "after": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1ca54",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1ca70",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        }
+      ],
+      "routes": []
+    },
+    {
+      "actor": "creep",
+      "action": "options_done",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            100,
+            200
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 100,
+              "target_y": 200
+            },
+            "creep_pointer": [
+              100,
+              200
+            ],
+            "sounds": [
+              [
+                3,
+                0
+              ]
+            ],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "c502d89bab2637484d0c4cdf632a8c8f14aeeecb1d97b8a1e502cd0b630cc8e3",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            150,
+            100
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "paused": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "after": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1cac8",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1cafc",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 3,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x20238",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 3,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x20300",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        }
+      ],
+      "routes": [
+        {
+          "call": "SwitchMode",
+          "mode": 3
+        },
+        {
+          "call": "SaveOptions_intercepted"
+        },
+        {
+          "call": "music_intercepted",
+          "track": 0
+        },
+        {
+          "call": "music_intercepted",
+          "track": 1
+        }
+      ]
+    },
+    {
+      "actor": "creep",
+      "action": "abort",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            100,
+            200
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 100,
+              "target_y": 200
+            },
+            "creep_pointer": [
+              100,
+              200
+            ],
+            "sounds": [
+              [
+                3,
+                0
+              ]
+            ],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "c502d89bab2637484d0c4cdf632a8c8f14aeeecb1d97b8a1e502cd0b630cc8e3",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            150,
+            100
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "paused": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "after": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 10,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1ca78",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1cabc",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 10,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        }
+      ],
+      "routes": [
+        {
+          "call": "SwitchMode",
+          "mode": 10
+        }
+      ]
+    },
+    {
+      "actor": "fireball",
+      "action": "resume",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            447,
+            163
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 0.0,
+                "target": [
+                  447.0,
+                  163.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              447,
+              163
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "9bba1cc39f0d163682afe50f0f212132da3a763b074f759ad86b623c7837e3b1",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            200,
+            100
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 258.0,
+                "target": [
+                  200.0,
+                  100.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              200,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "f93df414a95214a5fc36a4643d111ad368cdbc0e92259ea441013638720046a3",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            280,
+            80
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "paused": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "after": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x1ca54",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x1ca70",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        }
+      ],
+      "routes": []
+    },
+    {
+      "actor": "fireball",
+      "action": "options_done",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            447,
+            163
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 0.0,
+                "target": [
+                  447.0,
+                  163.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              447,
+              163
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "9bba1cc39f0d163682afe50f0f212132da3a763b074f759ad86b623c7837e3b1",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            200,
+            100
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 258.0,
+                "target": [
+                  200.0,
+                  100.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              200,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "f93df414a95214a5fc36a4643d111ad368cdbc0e92259ea441013638720046a3",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            280,
+            80
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "paused": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "after": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x1cac8",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x1cafc",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 3,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x20238",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 3,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x20300",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        }
+      ],
+      "routes": [
+        {
+          "call": "SwitchMode",
+          "mode": 3
+        },
+        {
+          "call": "SaveOptions_intercepted"
+        },
+        {
+          "call": "music_intercepted",
+          "track": 0
+        },
+        {
+          "call": "music_intercepted",
+          "track": 1
+        }
+      ]
+    },
+    {
+      "actor": "fireball",
+      "action": "abort",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            447,
+            163
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 0.0,
+                "target": [
+                  447.0,
+                  163.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              447,
+              163
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "9bba1cc39f0d163682afe50f0f212132da3a763b074f759ad86b623c7837e3b1",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            200,
+            100
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 258.0,
+                "target": [
+                  200.0,
+                  100.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              200,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "f93df414a95214a5fc36a4643d111ad368cdbc0e92259ea441013638720046a3",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            280,
+            80
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "paused": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "after": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 10,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x1ca78",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x1cabc",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 10,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        }
+      ],
+      "routes": [
+        {
+          "call": "SwitchMode",
+          "mode": 10
+        }
+      ]
+    },
+    {
+      "actor": "column",
+      "action": "resume",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            438,
+            51
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "paused": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "after": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1ca54",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1ca70",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        }
+      ],
+      "routes": []
+    },
+    {
+      "actor": "column",
+      "action": "options_done",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            438,
+            51
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "paused": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "after": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1cac8",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1cafc",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 3,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x20238",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 3,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x20300",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        }
+      ],
+      "routes": [
+        {
+          "call": "SwitchMode",
+          "mode": 3
+        },
+        {
+          "call": "SaveOptions_intercepted"
+        },
+        {
+          "call": "music_intercepted",
+          "track": 0
+        },
+        {
+          "call": "music_intercepted",
+          "track": 1
+        }
+      ]
+    },
+    {
+      "actor": "column",
+      "action": "abort",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            438,
+            51
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "paused": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "after": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 10,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1ca78",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1cabc",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 10,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        }
+      ],
+      "routes": [
+        {
+          "call": "SwitchMode",
+          "mode": 10
+        }
+      ]
+    }
+  ],
+  "release_to_pause": [
+    {
+      "actor": "creep",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            100,
+            200
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 100,
+              "target_y": 200
+            },
+            "creep_pointer": [
+              100,
+              200
+            ],
+            "sounds": [
+              [
+                3,
+                0
+              ]
+            ],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "c502d89bab2637484d0c4cdf632a8c8f14aeeecb1d97b8a1e502cd0b630cc8e3",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            150,
+            100
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        }
+      ],
+      "events": [
+        {
+          "kind": "move",
+          "point": [
+            460,
+            305
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 1000.0,
+              "vy": 375.5555419921875,
+              "target_x": 460,
+              "target_y": 305
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "96f3eba19624b2326d2b2f7b230a23a7297b238e249c6fe25caf33f0c174f42b",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "kind": "up",
+          "point": [
+            460,
+            305
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 1,
+              "vx": 1720.0,
+              "vy": 525.5555419921875,
+              "target_x": 460,
+              "target_y": 305
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [
+              [
+                8,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "fba99ed8caf1e33cbe8a41ddbc1f5788dd98aba3ec2e9aafd8b72e20a9fcf44a",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        }
+      ],
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 1000.0,
+              "vy": 375.5555419921875,
+              "target_x": 460,
+              "target_y": 305
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [
+              [
+                8,
+                0
+              ]
+            ],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "96f3eba19624b2326d2b2f7b230a23a7297b238e249c6fe25caf33f0c174f42b",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 1000.0,
+              "vy": 375.5555419921875,
+              "target_x": 460,
+              "target_y": 305
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [
+              [
+                8,
+                0
+              ]
+            ],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "96f3eba19624b2326d2b2f7b230a23a7297b238e249c6fe25caf33f0c174f42b",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1ca54",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 1,
+              "vx": 1720.0,
+              "vy": 525.5555419921875,
+              "target_x": 460,
+              "target_y": 305
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "fba99ed8caf1e33cbe8a41ddbc1f5788dd98aba3ec2e9aafd8b72e20a9fcf44a",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "address": "0x1ca70",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 1,
+              "vx": 1720.0,
+              "vy": 525.5555419921875,
+              "target_x": 460,
+              "target_y": 305
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "fba99ed8caf1e33cbe8a41ddbc1f5788dd98aba3ec2e9aafd8b72e20a9fcf44a",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        }
+      ],
+      "resumed": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 1,
+          "vx": 1720.0,
+          "vy": 525.5555419921875,
+          "target_x": 460,
+          "target_y": 305
+        },
+        "creep_pointer": [
+          460,
+          305
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "fba99ed8caf1e33cbe8a41ddbc1f5788dd98aba3ec2e9aafd8b72e20a9fcf44a",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "routes": []
+    },
+    {
+      "actor": "fireball",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            447,
+            163
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 0.0,
+                "target": [
+                  447.0,
+                  163.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              447,
+              163
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "9bba1cc39f0d163682afe50f0f212132da3a763b074f759ad86b623c7837e3b1",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            200,
+            100
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 258.0,
+                "target": [
+                  200.0,
+                  100.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              200,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "f93df414a95214a5fc36a4643d111ad368cdbc0e92259ea441013638720046a3",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            280,
+            80
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        }
+      ],
+      "events": [
+        {
+          "kind": "move",
+          "point": [
+            460,
+            305
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 763.0,
+                "target": [
+                  460.0,
+                  305.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "75630994d3b756264130d08177b1902bfc6976afb293d60bcaa896a979fb9309",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "kind": "up",
+          "point": [
+            460,
+            305
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 0,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 763.0,
+                "target": [
+                  460.0,
+                  305.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  38.29058074951172,
+                  418.25091552734375
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [
+              [
+                8,
+                0
+              ],
+              [
+                13,
+                0
+              ]
+            ],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "5ce185e03f0feb8d51cdda88590a903e84d977003c77d8c9ced541ac55fedde4",
+              "devices": "3621424db970c19edc689c7f1d570dab2324403332660b56da165c985c846e89"
+            }
+          }
+        }
+      ],
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 763.0,
+                "target": [
+                  460.0,
+                  305.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [
+              [
+                8,
+                0
+              ]
+            ],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "75630994d3b756264130d08177b1902bfc6976afb293d60bcaa896a979fb9309",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 763.0,
+                "target": [
+                  460.0,
+                  305.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [
+              [
+                8,
+                0
+              ]
+            ],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "75630994d3b756264130d08177b1902bfc6976afb293d60bcaa896a979fb9309",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "address": "0x1ca54",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 0,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 763.0,
+                "target": [
+                  460.0,
+                  305.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  38.29058074951172,
+                  418.25091552734375
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "5ce185e03f0feb8d51cdda88590a903e84d977003c77d8c9ced541ac55fedde4",
+              "devices": "3621424db970c19edc689c7f1d570dab2324403332660b56da165c985c846e89"
+            }
+          }
+        },
+        {
+          "address": "0x1ca70",
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 0,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 763.0,
+                "target": [
+                  460.0,
+                  305.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  38.29058074951172,
+                  418.25091552734375
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "5ce185e03f0feb8d51cdda88590a903e84d977003c77d8c9ced541ac55fedde4",
+              "devices": "3621424db970c19edc689c7f1d570dab2324403332660b56da165c985c846e89"
+            }
+          }
+        }
+      ],
+      "resumed": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 0,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 763.0,
+            "target": [
+              460.0,
+              305.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              38.29058074951172,
+              418.25091552734375
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          460,
+          305
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "5ce185e03f0feb8d51cdda88590a903e84d977003c77d8c9ced541ac55fedde4",
+          "devices": "3621424db970c19edc689c7f1d570dab2324403332660b56da165c985c846e89"
+        }
+      },
+      "routes": []
+    },
+    {
+      "actor": "column",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            438,
+            51
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        }
+      ],
+      "events": [
+        {
+          "kind": "move",
+          "point": [
+            460,
+            305
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "kind": "up",
+          "point": [
+            460,
+            305
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [
+              [
+                8,
+                0
+              ]
+            ],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        }
+      ],
+      "boundaries": [
+        {
+          "address": "0x1c934",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [
+              [
+                8,
+                0
+              ]
+            ],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1ca2c",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [
+              [
+                8,
+                0
+              ]
+            ],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1ca54",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [],
+            "paused": 1,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        },
+        {
+          "address": "0x1ca70",
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              460,
+              305
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        }
+      ],
+      "resumed": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          460,
+          305
+        ],
+        "sounds": [],
+        "paused": 0,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "routes": []
+    }
+  ],
+  "save_held": [
+    {
+      "actor": "creep",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            100,
+            200
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 100,
+              "target_y": 200
+            },
+            "creep_pointer": [
+              100,
+              200
+            ],
+            "sounds": [
+              [
+                3,
+                0
+              ]
+            ],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "c502d89bab2637484d0c4cdf632a8c8f14aeeecb1d97b8a1e502cd0b630cc8e3",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            150,
+            100
+          ],
+          "state": {
+            "device_pressed": 0,
+            "device_elapsed": 0.0,
+            "objects": [],
+            "creep": {
+              "held": 1,
+              "flying": 0,
+              "vx": 138.88888549804688,
+              "vy": -444.4444580078125,
+              "target_x": 150,
+              "target_y": 100
+            },
+            "creep_pointer": [
+              150,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "saved": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "restored": {
+        "device_pressed": 0,
+        "device_elapsed": 0.0,
+        "objects": [],
+        "creep": {
+          "held": 1,
+          "flying": 0,
+          "vx": 138.88888549804688,
+          "vy": -444.4444580078125,
+          "target_x": 150,
+          "target_y": 100
+        },
+        "creep_pointer": [
+          150,
+          100
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "6b4e950858e83b00eba872f8b0e41c1cb0be0a2cd4863d7a3c561f245e61eac2",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "c89345dba3801e99ef3d34bb5c5a8b7fd78da6f97bc1de49a151364422b4b55d"
+        }
+      },
+      "bytes": 59868,
+      "stdio": [
+        {
+          "op": "open",
+          "mode": "wb"
+        },
+        {
+          "op": "write",
+          "size": 4
+        },
+        {
+          "op": "write",
+          "size": 572
+        },
+        {
+          "op": "write",
+          "size": 76
+        },
+        {
+          "op": "write",
+          "size": 736
+        },
+        {
+          "op": "write",
+          "size": 51200
+        },
+        {
+          "op": "write",
+          "size": 3480
+        },
+        {
+          "op": "write",
+          "size": 3800
+        },
+        {
+          "op": "close"
+        },
+        {
+          "op": "open",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "size": 4
+        },
+        {
+          "op": "read",
+          "size": 572
+        },
+        {
+          "op": "read",
+          "size": 76
+        },
+        {
+          "op": "read",
+          "size": 736
+        },
+        {
+          "op": "read",
+          "size": 51200
+        },
+        {
+          "op": "read",
+          "size": 3480
+        },
+        {
+          "op": "read",
+          "size": 3800
+        },
+        {
+          "op": "close"
+        }
+      ]
+    },
+    {
+      "actor": "fireball",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            447,
+            163
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 0.0,
+                "target": [
+                  447.0,
+                  163.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              447,
+              163
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "9bba1cc39f0d163682afe50f0f212132da3a763b074f759ad86b623c7837e3b1",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            200,
+            100
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 258.0,
+                "target": [
+                  200.0,
+                  100.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              200,
+              100
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "f93df414a95214a5fc36a4643d111ad368cdbc0e92259ea441013638720046a3",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        },
+        {
+          "kind": "move",
+          "point": [
+            280,
+            80
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 0.0,
+            "objects": [
+              {
+                "slot": 0,
+                "kind": 2,
+                "held": 1,
+                "pressed": 0,
+                "skip_global_input": 1,
+                "travel_charge": 358.0,
+                "target": [
+                  280.0,
+                  80.0
+                ],
+                "position": [
+                  447.0,
+                  163.0
+                ],
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              280,
+              80
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+              "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "saved": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "restored": {
+        "device_pressed": 1,
+        "device_elapsed": 0.0,
+        "objects": [
+          {
+            "slot": 0,
+            "kind": 2,
+            "held": 1,
+            "pressed": 0,
+            "skip_global_input": 1,
+            "travel_charge": 358.0,
+            "target": [
+              280.0,
+              80.0
+            ],
+            "position": [
+              447.0,
+              163.0
+            ],
+            "velocity": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          280,
+          80
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "6456347f858d7fe4624626990e55a686f9d955dc45faa3518352659d179cb955",
+          "devices": "3d859fb8a18a7c9b886362730c00e6429448eeb21554c1d3304d5260a0558d12"
+        }
+      },
+      "bytes": 59868,
+      "stdio": [
+        {
+          "op": "open",
+          "mode": "wb"
+        },
+        {
+          "op": "write",
+          "size": 4
+        },
+        {
+          "op": "write",
+          "size": 572
+        },
+        {
+          "op": "write",
+          "size": 76
+        },
+        {
+          "op": "write",
+          "size": 736
+        },
+        {
+          "op": "write",
+          "size": 51200
+        },
+        {
+          "op": "write",
+          "size": 3480
+        },
+        {
+          "op": "write",
+          "size": 3800
+        },
+        {
+          "op": "close"
+        },
+        {
+          "op": "open",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "size": 4
+        },
+        {
+          "op": "read",
+          "size": 572
+        },
+        {
+          "op": "read",
+          "size": 76
+        },
+        {
+          "op": "read",
+          "size": 736
+        },
+        {
+          "op": "read",
+          "size": 51200
+        },
+        {
+          "op": "read",
+          "size": 3480
+        },
+        {
+          "op": "read",
+          "size": 3800
+        },
+        {
+          "op": "close"
+        }
+      ]
+    },
+    {
+      "actor": "column",
+      "setup": [
+        {
+          "kind": "down",
+          "point": [
+            438,
+            51
+          ],
+          "state": {
+            "device_pressed": 1,
+            "device_elapsed": 100.0,
+            "objects": [],
+            "creep": {
+              "held": 0,
+              "flying": 0,
+              "vx": 0.0,
+              "vy": 0.0,
+              "target_x": 0,
+              "target_y": 0
+            },
+            "creep_pointer": [
+              438,
+              51
+            ],
+            "sounds": [],
+            "paused": 0,
+            "mode": 1,
+            "score": 0,
+            "gold": 1234,
+            "souls": 56,
+            "world_hashes": {
+              "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+              "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+              "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+            }
+          }
+        }
+      ],
+      "before": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "saved": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "restored": {
+        "device_pressed": 1,
+        "device_elapsed": 100.0,
+        "objects": [],
+        "creep": {
+          "held": 0,
+          "flying": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "target_x": 0,
+          "target_y": 0
+        },
+        "creep_pointer": [
+          438,
+          51
+        ],
+        "sounds": [],
+        "paused": 1,
+        "mode": 1,
+        "score": 0,
+        "gold": 1234,
+        "souls": 56,
+        "world_hashes": {
+          "creeps": "16fa66a7dc98d93f2a4c5d20baf5177f59c4c37fc62face65690c11c15fe6ff9",
+          "objects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "devices": "252fe889e6cd246e396936c7bf2bb126bfc3f1627e1f79df6b04f8f3ef8e907e"
+        }
+      },
+      "bytes": 59868,
+      "stdio": [
+        {
+          "op": "open",
+          "mode": "wb"
+        },
+        {
+          "op": "write",
+          "size": 4
+        },
+        {
+          "op": "write",
+          "size": 572
+        },
+        {
+          "op": "write",
+          "size": 76
+        },
+        {
+          "op": "write",
+          "size": 736
+        },
+        {
+          "op": "write",
+          "size": 51200
+        },
+        {
+          "op": "write",
+          "size": 3480
+        },
+        {
+          "op": "write",
+          "size": 3800
+        },
+        {
+          "op": "close"
+        },
+        {
+          "op": "open",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "size": 4
+        },
+        {
+          "op": "read",
+          "size": 572
+        },
+        {
+          "op": "read",
+          "size": 76
+        },
+        {
+          "op": "read",
+          "size": 736
+        },
+        {
+          "op": "read",
+          "size": 51200
+        },
+        {
+          "op": "read",
+          "size": 3480
+        },
+        {
+          "op": "read",
+          "size": 3800
+        },
+        {
+          "op": "close"
+        }
+      ]
+    }
+  ],
+  "banners": [
+    {
+      "kind": "day_start",
+      "initial": {
+        "flag_y": -600.0,
+        "amplitude": 20.0,
+        "direction": 1,
+        "remaining": 4.0,
+        "phase": 0.0,
+        "kind": 0
+      },
+      "before": {
+        "paused": 0,
+        "flag_calls": 1,
+        "flag_y": -100.0,
+        "flag_remaining": 2.3333349227905273,
+        "commands": [
+          {
+            "op": "blit",
+            "image": "flag.png",
+            "x": 60.0,
+            "y": -100.0,
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "blend": "source-over"
+          },
+          {
+            "op": "text",
+            "text": "DAY 1 of 8",
+            "x": 175.0,
+            "y": 50.0
+          },
+          {
+            "op": "text",
+            "text": "GET READY!",
+            "x": 180.0,
+            "y": 85.0
+          }
+        ],
+        "world_phases": [
+          "wave",
+          "land_draw",
+          "artefacts_before",
+          "sort",
+          "objects_draw",
+          "powerups",
+          "artefacts_after",
+          "missiles_process",
+          "missiles_draw",
+          "creeps_process",
+          "dragobjects_process",
+          "land_after",
+          "land_process",
+          "particles_process",
+          "particles_draw",
+          "particles_draw",
+          "text_process",
+          "text_draw",
+          "fragments",
+          "smoke",
+          "interface",
+          "pause",
+          "perk_panel",
+          "buttons"
+        ],
+        "animation_frame": 100
+      },
+      "paused": [
+        {
+          "paused": 1,
+          "flag_calls": 0,
+          "flag_y": -100.0,
+          "flag_remaining": 2.3333349227905273,
+          "commands": [],
+          "world_phases": [
+            "wave",
+            "land_draw",
+            "artefacts_before",
+            "sort",
+            "objects_draw",
+            "powerups",
+            "artefacts_after",
+            "missiles_process",
+            "missiles_draw",
+            "creeps_process",
+            "dragobjects_process",
+            "land_after",
+            "land_process",
+            "particles_process",
+            "particles_draw",
+            "particles_draw",
+            "text_process",
+            "text_draw",
+            "fragments",
+            "smoke",
+            "interface",
+            "pause",
+            "perk_panel",
+            "buttons"
+          ]
+        },
+        {
+          "paused": 1,
+          "flag_calls": 0,
+          "flag_y": -100.0,
+          "flag_remaining": 2.3333349227905273,
+          "commands": [],
+          "world_phases": [
+            "wave",
+            "land_draw",
+            "artefacts_before",
+            "sort",
+            "objects_draw",
+            "powerups",
+            "artefacts_after",
+            "missiles_process",
+            "missiles_draw",
+            "creeps_process",
+            "dragobjects_process",
+            "land_after",
+            "land_process",
+            "particles_process",
+            "particles_draw",
+            "particles_draw",
+            "text_process",
+            "text_draw",
+            "fragments",
+            "smoke",
+            "interface",
+            "pause",
+            "perk_panel",
+            "buttons"
+          ]
+        },
+        {
+          "paused": 1,
+          "flag_calls": 0,
+          "flag_y": -100.0,
+          "flag_remaining": 2.3333349227905273,
+          "commands": [],
+          "world_phases": [
+            "wave",
+            "land_draw",
+            "artefacts_before",
+            "sort",
+            "objects_draw",
+            "powerups",
+            "artefacts_after",
+            "missiles_process",
+            "missiles_draw",
+            "creeps_process",
+            "dragobjects_process",
+            "land_after",
+            "land_process",
+            "particles_process",
+            "particles_draw",
+            "particles_draw",
+            "text_process",
+            "text_draw",
+            "fragments",
+            "smoke",
+            "interface",
+            "pause",
+            "perk_panel",
+            "buttons"
+          ]
+        }
+      ],
+      "resumed": {
+        "paused": 0,
+        "flag_calls": 1,
+        "flag_y": -95.0,
+        "flag_remaining": 2.3166682720184326,
+        "commands": [
+          {
+            "op": "blit",
+            "image": "flag.png",
+            "x": 60.0,
+            "y": -95.0,
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "blend": "source-over"
+          },
+          {
+            "op": "text",
+            "text": "DAY 1 of 8",
+            "x": 175.0,
+            "y": 55.0
+          },
+          {
+            "op": "text",
+            "text": "GET READY!",
+            "x": 180.0,
+            "y": 90.0
+          }
+        ],
+        "world_phases": [
+          "wave",
+          "land_draw",
+          "artefacts_before",
+          "sort",
+          "objects_draw",
+          "powerups",
+          "artefacts_after",
+          "missiles_process",
+          "missiles_draw",
+          "creeps_process",
+          "dragobjects_process",
+          "land_after",
+          "land_process",
+          "particles_process",
+          "particles_draw",
+          "particles_draw",
+          "text_process",
+          "text_draw",
+          "fragments",
+          "smoke",
+          "interface",
+          "pause",
+          "perk_panel",
+          "buttons"
+        ],
+        "animation_frame": 101
+      }
+    },
+    {
+      "kind": "victory",
+      "initial": {
+        "flag_y": -600.0,
+        "amplitude": 20.0,
+        "direction": 1,
+        "remaining": 4.0,
+        "phase": 0.0,
+        "kind": 1
+      },
+      "before": {
+        "paused": 0,
+        "flag_calls": 1,
+        "flag_y": -100.0,
+        "flag_remaining": 2.3333349227905273,
+        "commands": [
+          {
+            "op": "blit",
+            "image": "flag.png",
+            "x": 60.0,
+            "y": -100.0,
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "blend": "source-over"
+          },
+          {
+            "op": "text",
+            "text": "VICTORY!",
+            "x": 182.0,
+            "y": 80.0
+          }
+        ],
+        "world_phases": [
+          "wave",
+          "land_draw",
+          "artefacts_before",
+          "sort",
+          "objects_draw",
+          "powerups",
+          "artefacts_after",
+          "missiles_process",
+          "missiles_draw",
+          "creeps_process",
+          "dragobjects_process",
+          "land_after",
+          "land_process",
+          "particles_process",
+          "particles_draw",
+          "particles_draw",
+          "text_process",
+          "text_draw",
+          "fragments",
+          "smoke",
+          "interface",
+          "pause",
+          "perk_panel",
+          "buttons"
+        ],
+        "animation_frame": 100
+      },
+      "paused": [
+        {
+          "paused": 1,
+          "flag_calls": 0,
+          "flag_y": -100.0,
+          "flag_remaining": 2.3333349227905273,
+          "commands": [],
+          "world_phases": [
+            "wave",
+            "land_draw",
+            "artefacts_before",
+            "sort",
+            "objects_draw",
+            "powerups",
+            "artefacts_after",
+            "missiles_process",
+            "missiles_draw",
+            "creeps_process",
+            "dragobjects_process",
+            "land_after",
+            "land_process",
+            "particles_process",
+            "particles_draw",
+            "particles_draw",
+            "text_process",
+            "text_draw",
+            "fragments",
+            "smoke",
+            "interface",
+            "pause",
+            "perk_panel",
+            "buttons"
+          ]
+        },
+        {
+          "paused": 1,
+          "flag_calls": 0,
+          "flag_y": -100.0,
+          "flag_remaining": 2.3333349227905273,
+          "commands": [],
+          "world_phases": [
+            "wave",
+            "land_draw",
+            "artefacts_before",
+            "sort",
+            "objects_draw",
+            "powerups",
+            "artefacts_after",
+            "missiles_process",
+            "missiles_draw",
+            "creeps_process",
+            "dragobjects_process",
+            "land_after",
+            "land_process",
+            "particles_process",
+            "particles_draw",
+            "particles_draw",
+            "text_process",
+            "text_draw",
+            "fragments",
+            "smoke",
+            "interface",
+            "pause",
+            "perk_panel",
+            "buttons"
+          ]
+        },
+        {
+          "paused": 1,
+          "flag_calls": 0,
+          "flag_y": -100.0,
+          "flag_remaining": 2.3333349227905273,
+          "commands": [],
+          "world_phases": [
+            "wave",
+            "land_draw",
+            "artefacts_before",
+            "sort",
+            "objects_draw",
+            "powerups",
+            "artefacts_after",
+            "missiles_process",
+            "missiles_draw",
+            "creeps_process",
+            "dragobjects_process",
+            "land_after",
+            "land_process",
+            "particles_process",
+            "particles_draw",
+            "particles_draw",
+            "text_process",
+            "text_draw",
+            "fragments",
+            "smoke",
+            "interface",
+            "pause",
+            "perk_panel",
+            "buttons"
+          ]
+        }
+      ],
+      "resumed": {
+        "paused": 0,
+        "flag_calls": 1,
+        "flag_y": -95.0,
+        "flag_remaining": 2.3166682720184326,
+        "commands": [
+          {
+            "op": "blit",
+            "image": "flag.png",
+            "x": 60.0,
+            "y": -95.0,
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "blend": "source-over"
+          },
+          {
+            "op": "text",
+            "text": "VICTORY!",
+            "x": 182.0,
+            "y": 85.0
+          }
+        ],
+        "world_phases": [
+          "wave",
+          "land_draw",
+          "artefacts_before",
+          "sort",
+          "objects_draw",
+          "powerups",
+          "artefacts_after",
+          "missiles_process",
+          "missiles_draw",
+          "creeps_process",
+          "dragobjects_process",
+          "land_after",
+          "land_process",
+          "particles_process",
+          "particles_draw",
+          "particles_draw",
+          "text_process",
+          "text_draw",
+          "fragments",
+          "smoke",
+          "interface",
+          "pause",
+          "perk_panel",
+          "buttons"
+        ],
+        "animation_frame": 101
+      }
+    },
+    {
+      "kind": "defeat",
+      "initial": {
+        "flag_y": -600.0,
+        "amplitude": 20.0,
+        "direction": 1,
+        "remaining": 4.0,
+        "phase": 0.0,
+        "kind": 2
+      },
+      "before": {
+        "paused": 0,
+        "flag_calls": 1,
+        "flag_y": -100.0,
+        "flag_remaining": 2.3333349227905273,
+        "commands": [
+          {
+            "op": "blit",
+            "image": "flag.png",
+            "x": 60.0,
+            "y": -100.0,
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "blend": "source-over"
+          },
+          {
+            "op": "text",
+            "text": " DEFEAT!",
+            "x": 177.0,
+            "y": 34.0
+          },
+          {
+            "op": "text",
+            "text": "CASTLE\n     FALLEN!",
+            "x": 170.0,
+            "y": 60.0
+          }
+        ],
+        "world_phases": [
+          "wave",
+          "land_draw",
+          "artefacts_before",
+          "sort",
+          "objects_draw",
+          "powerups",
+          "artefacts_after",
+          "missiles_process",
+          "missiles_draw",
+          "creeps_process",
+          "dragobjects_process",
+          "land_after",
+          "land_process",
+          "particles_process",
+          "particles_draw",
+          "particles_draw",
+          "text_process",
+          "text_draw",
+          "fragments",
+          "smoke",
+          "interface",
+          "pause",
+          "perk_panel",
+          "buttons"
+        ],
+        "animation_frame": 100
+      },
+      "paused": [
+        {
+          "paused": 1,
+          "flag_calls": 0,
+          "flag_y": -100.0,
+          "flag_remaining": 2.3333349227905273,
+          "commands": [],
+          "world_phases": [
+            "wave",
+            "land_draw",
+            "artefacts_before",
+            "sort",
+            "objects_draw",
+            "powerups",
+            "artefacts_after",
+            "missiles_process",
+            "missiles_draw",
+            "creeps_process",
+            "dragobjects_process",
+            "land_after",
+            "land_process",
+            "particles_process",
+            "particles_draw",
+            "particles_draw",
+            "text_process",
+            "text_draw",
+            "fragments",
+            "smoke",
+            "interface",
+            "pause",
+            "perk_panel",
+            "buttons"
+          ]
+        },
+        {
+          "paused": 1,
+          "flag_calls": 0,
+          "flag_y": -100.0,
+          "flag_remaining": 2.3333349227905273,
+          "commands": [],
+          "world_phases": [
+            "wave",
+            "land_draw",
+            "artefacts_before",
+            "sort",
+            "objects_draw",
+            "powerups",
+            "artefacts_after",
+            "missiles_process",
+            "missiles_draw",
+            "creeps_process",
+            "dragobjects_process",
+            "land_after",
+            "land_process",
+            "particles_process",
+            "particles_draw",
+            "particles_draw",
+            "text_process",
+            "text_draw",
+            "fragments",
+            "smoke",
+            "interface",
+            "pause",
+            "perk_panel",
+            "buttons"
+          ]
+        },
+        {
+          "paused": 1,
+          "flag_calls": 0,
+          "flag_y": -100.0,
+          "flag_remaining": 2.3333349227905273,
+          "commands": [],
+          "world_phases": [
+            "wave",
+            "land_draw",
+            "artefacts_before",
+            "sort",
+            "objects_draw",
+            "powerups",
+            "artefacts_after",
+            "missiles_process",
+            "missiles_draw",
+            "creeps_process",
+            "dragobjects_process",
+            "land_after",
+            "land_process",
+            "particles_process",
+            "particles_draw",
+            "particles_draw",
+            "text_process",
+            "text_draw",
+            "fragments",
+            "smoke",
+            "interface",
+            "pause",
+            "perk_panel",
+            "buttons"
+          ]
+        }
+      ],
+      "resumed": {
+        "paused": 0,
+        "flag_calls": 1,
+        "flag_y": -95.0,
+        "flag_remaining": 2.3166682720184326,
+        "commands": [
+          {
+            "op": "blit",
+            "image": "flag.png",
+            "x": 60.0,
+            "y": -95.0,
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "blend": "source-over"
+          },
+          {
+            "op": "text",
+            "text": " DEFEAT!",
+            "x": 177.0,
+            "y": 39.0
+          },
+          {
+            "op": "text",
+            "text": "CASTLE\n     FALLEN!",
+            "x": 170.0,
+            "y": 65.0
+          }
+        ],
+        "world_phases": [
+          "wave",
+          "land_draw",
+          "artefacts_before",
+          "sort",
+          "objects_draw",
+          "powerups",
+          "artefacts_after",
+          "missiles_process",
+          "missiles_draw",
+          "creeps_process",
+          "dragobjects_process",
+          "land_after",
+          "land_process",
+          "particles_process",
+          "particles_draw",
+          "particles_draw",
+          "text_process",
+          "text_draw",
+          "fragments",
+          "smoke",
+          "interface",
+          "pause",
+          "perk_panel",
+          "buttons"
+        ],
+        "animation_frame": 101
+      }
+    }
+  ],
+  "scope": "Original input and pause/resume/options/abort callbacks with live supplied actors; world state and audio are observed, not stubbed. Mode transition targets are intercepted; options Done executes directly. Save/load uses in-memory stdio. No UIKit background/cancellation delivery or full mode roundtrip claimed."
+}

@@ -1,0 +1,9070 @@
+{
+  "binary_sha256": "a4c5b8a013d79b55532e038674fbe752fdb98877cf54e5106251ae4e6d9330e1",
+  "controls": [
+    {
+      "rect": [
+        135,
+        60,
+        220,
+        42
+      ],
+      "type": 1,
+      "text": "Campaign",
+      "normal": "menu_big_button.png",
+      "pressed": "menu_big_button_active.png",
+      "callback": "0x1d838"
+    },
+    {
+      "rect": [
+        135,
+        125,
+        220,
+        42
+      ],
+      "type": 1,
+      "text": "Endless Siege",
+      "normal": "menu_big_button.png",
+      "pressed": "menu_big_button_active.png",
+      "callback": "0x1eb64"
+    },
+    {
+      "rect": [
+        135,
+        190,
+        220,
+        42
+      ],
+      "type": 1,
+      "text": "Madness",
+      "normal": "menu_big_button.png",
+      "pressed": "menu_big_button_active.png",
+      "callback": "0x1eb0c"
+    },
+    {
+      "rect": [
+        135,
+        270,
+        220,
+        42
+      ],
+      "type": 2,
+      "text": "Back",
+      "normal": "menu_big_button_active.png",
+      "pressed": "menu_big_button_active.png",
+      "callback": "0x1d7d0"
+    }
+  ],
+  "backdrop": [
+    {
+      "frame": 1,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            66
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            83
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            116
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            133
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            166
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            183
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            210
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            210
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            210
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            210
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            210
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            210
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            210
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            210
+          ]
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Campaign",
+      "frame": 1,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 2,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.10000000149011612,
+          "sy": -0.10000000149011612,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.10000000149011612,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 3,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.15000000596046448,
+          "sy": -0.15000000596046448,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.15000000596046448,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 4,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.20000000298023224,
+          "sy": -0.20000000298023224,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.20000000298023224,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 5,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.25,
+          "sy": -0.25,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.25,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 6,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.30000001192092896,
+          "sy": -0.30000001192092896,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.30000001192092896,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 7,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.3500000238418579,
+          "sy": -0.3500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.3500000238418579,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 8,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.40000003576278687,
+          "sy": -0.40000003576278687,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.40000003576278687,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 9,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.4500000476837158,
+          "sy": -0.4500000476837158,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.4500000476837158,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 10,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.5000000596046448,
+          "sy": -0.5000000596046448,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5000000596046448,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 11,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.5500000715255737,
+          "sy": -0.5500000715255737,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5500000715255737,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 12,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.6000000834465027,
+          "sy": -0.6000000834465027,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6000000834465027,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 13,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.6500000953674316,
+          "sy": -0.6500000953674316,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6500000953674316,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 14,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.7000001072883606,
+          "sy": -0.7000001072883606,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7000001072883606,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 15,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.7500001192092896,
+          "sy": -0.7500001192092896,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7500001192092896,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 16,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.8000001311302185,
+          "sy": -0.8000001311302185,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8000001311302185,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 17,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.8500001430511475,
+          "sy": -0.8500001430511475,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500001430511475,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 18,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.9000001549720764,
+          "sy": -0.9000001549720764,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9000001549720764,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 19,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 0.9500001668930054,
+          "sy": -0.9500001668930054,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9500001668930054,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 20,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 21,
+      "pressed": true,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 67.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Campaign",
+      "frame": 22,
+      "pressed": true,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 67.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 1,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 2,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.10000000149011612,
+          "sy": -0.10000000149011612,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.10000000149011612,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 3,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.15000000596046448,
+          "sy": -0.15000000596046448,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.15000000596046448,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 4,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.20000000298023224,
+          "sy": -0.20000000298023224,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.20000000298023224,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 5,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.25,
+          "sy": -0.25,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.25,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 6,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.30000001192092896,
+          "sy": -0.30000001192092896,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.30000001192092896,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 7,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.3500000238418579,
+          "sy": -0.3500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.3500000238418579,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 8,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.40000003576278687,
+          "sy": -0.40000003576278687,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.40000003576278687,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 9,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.4500000476837158,
+          "sy": -0.4500000476837158,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.4500000476837158,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 10,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.5000000596046448,
+          "sy": -0.5000000596046448,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5000000596046448,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 11,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.5500000715255737,
+          "sy": -0.5500000715255737,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5500000715255737,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 12,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.6000000834465027,
+          "sy": -0.6000000834465027,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6000000834465027,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 13,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.6500000953674316,
+          "sy": -0.6500000953674316,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6500000953674316,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 14,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.7000001072883606,
+          "sy": -0.7000001072883606,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7000001072883606,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 15,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.7500001192092896,
+          "sy": -0.7500001192092896,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7500001192092896,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 16,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.8000001311302185,
+          "sy": -0.8000001311302185,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8000001311302185,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 17,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.8500001430511475,
+          "sy": -0.8500001430511475,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500001430511475,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 18,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.9000001549720764,
+          "sy": -0.9000001549720764,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9000001549720764,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 19,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 0.9500001668930054,
+          "sy": -0.9500001668930054,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9500001668930054,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 20,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 21,
+      "pressed": true,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 132.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Endless Siege",
+      "frame": 22,
+      "pressed": true,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 132.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 1,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 2,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.10000000149011612,
+          "sy": -0.10000000149011612,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.10000000149011612,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 3,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.15000000596046448,
+          "sy": -0.15000000596046448,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.15000000596046448,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 4,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.20000000298023224,
+          "sy": -0.20000000298023224,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.20000000298023224,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 5,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.25,
+          "sy": -0.25,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.25,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 6,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.30000001192092896,
+          "sy": -0.30000001192092896,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.30000001192092896,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 7,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.3500000238418579,
+          "sy": -0.3500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.3500000238418579,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 8,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.40000003576278687,
+          "sy": -0.40000003576278687,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.40000003576278687,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 9,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.4500000476837158,
+          "sy": -0.4500000476837158,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.4500000476837158,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 10,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.5000000596046448,
+          "sy": -0.5000000596046448,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5000000596046448,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 11,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.5500000715255737,
+          "sy": -0.5500000715255737,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5500000715255737,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 12,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.6000000834465027,
+          "sy": -0.6000000834465027,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6000000834465027,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 13,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.6500000953674316,
+          "sy": -0.6500000953674316,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6500000953674316,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 14,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.7000001072883606,
+          "sy": -0.7000001072883606,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7000001072883606,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 15,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.7500001192092896,
+          "sy": -0.7500001192092896,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7500001192092896,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 16,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.8000001311302185,
+          "sy": -0.8000001311302185,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8000001311302185,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 17,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.8500001430511475,
+          "sy": -0.8500001430511475,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500001430511475,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 18,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.9000001549720764,
+          "sy": -0.9000001549720764,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9000001549720764,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 19,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 0.9500001668930054,
+          "sy": -0.9500001668930054,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9500001668930054,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 20,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 21,
+      "pressed": true,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 197.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Madness",
+      "frame": 22,
+      "pressed": true,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 197.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 1,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 2,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.10000000149011612,
+          "sy": -0.10000000149011612,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.10000000149011612,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 3,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.15000000596046448,
+          "sy": -0.15000000596046448,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.15000000596046448,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 4,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.20000000298023224,
+          "sy": -0.20000000298023224,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.20000000298023224,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 5,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.25,
+          "sy": -0.25,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.25,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 6,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.30000001192092896,
+          "sy": -0.30000001192092896,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.30000001192092896,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 7,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.3500000238418579,
+          "sy": -0.3500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.3500000238418579,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 8,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.40000003576278687,
+          "sy": -0.40000003576278687,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.40000003576278687,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 9,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.4500000476837158,
+          "sy": -0.4500000476837158,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.4500000476837158,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 10,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.5000000596046448,
+          "sy": -0.5000000596046448,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5000000596046448,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 11,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.5500000715255737,
+          "sy": -0.5500000715255737,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5500000715255737,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 12,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.6000000834465027,
+          "sy": -0.6000000834465027,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6000000834465027,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 13,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.6500000953674316,
+          "sy": -0.6500000953674316,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6500000953674316,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 14,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.7000001072883606,
+          "sy": -0.7000001072883606,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7000001072883606,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 15,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.7500001192092896,
+          "sy": -0.7500001192092896,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7500001192092896,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 16,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.8000001311302185,
+          "sy": -0.8000001311302185,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8000001311302185,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 17,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.8500000238418579,
+          "sy": -0.8500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500000238418579,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 18,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.8500000238418579,
+          "sy": -0.8500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500000238418579,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 19,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.8500000238418579,
+          "sy": -0.8500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500000238418579,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 20,
+      "pressed": false,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.8500000238418579,
+          "sy": -0.8500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500000238418579,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 21,
+      "pressed": true,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.8500000238418579,
+          "sy": -0.8500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 277.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500000238418579,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "text": "Back",
+      "frame": 22,
+      "pressed": true,
+      "draws": [
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.8500000238418579,
+          "sy": -0.8500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 277.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500000238418579,
+          "alpha": 1.0
+        }
+      ]
+    }
+  ],
+  "saved_game": [
+    {
+      "frame": 1,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            6
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.03333333507180214,
+          "sy": -0.03333333507180214,
+          "alpha": 0.0196078431372549
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.03333333507180214,
+          "alpha": 0.0196078431372549
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 0.0196078431372549
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 0.0196078431372549
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 0.0196078431372549
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 0.0196078431372549
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            12
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.06666667014360428,
+          "sy": -0.06666667014360428,
+          "alpha": 0.043137254901960784
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.06666667014360428,
+          "alpha": 0.043137254901960784
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.10000000149011612,
+          "sy": -0.10000000149011612,
+          "alpha": 0.043137254901960784
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.10000000149011612,
+          "alpha": 0.043137254901960784
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.10000000149011612,
+          "sy": -0.10000000149011612,
+          "alpha": 0.043137254901960784
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.10000000149011612,
+          "alpha": 0.043137254901960784
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            19
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.10000000894069672,
+          "sy": -0.10000000894069672,
+          "alpha": 0.06666666666666667
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.10000000894069672,
+          "alpha": 0.06666666666666667
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.15000000596046448,
+          "sy": -0.15000000596046448,
+          "alpha": 0.06666666666666667
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.15000000596046448,
+          "alpha": 0.06666666666666667
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.15000000596046448,
+          "sy": -0.15000000596046448,
+          "alpha": 0.06666666666666667
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.15000000596046448,
+          "alpha": 0.06666666666666667
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            25
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.13333334028720856,
+          "sy": -0.13333334028720856,
+          "alpha": 0.09019607843137255
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.13333334028720856,
+          "alpha": 0.09019607843137255
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.20000000298023224,
+          "sy": -0.20000000298023224,
+          "alpha": 0.09019607843137255
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.20000000298023224,
+          "alpha": 0.09019607843137255
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.20000000298023224,
+          "sy": -0.20000000298023224,
+          "alpha": 0.09019607843137255
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.20000000298023224,
+          "alpha": 0.09019607843137255
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            31
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.1666666716337204,
+          "sy": -0.1666666716337204,
+          "alpha": 0.11372549019607843
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.1666666716337204,
+          "alpha": 0.11372549019607843
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.25,
+          "sy": -0.25,
+          "alpha": 0.11372549019607843
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.25,
+          "alpha": 0.11372549019607843
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.25,
+          "sy": -0.25,
+          "alpha": 0.11372549019607843
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.25,
+          "alpha": 0.11372549019607843
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            38
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.20000000298023224,
+          "sy": -0.20000000298023224,
+          "alpha": 0.13725490196078433
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.20000000298023224,
+          "alpha": 0.13725490196078433
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.30000001192092896,
+          "sy": -0.30000001192092896,
+          "alpha": 0.13725490196078433
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.30000001192092896,
+          "alpha": 0.13725490196078433
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.30000001192092896,
+          "sy": -0.30000001192092896,
+          "alpha": 0.13725490196078433
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.30000001192092896,
+          "alpha": 0.13725490196078433
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            44
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.23333333432674408,
+          "sy": -0.23333333432674408,
+          "alpha": 0.1568627450980392
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.23333333432674408,
+          "alpha": 0.1568627450980392
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.3500000238418579,
+          "sy": -0.3500000238418579,
+          "alpha": 0.1568627450980392
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.3500000238418579,
+          "alpha": 0.1568627450980392
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.3500000238418579,
+          "sy": -0.3500000238418579,
+          "alpha": 0.1568627450980392
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.3500000238418579,
+          "alpha": 0.1568627450980392
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            50
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.2666666805744171,
+          "sy": -0.2666666805744171,
+          "alpha": 0.1803921568627451
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.2666666805744171,
+          "alpha": 0.1803921568627451
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.40000003576278687,
+          "sy": -0.40000003576278687,
+          "alpha": 0.1803921568627451
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.40000003576278687,
+          "alpha": 0.1803921568627451
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.40000003576278687,
+          "sy": -0.40000003576278687,
+          "alpha": 0.1803921568627451
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.40000003576278687,
+          "alpha": 0.1803921568627451
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            57
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.30000001192092896,
+          "sy": -0.30000001192092896,
+          "alpha": 0.20392156862745098
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.30000001192092896,
+          "alpha": 0.20392156862745098
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.4500000476837158,
+          "sy": -0.4500000476837158,
+          "alpha": 0.20392156862745098
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.4500000476837158,
+          "alpha": 0.20392156862745098
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.4500000476837158,
+          "sy": -0.4500000476837158,
+          "alpha": 0.20392156862745098
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.4500000476837158,
+          "alpha": 0.20392156862745098
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            63
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.3333333432674408,
+          "sy": -0.3333333432674408,
+          "alpha": 0.22745098039215686
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.3333333432674408,
+          "alpha": 0.22745098039215686
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.5000000596046448,
+          "sy": -0.5000000596046448,
+          "alpha": 0.22745098039215686
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5000000596046448,
+          "alpha": 0.22745098039215686
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.5000000596046448,
+          "sy": -0.5000000596046448,
+          "alpha": 0.22745098039215686
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5000000596046448,
+          "alpha": 0.22745098039215686
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            70
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.36666667461395264,
+          "sy": -0.36666667461395264,
+          "alpha": 0.25098039215686274
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.36666667461395264,
+          "alpha": 0.25098039215686274
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.5500000715255737,
+          "sy": -0.5500000715255737,
+          "alpha": 0.25098039215686274
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5500000715255737,
+          "alpha": 0.25098039215686274
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.5500000715255737,
+          "sy": -0.5500000715255737,
+          "alpha": 0.25098039215686274
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5500000715255737,
+          "alpha": 0.25098039215686274
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            76
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.4000000059604645,
+          "sy": -0.4000000059604645,
+          "alpha": 0.27450980392156865
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.4000000059604645,
+          "alpha": 0.27450980392156865
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.6000000834465027,
+          "sy": -0.6000000834465027,
+          "alpha": 0.27450980392156865
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6000000834465027,
+          "alpha": 0.27450980392156865
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.6000000834465027,
+          "sy": -0.6000000834465027,
+          "alpha": 0.27450980392156865
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6000000834465027,
+          "alpha": 0.27450980392156865
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            82
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.4333333373069763,
+          "sy": -0.4333333373069763,
+          "alpha": 0.29411764705882354
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.4333333373069763,
+          "alpha": 0.29411764705882354
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.6500000953674316,
+          "sy": -0.6500000953674316,
+          "alpha": 0.29411764705882354
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6500000953674316,
+          "alpha": 0.29411764705882354
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.6500000953674316,
+          "sy": -0.6500000953674316,
+          "alpha": 0.29411764705882354
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6500000953674316,
+          "alpha": 0.29411764705882354
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            89
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.46666666865348816,
+          "sy": -0.46666666865348816,
+          "alpha": 0.3176470588235294
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.46666666865348816,
+          "alpha": 0.3176470588235294
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.7000001072883606,
+          "sy": -0.7000001072883606,
+          "alpha": 0.3176470588235294
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7000001072883606,
+          "alpha": 0.3176470588235294
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.7000001072883606,
+          "sy": -0.7000001072883606,
+          "alpha": 0.3176470588235294
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7000001072883606,
+          "alpha": 0.3176470588235294
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            95
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.5,
+          "sy": -0.5,
+          "alpha": 0.3411764705882353
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5,
+          "alpha": 0.3411764705882353
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.7500001192092896,
+          "sy": -0.7500001192092896,
+          "alpha": 0.3411764705882353
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7500001192092896,
+          "alpha": 0.3411764705882353
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.7500001192092896,
+          "sy": -0.7500001192092896,
+          "alpha": 0.3411764705882353
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7500001192092896,
+          "alpha": 0.3411764705882353
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            101
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.5333333611488342,
+          "sy": -0.5333333611488342,
+          "alpha": 0.36470588235294116
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5333333611488342,
+          "alpha": 0.36470588235294116
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.8000001311302185,
+          "sy": -0.8000001311302185,
+          "alpha": 0.36470588235294116
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8000001311302185,
+          "alpha": 0.36470588235294116
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.8000001311302185,
+          "sy": -0.8000001311302185,
+          "alpha": 0.36470588235294116
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8000001311302185,
+          "alpha": 0.36470588235294116
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            108
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.5666667222976685,
+          "sy": -0.5666667222976685,
+          "alpha": 0.38823529411764707
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.5666667222976685,
+          "alpha": 0.38823529411764707
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.8500001430511475,
+          "sy": -0.8500001430511475,
+          "alpha": 0.38823529411764707
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500001430511475,
+          "alpha": 0.38823529411764707
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.8500001430511475,
+          "sy": -0.8500001430511475,
+          "alpha": 0.38823529411764707
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500001430511475,
+          "alpha": 0.38823529411764707
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            114
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.6000000834465027,
+          "sy": -0.6000000834465027,
+          "alpha": 0.4117647058823529
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6000000834465027,
+          "alpha": 0.4117647058823529
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.9000001549720764,
+          "sy": -0.9000001549720764,
+          "alpha": 0.4117647058823529
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9000001549720764,
+          "alpha": 0.4117647058823529
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.9000001549720764,
+          "sy": -0.9000001549720764,
+          "alpha": 0.4117647058823529
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9000001549720764,
+          "alpha": 0.4117647058823529
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            120
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.6333334445953369,
+          "sy": -0.6333334445953369,
+          "alpha": 0.43137254901960786
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6333334445953369,
+          "alpha": 0.43137254901960786
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 0.9500001668930054,
+          "sy": -0.9500001668930054,
+          "alpha": 0.43137254901960786
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9500001668930054,
+          "alpha": 0.43137254901960786
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 0.9500001668930054,
+          "sy": -0.9500001668930054,
+          "alpha": 0.43137254901960786
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9500001668930054,
+          "alpha": 0.43137254901960786
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            127
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.6666668057441711,
+          "sy": -0.6666668057441711,
+          "alpha": 0.4549019607843137
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.6666668057441711,
+          "alpha": 0.4549019607843137
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.4549019607843137
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.4549019607843137
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.4549019607843137
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.4549019607843137
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            133
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.7000001668930054,
+          "sy": -0.7000001668930054,
+          "alpha": 0.47843137254901963
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7000001668930054,
+          "alpha": 0.47843137254901963
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.47843137254901963
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.47843137254901963
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.47843137254901963
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.47843137254901963
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            140
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.7333335280418396,
+          "sy": -0.7333335280418396,
+          "alpha": 0.5019607843137255
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7333335280418396,
+          "alpha": 0.5019607843137255
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.5019607843137255
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.5019607843137255
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.5019607843137255
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.5019607843137255
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            146
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.7666668891906738,
+          "sy": -0.7666668891906738,
+          "alpha": 0.5254901960784314
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.7666668891906738,
+          "alpha": 0.5254901960784314
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.5254901960784314
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.5254901960784314
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.5254901960784314
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.5254901960784314
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            152
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.8000002503395081,
+          "sy": -0.8000002503395081,
+          "alpha": 0.5490196078431373
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8000002503395081,
+          "alpha": 0.5490196078431373
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.5490196078431373
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.5490196078431373
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.5490196078431373
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.5490196078431373
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            159
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.8333336114883423,
+          "sy": -0.8333336114883423,
+          "alpha": 0.5686274509803921
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8333336114883423,
+          "alpha": 0.5686274509803921
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.5686274509803921
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.5686274509803921
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.5686274509803921
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.5686274509803921
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            165
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.8666669726371765,
+          "sy": -0.8666669726371765,
+          "alpha": 0.592156862745098
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8666669726371765,
+          "alpha": 0.592156862745098
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.592156862745098
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.592156862745098
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.592156862745098
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.592156862745098
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            171
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.9000003337860107,
+          "sy": -0.9000003337860107,
+          "alpha": 0.615686274509804
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9000003337860107,
+          "alpha": 0.615686274509804
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.615686274509804
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.615686274509804
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.615686274509804
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.615686274509804
+        }
+      ]
+    },
+    {
+      "frame": 28,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            178
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.933333694934845,
+          "sy": -0.933333694934845,
+          "alpha": 0.6392156862745098
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.933333694934845,
+          "alpha": 0.6392156862745098
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.6392156862745098
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.6392156862745098
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.6392156862745098
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.6392156862745098
+        }
+      ]
+    },
+    {
+      "frame": 29,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            184
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 0.9666670560836792,
+          "sy": -0.9666670560836792,
+          "alpha": 0.6627450980392157
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.9666670560836792,
+          "alpha": 0.6627450980392157
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.6627450980392157
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.6627450980392157
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.6627450980392157
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.6627450980392157
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.6862745098039216
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.6862745098039216
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.6862745098039216
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.6862745098039216
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.6862745098039216
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.6862745098039216
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7058823529411765
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7058823529411765
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7058823529411765
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7058823529411765
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7058823529411765
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7058823529411765
+        }
+      ]
+    },
+    {
+      "frame": 32,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7294117647058823
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7294117647058823
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7294117647058823
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7294117647058823
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7294117647058823
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7294117647058823
+        }
+      ]
+    },
+    {
+      "frame": 33,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7529411764705882
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7529411764705882
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7529411764705882
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7529411764705882
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7529411764705882
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7529411764705882
+        }
+      ]
+    },
+    {
+      "frame": 34,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7764705882352941
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7764705882352941
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7764705882352941
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7764705882352941
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.7764705882352941
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.7764705882352941
+        }
+      ]
+    },
+    {
+      "frame": 35,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8
+        }
+      ]
+    },
+    {
+      "frame": 36,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8235294117647058
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8235294117647058
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8235294117647058
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8235294117647058
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8235294117647058
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8235294117647058
+        }
+      ]
+    },
+    {
+      "frame": 37,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8431372549019608
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8431372549019608
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8431372549019608
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8431372549019608
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8431372549019608
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8431372549019608
+        }
+      ]
+    },
+    {
+      "frame": 38,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8666666666666667
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8666666666666667
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8666666666666667
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8666666666666667
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8666666666666667
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8666666666666667
+        }
+      ]
+    },
+    {
+      "frame": 39,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8901960784313725
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8901960784313725
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8901960784313725
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8901960784313725
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.8901960784313725
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.8901960784313725
+        }
+      ]
+    },
+    {
+      "frame": 40,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9137254901960784
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9137254901960784
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9137254901960784
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9137254901960784
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9137254901960784
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9137254901960784
+        }
+      ]
+    },
+    {
+      "frame": 41,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9372549019607843
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9372549019607843
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9372549019607843
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9372549019607843
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9372549019607843
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9372549019607843
+        }
+      ]
+    },
+    {
+      "frame": 42,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9607843137254902
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9607843137254902
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9607843137254902
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9607843137254902
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9607843137254902
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9607843137254902
+        }
+      ]
+    },
+    {
+      "frame": 43,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9803921568627451
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9803921568627451
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9803921568627451
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9803921568627451
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 0.9803921568627451
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 0.9803921568627451
+        }
+      ]
+    },
+    {
+      "frame": 44,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 45,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    }
+  ],
+  "pause": [
+    {
+      "frame": 1,
+      "y": -326.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -271.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -286.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -211.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": -226.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -151.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": -166.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "y": -302.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -247.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -262.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": -202.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -127.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": -142.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "y": -278.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -223.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -238.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -163.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": -178.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -103.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": -118.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "y": -254.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -199.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -214.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -139.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": -154.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -79.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": -94.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "y": -230.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -175.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -190.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -115.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": -130.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -55.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": -70.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "y": -206.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -151.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -166.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -91.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": -106.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -31.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": -46.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "y": -182.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -127.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -142.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -67.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": -82.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -7.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": -22.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "y": -158.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -103.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -118.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -43.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": -58.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 17.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 2.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "y": -134.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -79.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -94.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -19.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": -34.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 41.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 26.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "y": -110.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -55.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -70.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 5.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": -10.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 65.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 50.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "y": -86.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -31.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -46.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 29.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": 14.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 89.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 74.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "y": -62.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": -7.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": -22.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 53.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": 38.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 113.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 98.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "y": -38.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 17.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": 2.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 77.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": 62.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 137.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 122.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "y": -14.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 41.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": 26.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 101.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": 86.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 161.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 146.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "y": 10.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 65.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": 50.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 125.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": 110.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 185.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 170.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "y": 34.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 89.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": 74.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 149.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": 134.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 209.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 194.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "y": 40.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 95.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": 80.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 155.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": 140.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 215.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 200.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "y": 40.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 95.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": 80.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 155.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": 140.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 215.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 200.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "y": 40.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 95.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": 80.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 155.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": 140.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 215.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 200.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "y": 40.0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            15,
+            40,
+            15,
+            170
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 95.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Resume",
+          "x": 228.0,
+          "y": 80.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 155.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Options",
+          "x": 228.0,
+          "y": 140.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 240.0,
+          "y": 215.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Abort",
+          "x": 228.0,
+          "y": 200.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ]
+    }
+  ]
+}

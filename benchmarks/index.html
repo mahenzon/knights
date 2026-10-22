@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Knights Onrush · Engine benchmark</title>
+<style>body{background:#17201e;color:#f2edda;font:18px system-ui;margin:32px;max-width:900px}button{font:inherit;padding:12px}pre{font-size:13px;white-space:pre-wrap}</style>
+<h1>JavaScript / Rust WebAssembly</h1>
+<p>Identical simulation with a browser call and position scan each tick. This measures CPU work, not graphics or battery use. The page may pause briefly during measurement.</p>
+<button id="run">Run comparison</button><pre id="result">Ready</pre>
+<script type="module">
+import { runBenchmark } from './simulation.mjs';
+document.querySelector('#run').onclick = async () => {
+  const button = document.querySelector('#run'), output = document.querySelector('#result');
+  button.disabled = true; output.textContent = 'Running…';
+  try {
+    const response = await fetch('./simulation.wasm');
+    if (!response.ok) throw new Error(`Wasm download: ${response.status}`);
+    const report = await runBenchmark(await response.arrayBuffer());
+    output.textContent = JSON.stringify({ userAgent: navigator.userAgent, ...report }, null, 2);
+  } catch (error) { output.textContent = String(error); }
+  finally { button.disabled = false; }
+};
+</script></html>

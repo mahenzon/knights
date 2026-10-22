@@ -1,0 +1,1368 @@
+{
+  "binary_sha256": "a4c5b8a013d79b55532e038674fbe752fdb98877cf54e5106251ae4e6d9330e1",
+  "purchases": [
+    {
+      "item": 0,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 0,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 0,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 0,
+      "scenario": "no_sacrifices",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 1,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 1,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 1,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 1,
+      "scenario": "no_sacrifices",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 2,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 2,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 2,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 2,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 3,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 3,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 3,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 3,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 4,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 4,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 4,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 4,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 10,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 10,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 10,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 10,
+      "scenario": "no_sacrifices",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 20,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 20,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 20,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 20,
+      "scenario": "no_sacrifices",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 80,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 80,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 80,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 80,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 81,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 81,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 81,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 81,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 82,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 82,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 82,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 82,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 90,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 90,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 90,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 90,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 91,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 91,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 91,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 91,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 92,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 92,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 92,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 92,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 100,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 100,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 100,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 100,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 101,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 101,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 101,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 101,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 102,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 102,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 102,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 102,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 103,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 103,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 103,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 103,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 110,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 110,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 110,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 110,
+      "scenario": "no_sacrifices",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 111,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 111,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 111,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 111,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 112,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 112,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 112,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 112,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 120,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 120,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 120,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 120,
+      "scenario": "no_sacrifices",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 121,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 121,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 121,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 121,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    },
+    {
+      "item": 122,
+      "scenario": "new",
+      "dialogs": [
+        0
+      ]
+    },
+    {
+      "item": 122,
+      "scenario": "owned",
+      "dialogs": []
+    },
+    {
+      "item": 122,
+      "scenario": "no_gold",
+      "dialogs": []
+    },
+    {
+      "item": 122,
+      "scenario": "no_sacrifices",
+      "dialogs": []
+    }
+  ],
+  "help": {
+    "controls": [
+      {
+        "rect": [
+          12,
+          6,
+          80,
+          45
+        ],
+        "type": 2,
+        "text": "Exit",
+        "normal": "shop_button_pas.png",
+        "pressed": "shop_button_act.png",
+        "callback": "0x1d7d0"
+      },
+      {
+        "rect": [
+          5,
+          53,
+          60,
+          46
+        ],
+        "type": 2,
+        "text": "",
+        "normal": null,
+        "pressed": null,
+        "callback": "0x1d8b4"
+      },
+      {
+        "rect": [
+          5,
+          100,
+          60,
+          46
+        ],
+        "type": 2,
+        "text": "",
+        "normal": null,
+        "pressed": null,
+        "callback": "0x1d8c8"
+      },
+      {
+        "rect": [
+          5,
+          147,
+          60,
+          46
+        ],
+        "type": 2,
+        "text": "",
+        "normal": null,
+        "pressed": null,
+        "callback": "0x1d8dc"
+      },
+      {
+        "rect": [
+          5,
+          194,
+          60,
+          46
+        ],
+        "type": 2,
+        "text": "",
+        "normal": null,
+        "pressed": null,
+        "callback": "0x1d8f0"
+      },
+      {
+        "rect": [
+          5,
+          241,
+          60,
+          46
+        ],
+        "type": 2,
+        "text": "",
+        "normal": null,
+        "pressed": null,
+        "callback": "0x1d904"
+      }
+    ],
+    "pages": [
+      {
+        "page": 0,
+        "draws": [
+          {
+            "frame": 0,
+            "op": "blit",
+            "image": "help_01.jpg",
+            "x": 0.0,
+            "y": 0.0,
+            "radians": 0
+          }
+        ]
+      },
+      {
+        "page": 1,
+        "draws": [
+          {
+            "frame": 0,
+            "op": "blit",
+            "image": "help_02.jpg",
+            "x": 0.0,
+            "y": 0.0,
+            "radians": 0
+          }
+        ]
+      },
+      {
+        "page": 2,
+        "draws": [
+          {
+            "frame": 0,
+            "op": "blit",
+            "image": "help_03.jpg",
+            "x": 0.0,
+            "y": 0.0,
+            "radians": 0
+          }
+        ]
+      },
+      {
+        "page": 3,
+        "draws": [
+          {
+            "frame": 0,
+            "op": "blit",
+            "image": "help_04.jpg",
+            "x": 0.0,
+            "y": 0.0,
+            "radians": 0
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "draws": [
+          {
+            "frame": 0,
+            "op": "blit",
+            "image": "help_05.jpg",
+            "x": 0.0,
+            "y": 0.0,
+            "radians": 0
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "pressed": false,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.8500000238418579,
+            "sy": -0.8500000238418579,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.8500000238418579,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "pressed": true,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_act.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.8500000238418579,
+            "sy": -0.8500000238418579,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 14.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.8500000238418579,
+            "alpha": 1.0
+          }
+        ]
+      }
+    ],
+    "entrance": [
+      {
+        "frame": 1,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.05000000074505806,
+            "sy": -0.05000000074505806,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.05000000074505806,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 2,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.10000000149011612,
+            "sy": -0.10000000149011612,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.10000000149011612,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 3,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.15000000596046448,
+            "sy": -0.15000000596046448,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.15000000596046448,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 4,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.20000000298023224,
+            "sy": -0.20000000298023224,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.20000000298023224,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 5,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.25,
+            "sy": -0.25,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.25,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 6,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.30000001192092896,
+            "sy": -0.30000001192092896,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.30000001192092896,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 7,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.3500000238418579,
+            "sy": -0.3500000238418579,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.3500000238418579,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 8,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.40000003576278687,
+            "sy": -0.40000003576278687,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.40000003576278687,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 9,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.4500000476837158,
+            "sy": -0.4500000476837158,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.4500000476837158,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 10,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.5000000596046448,
+            "sy": -0.5000000596046448,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.5000000596046448,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 11,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.5500000715255737,
+            "sy": -0.5500000715255737,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.5500000715255737,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 12,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.6000000834465027,
+            "sy": -0.6000000834465027,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.6000000834465027,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 13,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.6500000953674316,
+            "sy": -0.6500000953674316,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.6500000953674316,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 14,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.7000001072883606,
+            "sy": -0.7000001072883606,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.7000001072883606,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 15,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.7500001192092896,
+            "sy": -0.7500001192092896,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.7500001192092896,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 16,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.8000001311302185,
+            "sy": -0.8000001311302185,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.8000001311302185,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 17,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.8500000238418579,
+            "sy": -0.8500000238418579,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.8500000238418579,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 18,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.8500000238418579,
+            "sy": -0.8500000238418579,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.8500000238418579,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 19,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.8500000238418579,
+            "sy": -0.8500000238418579,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.8500000238418579,
+            "alpha": 1.0
+          }
+        ]
+      },
+      {
+        "frame": 20,
+        "draws": [
+          {
+            "op": "scaled",
+            "image": "shop_button_pas.png",
+            "x": 52.0,
+            "y": 28.0,
+            "sx": 0.8500000238418579,
+            "sy": -0.8500000238418579,
+            "alpha": 1.0
+          },
+          {
+            "op": "text",
+            "text": "Exit",
+            "x": 40.0,
+            "y": 13.0,
+            "align": 2,
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "size": 0.8500000238418579,
+            "alpha": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "hud": [
+    {
+      "op": "stretch",
+      "image": "bottom_podlozhka.png",
+      "x": 0.0,
+      "y": 320.0,
+      "x2": 480.0,
+      "y2": 291.0
+    },
+    {
+      "frame": 0,
+      "op": "blit",
+      "image": "castle_progressbar.png",
+      "x": 270.0,
+      "y": 291.0,
+      "radians": 0
+    },
+    {
+      "frame": 0,
+      "op": "blit",
+      "image": "castle_progress_blue.png",
+      "x": 270.0,
+      "y": 291.0,
+      "radians": 0,
+      "crop": [
+        0,
+        0,
+        32,
+        174
+      ]
+    },
+    {
+      "frame": 0,
+      "op": "blit",
+      "image": "icon_gold.png",
+      "x": 1.0,
+      "y": 292.0,
+      "radians": 0
+    },
+    {
+      "op": "text",
+      "text": "1234",
+      "x": 22.0,
+      "y": 294.0,
+      "align": 0,
+      "rgb": [
+        255,
+        255,
+        0
+      ],
+      "size": 1.0,
+      "alpha": 1.0
+    },
+    {
+      "frame": 0,
+      "op": "blit",
+      "image": "icon_sacrifice.png",
+      "x": 95.0,
+      "y": 287.0,
+      "radians": 0
+    },
+    {
+      "op": "text",
+      "text": "56",
+      "x": 118.0,
+      "y": 294.0,
+      "align": 0,
+      "rgb": [
+        0,
+        205,
+        255
+      ],
+      "size": 1.0,
+      "alpha": 1.0
+    }
+  ]
+}

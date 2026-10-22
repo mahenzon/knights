@@ -1,0 +1,3411 @@
+{
+  "binary_sha256": "a4c5b8a013d79b55532e038674fbe752fdb98877cf54e5106251ae4e6d9330e1",
+  "blocks": [
+    {
+      "name": "_Player",
+      "pointer_address": "0xc73a8",
+      "size": 572
+    },
+    {
+      "name": "_Wave",
+      "pointer_address": "0xc7404",
+      "size": 76
+    },
+    {
+      "name": "_Land",
+      "pointer_address": "0xc73ac",
+      "size": 736
+    },
+    {
+      "name": "_Creeps",
+      "pointer_address": "0xc7528",
+      "size": 51200
+    },
+    {
+      "name": "_DragObjects",
+      "pointer_address": "0xc7524",
+      "size": 3480
+    },
+    {
+      "name": "_Artefacts",
+      "pointer_address": "0xc7548",
+      "size": 3800
+    }
+  ],
+  "cases": [
+    {
+      "mode": "campaign",
+      "phase": "battle",
+      "before": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 2,
+        "rng": 3003563614,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "7bbbb97a329fe91d6277b5050ac4d5b7a48392e123ff55301a9fcfba358b9f5a",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "d13d99c08eeb4c3505be8002f7c3b39dca6b677b1499fe05fea125d0403227d0",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "direct_load": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 2,
+        "rng": 3003563614,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "7bbbb97a329fe91d6277b5050ac4d5b7a48392e123ff55301a9fcfba358b9f5a",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "d13d99c08eeb4c3505be8002f7c3b39dca6b677b1499fe05fea125d0403227d0",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "after_initializer_before_second_load": {
+        "day": 2,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 0.0,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 0,
+        "rng": 1944159443,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "e7ce6961c677adf1fe04814d555bf3816c2867a4d4768f22047535bf962a3c07",
+          "_Wave": "53bb12958e6adada77ed1d1722a4b90003f8d653aefd854371ca1fcc59917436",
+          "_Land": "cc6baadcc25053e3a884a3f2d9c1a2fb176ccf6501cb027bec0f782df5f920ac",
+          "_Creeps": "c3f7a98740ad12532657e24393e7a0a1c535447e91c41373361c34acfe70ab07",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "f1d06e2365b72d21e0789da48aaeb9acb003ea643e7308b663872ce79f454aa3"
+        }
+      },
+      "resumed": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 2,
+        "rng": 1944159443,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "7bbbb97a329fe91d6277b5050ac4d5b7a48392e123ff55301a9fcfba358b9f5a",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "d13d99c08eeb4c3505be8002f7c3b39dca6b677b1499fe05fea125d0403227d0",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "flags_after_resume": [
+        0,
+        1,
+        1
+      ],
+      "native_file_bytes": 59868,
+      "stdio": [
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "wb"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        }
+      ],
+      "lifecycle": [
+        {
+          "op": "load",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "switch_mode",
+          "mode": 1
+        },
+        {
+          "op": "after_battle_initializer",
+          "day": 2,
+          "elapsed": 0.0
+        },
+        {
+          "op": "load",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "save_options_intercepted"
+        }
+      ],
+      "after_frames": 1,
+      "returned_to_result": false,
+      "after": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.016690254211426,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 2,
+        "rng": 3636187246,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "7bbbb97a329fe91d6277b5050ac4d5b7a48392e123ff55301a9fcfba358b9f5a",
+          "_Wave": "019da8bfad543684cfd8f4cda48926287486eb7e94d35d5c2fcb381e7602a374",
+          "_Land": "841e787b2949019b340b574e2e295c60617ef0458e783e0165b060abc0e36147",
+          "_Creeps": "75fb9414f9c4a8428ccb27a4159bacaf297b6b0968df928318080ada9b061fb1",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "ea7867fd1e2355eb2bede3682f51c3e48632c01e77354766a9d0d8d784887714"
+        }
+      }
+    },
+    {
+      "mode": "endless",
+      "phase": "battle",
+      "before": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 2,
+        "rng": 2352539291,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "42729eed248148282fd33fabd8d2cc261291384d5ce2fd9562a1c2ba9dd7800b",
+          "_Wave": "62410f885d60b735f953c470c3a82561d5253219063d95d6304575fb099ab8e3",
+          "_Land": "6bc1b7b98f47905e60315a00b5bdeaa6638156803549134b4a04c72b958ac200",
+          "_Creeps": "6f4c39682607d1815d9550ca674ac7fbaf875311b4d332944dc80235b6e47ed5",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "7a889d29c28f1e4e5aa9db62121a30bb32dba5114e7b6960e4873a10cd495972"
+        }
+      },
+      "direct_load": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 2,
+        "rng": 2352539291,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "42729eed248148282fd33fabd8d2cc261291384d5ce2fd9562a1c2ba9dd7800b",
+          "_Wave": "62410f885d60b735f953c470c3a82561d5253219063d95d6304575fb099ab8e3",
+          "_Land": "6bc1b7b98f47905e60315a00b5bdeaa6638156803549134b4a04c72b958ac200",
+          "_Creeps": "6f4c39682607d1815d9550ca674ac7fbaf875311b4d332944dc80235b6e47ed5",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "7a889d29c28f1e4e5aa9db62121a30bb32dba5114e7b6960e4873a10cd495972"
+        }
+      },
+      "after_initializer_before_second_load": {
+        "day": 2,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 0.0,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 0,
+        "rng": 971636954,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "03dc975c29175eae889752c137979e4ab3ddc57eca272f8c9c90f703b8ee5e15",
+          "_Wave": "fe2c930b219d6681a3a48a518df705c8d6db789bd08128d3e4b2facb40cdc0e8",
+          "_Land": "c59689cacc9890d07fb271cb6b5fe5493322eedd01cac4a7608985436def77a0",
+          "_Creeps": "4a98ee5f56dd1f6a31fb64253078523d4b7188e821caf75c98f830108cbc1c6b",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "7a889d29c28f1e4e5aa9db62121a30bb32dba5114e7b6960e4873a10cd495972"
+        }
+      },
+      "resumed": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 2,
+        "rng": 971636954,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "42729eed248148282fd33fabd8d2cc261291384d5ce2fd9562a1c2ba9dd7800b",
+          "_Wave": "62410f885d60b735f953c470c3a82561d5253219063d95d6304575fb099ab8e3",
+          "_Land": "6bc1b7b98f47905e60315a00b5bdeaa6638156803549134b4a04c72b958ac200",
+          "_Creeps": "6f4c39682607d1815d9550ca674ac7fbaf875311b4d332944dc80235b6e47ed5",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "7a889d29c28f1e4e5aa9db62121a30bb32dba5114e7b6960e4873a10cd495972"
+        }
+      },
+      "flags_after_resume": [
+        1,
+        0,
+        1
+      ],
+      "native_file_bytes": 59868,
+      "stdio": [
+        {
+          "op": "open",
+          "file": "recent2.sav",
+          "mode": "wb"
+        },
+        {
+          "op": "write",
+          "file": "recent2.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "write",
+          "file": "recent2.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "write",
+          "file": "recent2.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "write",
+          "file": "recent2.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "write",
+          "file": "recent2.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "write",
+          "file": "recent2.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "write",
+          "file": "recent2.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent2.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent2.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent2.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent2.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent2.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent2.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent2.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent2.sav"
+        }
+      ],
+      "lifecycle": [
+        {
+          "op": "load",
+          "file": "recent2.sav"
+        },
+        {
+          "op": "switch_mode",
+          "mode": 1
+        },
+        {
+          "op": "after_battle_initializer",
+          "day": 2,
+          "elapsed": 0.0
+        },
+        {
+          "op": "load",
+          "file": "recent2.sav"
+        },
+        {
+          "op": "save_options_intercepted"
+        }
+      ],
+      "after_frames": 1,
+      "returned_to_result": false,
+      "after": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.016690254211426,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 2,
+        "rng": 2281929755,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "42729eed248148282fd33fabd8d2cc261291384d5ce2fd9562a1c2ba9dd7800b",
+          "_Wave": "354e7f7cdcc02bc956e5076226722aab96fd3263eef90af816e667e19313b70b",
+          "_Land": "cd00dd4655a01284dce126d6f7cf1e4ae3504f65fbade624403d409bf5ff7222",
+          "_Creeps": "bb4026001b7792abc9976a5e5b342619b9c1a3340dbc5d7cb624d629e958679e",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "7a889d29c28f1e4e5aa9db62121a30bb32dba5114e7b6960e4873a10cd495972"
+        }
+      }
+    },
+    {
+      "mode": "madness",
+      "phase": "battle",
+      "before": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 280.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 7,
+        "rng": 1357790550,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "fe6eb798c40d0e93a07859ea985f39a1afedec658bdcbbdb8d5953147238ae84",
+          "_Wave": "4dc196fd24de69a145ca8727ca09546ca9bcfe07a9e577f46dd97dddd6b8cc1c",
+          "_Land": "642b3f428439c806ddb5b30bfe7d6702c0628adb90dcdd26dd56207ed905226b",
+          "_Creeps": "cb5ea5d9bab7554e91d98a3b789bc9842e2c96458d54be3da272fc8e2b6e688a",
+          "_DragObjects": "115c120fe92b9b180ee33dda8c62f23e71c8eb34e4970703c4cb3c3f0e36b126",
+          "_Artefacts": "7a889d29c28f1e4e5aa9db62121a30bb32dba5114e7b6960e4873a10cd495972"
+        }
+      },
+      "direct_load": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 280.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 7,
+        "rng": 1357790550,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "fe6eb798c40d0e93a07859ea985f39a1afedec658bdcbbdb8d5953147238ae84",
+          "_Wave": "4dc196fd24de69a145ca8727ca09546ca9bcfe07a9e577f46dd97dddd6b8cc1c",
+          "_Land": "642b3f428439c806ddb5b30bfe7d6702c0628adb90dcdd26dd56207ed905226b",
+          "_Creeps": "cb5ea5d9bab7554e91d98a3b789bc9842e2c96458d54be3da272fc8e2b6e688a",
+          "_DragObjects": "115c120fe92b9b180ee33dda8c62f23e71c8eb34e4970703c4cb3c3f0e36b126",
+          "_Artefacts": "7a889d29c28f1e4e5aa9db62121a30bb32dba5114e7b6960e4873a10cd495972"
+        }
+      },
+      "after_initializer_before_second_load": {
+        "day": 2,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 0.0,
+        "hp": 300.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 0,
+        "rng": 2917406569,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "9844d166b74da944c0c340b9fbfd978984e0702c95f2c8a2eb59562a720b5db8",
+          "_Wave": "5b705bf0c4abed290f6c96fc6d82f8d95b9d1993c61b4d72c833921ad3998246",
+          "_Land": "8a7f0fc60ecfb5db909853577c70ecf100440b69a820c5fda396b223ef81579d",
+          "_Creeps": "08e7840aca27f2b7160176a25f7dd7c33570bf801cd0c03f903845919ac660fa",
+          "_DragObjects": "bca25baacb7583cc5d4d47438b23f962d591abf6b7c13df0d80c63fa63e2ff41",
+          "_Artefacts": "7a889d29c28f1e4e5aa9db62121a30bb32dba5114e7b6960e4873a10cd495972"
+        }
+      },
+      "resumed": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 280.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 7,
+        "rng": 2917406569,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "fe6eb798c40d0e93a07859ea985f39a1afedec658bdcbbdb8d5953147238ae84",
+          "_Wave": "4dc196fd24de69a145ca8727ca09546ca9bcfe07a9e577f46dd97dddd6b8cc1c",
+          "_Land": "642b3f428439c806ddb5b30bfe7d6702c0628adb90dcdd26dd56207ed905226b",
+          "_Creeps": "cb5ea5d9bab7554e91d98a3b789bc9842e2c96458d54be3da272fc8e2b6e688a",
+          "_DragObjects": "115c120fe92b9b180ee33dda8c62f23e71c8eb34e4970703c4cb3c3f0e36b126",
+          "_Artefacts": "7a889d29c28f1e4e5aa9db62121a30bb32dba5114e7b6960e4873a10cd495972"
+        }
+      },
+      "flags_after_resume": [
+        1,
+        1,
+        0
+      ],
+      "native_file_bytes": 59868,
+      "stdio": [
+        {
+          "op": "open",
+          "file": "recent3.sav",
+          "mode": "wb"
+        },
+        {
+          "op": "write",
+          "file": "recent3.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "write",
+          "file": "recent3.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "write",
+          "file": "recent3.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "write",
+          "file": "recent3.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "write",
+          "file": "recent3.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "write",
+          "file": "recent3.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "write",
+          "file": "recent3.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent3.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent3.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent3.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent3.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent3.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent3.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent3.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent3.sav"
+        }
+      ],
+      "lifecycle": [
+        {
+          "op": "load",
+          "file": "recent3.sav"
+        },
+        {
+          "op": "switch_mode",
+          "mode": 1
+        },
+        {
+          "op": "after_battle_initializer",
+          "day": 2,
+          "elapsed": 0.0
+        },
+        {
+          "op": "load",
+          "file": "recent3.sav"
+        },
+        {
+          "op": "save_options_intercepted"
+        }
+      ],
+      "after_frames": 1,
+      "returned_to_result": false,
+      "after": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.016690254211426,
+        "hp": 280.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 7,
+        "rng": 697688385,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "fe6eb798c40d0e93a07859ea985f39a1afedec658bdcbbdb8d5953147238ae84",
+          "_Wave": "bb5a309845115c1c46a909a32aaab0c68b576df8908a7a1a12dc268c45f090e7",
+          "_Land": "74a0a47232c261747cff29efd5a27c52ef792ab90b5c7b880daf9f8e7689472b",
+          "_Creeps": "76299b4643c2f11e628ec09938c9f9482bfcad430c14163564f9f31cec3dcf0d",
+          "_DragObjects": "b3ed81703c505af28da2d8f054ac55631329bea48206907351d5d93b2a62cb1b",
+          "_Artefacts": "7a889d29c28f1e4e5aa9db62121a30bb32dba5114e7b6960e4873a10cd495972"
+        }
+      }
+    },
+    {
+      "mode": "campaign",
+      "phase": "shop",
+      "before": {
+        "day": 1,
+        "gold": 12345,
+        "souls": 67,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 3003563614,
+        "mode": 8,
+        "paused": 0,
+        "hashes": {
+          "_Player": "3c6ad6fab8afb879f0b7bd5d8409b993026845a1ce1be98d758ab197b23d3e7e",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "7da1c49c663b906c256b734554c02d533e0e323c18ae3b8fe1f37a1ef65a45ad",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "direct_load": {
+        "day": 1,
+        "gold": 12345,
+        "souls": 67,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 3003563614,
+        "mode": 8,
+        "paused": 0,
+        "hashes": {
+          "_Player": "3c6ad6fab8afb879f0b7bd5d8409b993026845a1ce1be98d758ab197b23d3e7e",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "7da1c49c663b906c256b734554c02d533e0e323c18ae3b8fe1f37a1ef65a45ad",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "after_initializer_before_second_load": {
+        "day": 2,
+        "gold": 12345,
+        "souls": 67,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 0.0,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 0,
+        "rng": 1944159443,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "8c66330901bc7419bd3184cb1b1abe1e0bd5516d9e70cb2a521fc47715c9d460",
+          "_Wave": "53bb12958e6adada77ed1d1722a4b90003f8d653aefd854371ca1fcc59917436",
+          "_Land": "cc6baadcc25053e3a884a3f2d9c1a2fb176ccf6501cb027bec0f782df5f920ac",
+          "_Creeps": "c3f7a98740ad12532657e24393e7a0a1c535447e91c41373361c34acfe70ab07",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "11605d3353f35066da958d68b7286c2460ea228a7241a5c135fc8b66ae26be2c"
+        }
+      },
+      "resumed": {
+        "day": 1,
+        "gold": 12345,
+        "souls": 67,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 1944159443,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "3c6ad6fab8afb879f0b7bd5d8409b993026845a1ce1be98d758ab197b23d3e7e",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "7da1c49c663b906c256b734554c02d533e0e323c18ae3b8fe1f37a1ef65a45ad",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "flags_after_resume": [
+        0,
+        1,
+        1
+      ],
+      "native_file_bytes": 59868,
+      "stdio": [
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "wb"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        }
+      ],
+      "lifecycle": [
+        {
+          "op": "load",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "switch_mode",
+          "mode": 1
+        },
+        {
+          "op": "after_battle_initializer",
+          "day": 2,
+          "elapsed": 0.0
+        },
+        {
+          "op": "load",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "save_options_intercepted"
+        },
+        {
+          "op": "switch_mode",
+          "mode": 9
+        }
+      ],
+      "after_frames": 1,
+      "returned_to_result": true,
+      "after": {
+        "day": 1,
+        "gold": 12345,
+        "souls": 67,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.016690254211426,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 1674022021,
+        "mode": 9,
+        "paused": 0,
+        "hashes": {
+          "_Player": "3c6ad6fab8afb879f0b7bd5d8409b993026845a1ce1be98d758ab197b23d3e7e",
+          "_Wave": "019da8bfad543684cfd8f4cda48926287486eb7e94d35d5c2fcb381e7602a374",
+          "_Land": "78e19e1af2c9fd63a812ca8cbb999ca5c0703b88b600fddb6f77c69d2e331b84",
+          "_Creeps": "75fb9414f9c4a8428ccb27a4159bacaf297b6b0968df928318080ada9b061fb1",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "ea7867fd1e2355eb2bede3682f51c3e48632c01e77354766a9d0d8d784887714"
+        }
+      }
+    },
+    {
+      "mode": "campaign",
+      "phase": "result",
+      "before": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 3003563614,
+        "mode": 9,
+        "paused": 0,
+        "hashes": {
+          "_Player": "7bbbb97a329fe91d6277b5050ac4d5b7a48392e123ff55301a9fcfba358b9f5a",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "7da1c49c663b906c256b734554c02d533e0e323c18ae3b8fe1f37a1ef65a45ad",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "direct_load": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 3003563614,
+        "mode": 9,
+        "paused": 0,
+        "hashes": {
+          "_Player": "7bbbb97a329fe91d6277b5050ac4d5b7a48392e123ff55301a9fcfba358b9f5a",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "7da1c49c663b906c256b734554c02d533e0e323c18ae3b8fe1f37a1ef65a45ad",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "after_initializer_before_second_load": {
+        "day": 2,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 0.0,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 0,
+        "rng": 1944159443,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "e7ce6961c677adf1fe04814d555bf3816c2867a4d4768f22047535bf962a3c07",
+          "_Wave": "53bb12958e6adada77ed1d1722a4b90003f8d653aefd854371ca1fcc59917436",
+          "_Land": "cc6baadcc25053e3a884a3f2d9c1a2fb176ccf6501cb027bec0f782df5f920ac",
+          "_Creeps": "c3f7a98740ad12532657e24393e7a0a1c535447e91c41373361c34acfe70ab07",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "f1d06e2365b72d21e0789da48aaeb9acb003ea643e7308b663872ce79f454aa3"
+        }
+      },
+      "resumed": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 1944159443,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "7bbbb97a329fe91d6277b5050ac4d5b7a48392e123ff55301a9fcfba358b9f5a",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "7da1c49c663b906c256b734554c02d533e0e323c18ae3b8fe1f37a1ef65a45ad",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "flags_after_resume": [
+        0,
+        1,
+        1
+      ],
+      "native_file_bytes": 59868,
+      "stdio": [
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "wb"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        }
+      ],
+      "lifecycle": [
+        {
+          "op": "load",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "switch_mode",
+          "mode": 1
+        },
+        {
+          "op": "after_battle_initializer",
+          "day": 2,
+          "elapsed": 0.0
+        },
+        {
+          "op": "load",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "save_options_intercepted"
+        },
+        {
+          "op": "switch_mode",
+          "mode": 9
+        }
+      ],
+      "after_frames": 1,
+      "returned_to_result": true,
+      "after": {
+        "day": 1,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.016690254211426,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 1674022021,
+        "mode": 9,
+        "paused": 0,
+        "hashes": {
+          "_Player": "7bbbb97a329fe91d6277b5050ac4d5b7a48392e123ff55301a9fcfba358b9f5a",
+          "_Wave": "019da8bfad543684cfd8f4cda48926287486eb7e94d35d5c2fcb381e7602a374",
+          "_Land": "78e19e1af2c9fd63a812ca8cbb999ca5c0703b88b600fddb6f77c69d2e331b84",
+          "_Creeps": "75fb9414f9c4a8428ccb27a4159bacaf297b6b0968df928318080ada9b061fb1",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "ea7867fd1e2355eb2bede3682f51c3e48632c01e77354766a9d0d8d784887714"
+        }
+      }
+    },
+    {
+      "mode": "campaign",
+      "phase": "complete",
+      "before": {
+        "day": 8,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 3003563614,
+        "mode": 9,
+        "paused": 0,
+        "hashes": {
+          "_Player": "c4ba23caab4b1ebcc6a5c711f9d92638f08b3d0326b975696908e7f524e91207",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "7da1c49c663b906c256b734554c02d533e0e323c18ae3b8fe1f37a1ef65a45ad",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "direct_load": {
+        "day": 8,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 3003563614,
+        "mode": 9,
+        "paused": 0,
+        "hashes": {
+          "_Player": "c4ba23caab4b1ebcc6a5c711f9d92638f08b3d0326b975696908e7f524e91207",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "7da1c49c663b906c256b734554c02d533e0e323c18ae3b8fe1f37a1ef65a45ad",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "after_initializer_before_second_load": {
+        "day": 9,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 0.0,
+        "hp": 100.0,
+        "won": 0,
+        "failed": 0,
+        "actors": 0,
+        "rng": 1944159443,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "a07e85a5206788fcdb61a19a27aec5f77e690242be7bb11b6f1d10865e31aee8",
+          "_Wave": "327b013331ffb99b3a09d126fae2e536fa6415abe571ec8c9d21b6d45e5728fb",
+          "_Land": "d70124837a9731a8f743b9ae9012e6c5389806a85c2c2f75509e8c9a8c31cfb8",
+          "_Creeps": "c3f7a98740ad12532657e24393e7a0a1c535447e91c41373361c34acfe70ab07",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "f1d06e2365b72d21e0789da48aaeb9acb003ea643e7308b663872ce79f454aa3"
+        }
+      },
+      "resumed": {
+        "day": 8,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.000023365020752,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 1944159443,
+        "mode": 1,
+        "paused": 0,
+        "hashes": {
+          "_Player": "c4ba23caab4b1ebcc6a5c711f9d92638f08b3d0326b975696908e7f524e91207",
+          "_Wave": "c2a5c9c78a0cab1a5a263f18691bf9244c4b70b2f1008f1323d356a56343af1d",
+          "_Land": "7da1c49c663b906c256b734554c02d533e0e323c18ae3b8fe1f37a1ef65a45ad",
+          "_Creeps": "0e6e50a3edd89719e3abcfa065ebc2e0d9bbccd61a0b28b4142bc250f2745721",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "b24828bfc989e9736bb2d2a87c5a6cdc49ffa393ad90fe50c13c168be671753f"
+        }
+      },
+      "flags_after_resume": [
+        0,
+        1,
+        1
+      ],
+      "native_file_bytes": 59868,
+      "stdio": [
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "wb"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "write",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "open",
+          "file": "recent1.sav",
+          "mode": "rb"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 0,
+          "size": 4,
+          "block": "version"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 4,
+          "size": 572,
+          "block": "_Player"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 576,
+          "size": 76,
+          "block": "_Wave"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 652,
+          "size": 736,
+          "block": "_Land"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 1388,
+          "size": 51200,
+          "block": "_Creeps"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 52588,
+          "size": 3480,
+          "block": "_DragObjects"
+        },
+        {
+          "op": "read",
+          "file": "recent1.sav",
+          "offset": 56068,
+          "size": 3800,
+          "block": "_Artefacts"
+        },
+        {
+          "op": "close",
+          "file": "recent1.sav"
+        }
+      ],
+      "lifecycle": [
+        {
+          "op": "load",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "switch_mode",
+          "mode": 1
+        },
+        {
+          "op": "after_battle_initializer",
+          "day": 9,
+          "elapsed": 0.0
+        },
+        {
+          "op": "load",
+          "file": "recent1.sav"
+        },
+        {
+          "op": "save_options_intercepted"
+        },
+        {
+          "op": "switch_mode",
+          "mode": 9
+        }
+      ],
+      "after_frames": 1,
+      "returned_to_result": true,
+      "after": {
+        "day": 8,
+        "gold": 0,
+        "souls": 0,
+        "inventory": [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsed": 6.016690254211426,
+        "hp": 100.0,
+        "won": 1,
+        "failed": 0,
+        "actors": 2,
+        "rng": 1674022021,
+        "mode": 9,
+        "paused": 0,
+        "hashes": {
+          "_Player": "c4ba23caab4b1ebcc6a5c711f9d92638f08b3d0326b975696908e7f524e91207",
+          "_Wave": "019da8bfad543684cfd8f4cda48926287486eb7e94d35d5c2fcb381e7602a374",
+          "_Land": "78e19e1af2c9fd63a812ca8cbb999ca5c0703b88b600fddb6f77c69d2e331b84",
+          "_Creeps": "75fb9414f9c4a8428ccb27a4159bacaf297b6b0968df928318080ada9b061fb1",
+          "_DragObjects": "375f44f2cabeebfb0c5ef9e3efe5e9cd3be061b20fc2428b87aa1cec3777541d",
+          "_Artefacts": "ea7867fd1e2355eb2bede3682f51c3e48632c01e77354766a9d0d8d784887714"
+        }
+      }
+    }
+  ],
+  "eligibility_edges": [
+    {
+      "mode": "campaign",
+      "ui": "paused",
+      "flags_after_terminate": [
+        true,
+        true,
+        true
+      ],
+      "calls": [
+        {
+          "function": "0x2516c",
+          "argument": "recent1.sav"
+        },
+        {
+          "function": "0x254f4",
+          "argument": 698856
+        }
+      ]
+    },
+    {
+      "mode": "campaign",
+      "ui": "options_from_battle",
+      "flags_after_terminate": [
+        false,
+        true,
+        true
+      ],
+      "calls": [
+        {
+          "function": "0x254f4",
+          "argument": 1004624
+        }
+      ]
+    },
+    {
+      "mode": "campaign",
+      "ui": "map_after_abort",
+      "flags_after_terminate": [
+        false,
+        true,
+        true
+      ],
+      "calls": [
+        {
+          "function": "0x254f4",
+          "argument": 1004624
+        }
+      ]
+    },
+    {
+      "mode": "endless",
+      "ui": "paused",
+      "flags_after_terminate": [
+        true,
+        true,
+        true
+      ],
+      "calls": [
+        {
+          "function": "0x2516c",
+          "argument": "recent2.sav"
+        },
+        {
+          "function": "0x254f4",
+          "argument": 698844
+        }
+      ]
+    },
+    {
+      "mode": "endless",
+      "ui": "options_from_battle",
+      "flags_after_terminate": [
+        true,
+        false,
+        true
+      ],
+      "calls": [
+        {
+          "function": "0x254f4",
+          "argument": 1004624
+        }
+      ]
+    },
+    {
+      "mode": "endless",
+      "ui": "map_after_abort",
+      "flags_after_terminate": [
+        true,
+        false,
+        true
+      ],
+      "calls": [
+        {
+          "function": "0x254f4",
+          "argument": 1004624
+        }
+      ]
+    },
+    {
+      "mode": "madness",
+      "ui": "paused",
+      "flags_after_terminate": [
+        true,
+        true,
+        true
+      ],
+      "calls": [
+        {
+          "function": "0x2516c",
+          "argument": "recent3.sav"
+        },
+        {
+          "function": "0x254f4",
+          "argument": 698832
+        }
+      ]
+    },
+    {
+      "mode": "madness",
+      "ui": "options_from_battle",
+      "flags_after_terminate": [
+        true,
+        true,
+        false
+      ],
+      "calls": [
+        {
+          "function": "0x254f4",
+          "argument": 1004624
+        }
+      ]
+    },
+    {
+      "mode": "madness",
+      "ui": "map_after_abort",
+      "flags_after_terminate": [
+        true,
+        true,
+        false
+      ],
+      "calls": [
+        {
+          "function": "0x254f4",
+          "argument": 1004624
+        }
+      ]
+    }
+  ],
+  "no_resume_choices": [
+    {
+      "mode": "campaign",
+      "after_choice": {
+        "mode": 10,
+        "created": [
+          {
+            "kind": 4,
+            "text": null
+          }
+        ],
+        "flags": [
+          0,
+          1,
+          1
+        ],
+        "dialogs": [
+          {
+            "index": 0,
+            "x": 65,
+            "buttons": [
+              {
+                "active": true,
+                "disabled": false,
+                "pressed": false,
+                "text": "NO",
+                "rect": [
+                  160,
+                  125,
+                  221,
+                  240
+                ],
+                "callback": "0x33d9c"
+              },
+              {
+                "active": true,
+                "disabled": false,
+                "pressed": false,
+                "text": "YES",
+                "rect": [
+                  160,
+                  252,
+                  221,
+                  367
+                ],
+                "callback": "0x354f8"
+              },
+              {
+                "active": false,
+                "disabled": false,
+                "pressed": false,
+                "text": "",
+                "rect": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "callback": "0x0"
+              }
+            ]
+          }
+        ]
+      },
+      "after_no": {
+        "mode": 10,
+        "actions": [
+          "0x33d9c"
+        ],
+        "flags": [
+          0,
+          1,
+          1
+        ],
+        "dialogs": []
+      },
+      "after_second_choice": {
+        "mode": 10,
+        "created": [],
+        "flags": [
+          0,
+          1,
+          1
+        ]
+      },
+      "switches": [
+        10,
+        10
+      ]
+    },
+    {
+      "mode": "endless",
+      "after_choice": {
+        "mode": 0,
+        "created": [
+          {
+            "kind": 4,
+            "text": null
+          }
+        ],
+        "flags": [
+          1,
+          0,
+          1
+        ],
+        "dialogs": [
+          {
+            "index": 0,
+            "x": 65,
+            "buttons": [
+              {
+                "active": true,
+                "disabled": false,
+                "pressed": false,
+                "text": "NO",
+                "rect": [
+                  160,
+                  125,
+                  221,
+                  240
+                ],
+                "callback": "0x33d9c"
+              },
+              {
+                "active": true,
+                "disabled": false,
+                "pressed": false,
+                "text": "YES",
+                "rect": [
+                  160,
+                  252,
+                  221,
+                  367
+                ],
+                "callback": "0x354f8"
+              },
+              {
+                "active": false,
+                "disabled": false,
+                "pressed": false,
+                "text": "",
+                "rect": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "callback": "0x0"
+              }
+            ]
+          }
+        ]
+      },
+      "after_no": {
+        "mode": 0,
+        "actions": [
+          "0x33d9c"
+        ],
+        "flags": [
+          1,
+          0,
+          1
+        ],
+        "dialogs": []
+      },
+      "after_second_choice": {
+        "mode": 1,
+        "created": [],
+        "flags": [
+          1,
+          0,
+          1
+        ]
+      },
+      "switches": [
+        1
+      ]
+    },
+    {
+      "mode": "madness",
+      "after_choice": {
+        "mode": 0,
+        "created": [
+          {
+            "kind": 4,
+            "text": null
+          }
+        ],
+        "flags": [
+          1,
+          1,
+          0
+        ],
+        "dialogs": [
+          {
+            "index": 0,
+            "x": 65,
+            "buttons": [
+              {
+                "active": true,
+                "disabled": false,
+                "pressed": false,
+                "text": "NO",
+                "rect": [
+                  160,
+                  125,
+                  221,
+                  240
+                ],
+                "callback": "0x33d9c"
+              },
+              {
+                "active": true,
+                "disabled": false,
+                "pressed": false,
+                "text": "YES",
+                "rect": [
+                  160,
+                  252,
+                  221,
+                  367
+                ],
+                "callback": "0x354f8"
+              },
+              {
+                "active": false,
+                "disabled": false,
+                "pressed": false,
+                "text": "",
+                "rect": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "callback": "0x0"
+              }
+            ]
+          }
+        ]
+      },
+      "after_no": {
+        "mode": 0,
+        "actions": [
+          "0x33d9c"
+        ],
+        "flags": [
+          1,
+          1,
+          0
+        ],
+        "dialogs": []
+      },
+      "after_second_choice": {
+        "mode": 1,
+        "created": [],
+        "flags": [
+          1,
+          1,
+          0
+        ]
+      },
+      "switches": [
+        1
+      ]
+    }
+  ],
+  "abort_choices": [
+    {
+      "mode": "campaign",
+      "calls": [
+        {
+          "function": "0x1d780",
+          "argument": 10
+        }
+      ],
+      "paused": 0,
+      "flags": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "mode": "endless",
+      "calls": [
+        {
+          "function": "0x1d780",
+          "argument": 0
+        }
+      ],
+      "paused": 0,
+      "flags": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "mode": "madness",
+      "calls": [
+        {
+          "function": "0x1d780",
+          "argument": 0
+        }
+      ],
+      "paused": 0,
+      "flags": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "scope": "Actual SaveGame/LoadGame/GoLoadGame with in-memory stdio and Objective-C path mocks; actual normalGame initializer on mode1, outgoing DeInit omitted. Actual world frames before save and after resume. Shop/terminal flags and purchased inventory supplied. SaveOptions, asset loading, audio/GPU, outgoing mode callbacks and OS calls intercepted. No host/user save file writes. Supplied xorshift randomness is not historical libc."
+}

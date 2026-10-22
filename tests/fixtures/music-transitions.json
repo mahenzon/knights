@@ -1,0 +1,883 @@
+{
+  "binary_sha256": "a4c5b8a013d79b55532e038674fbe752fdb98877cf54e5106251ae4e6d9330e1",
+  "initial_track": 4294967295,
+  "initial_player": 0,
+  "defaults": {
+    "_g_musicVolume": 0.5,
+    "_g_soundVolume": 0.800000011920929,
+    "_g_muteMusic": false,
+    "_g_muteSound": false,
+    "_g_disableAllSounds": false
+  },
+  "cases": [
+    {
+      "request": 0,
+      "muted": false,
+      "disabled": false,
+      "current_track": 0,
+      "player": 16785408,
+      "state": {
+        "playing": true,
+        "file": "knights_gameplay_02.mp3",
+        "loops": 100,
+        "volume": 0.5
+      },
+      "events": [
+        {
+          "method": "mainBundle",
+          "receiver": 0,
+          "caller": "0x381f0"
+        },
+        {
+          "method": "pathForResource:ofType:",
+          "receiver": 16777472,
+          "caller": "0x38204",
+          "resource": "knights_gameplay_02.mp3"
+        },
+        {
+          "method": "alloc",
+          "receiver": 0,
+          "caller": "0x38300"
+        },
+        {
+          "method": "fileURLWithPath:",
+          "receiver": 0,
+          "caller": "0x38328"
+        },
+        {
+          "method": "initWithContentsOfURL:error:",
+          "receiver": 16785408,
+          "caller": "0x3833c",
+          "file": "knights_gameplay_02.mp3"
+        },
+        {
+          "method": "setNumberOfLoops:",
+          "receiver": 16785408,
+          "caller": "0x3837c",
+          "value": 100
+        },
+        {
+          "method": "setVolume:",
+          "receiver": 16785408,
+          "caller": "0x3839c",
+          "value": 0.5
+        },
+        {
+          "method": "play",
+          "receiver": 16785408,
+          "caller": "0x383b0"
+        }
+      ]
+    },
+    {
+      "request": 0,
+      "muted": false,
+      "disabled": false,
+      "current_track": 0,
+      "player": 16785408,
+      "state": {
+        "playing": true,
+        "file": "knights_gameplay_02.mp3",
+        "loops": 100,
+        "volume": 0.5
+      },
+      "events": []
+    },
+    {
+      "request": 1,
+      "muted": false,
+      "disabled": false,
+      "current_track": 1,
+      "player": 16785424,
+      "state": {
+        "playing": true,
+        "file": "knights_gameplay_03.mp3",
+        "loops": 100,
+        "volume": 0.5
+      },
+      "events": [
+        {
+          "method": "mainBundle",
+          "receiver": 0,
+          "caller": "0x38234"
+        },
+        {
+          "method": "pathForResource:ofType:",
+          "receiver": 16777472,
+          "caller": "0x38248",
+          "resource": "knights_gameplay_03.mp3"
+        },
+        {
+          "method": "isPlaying",
+          "receiver": 16785408,
+          "caller": "0x38270"
+        },
+        {
+          "method": "stop",
+          "receiver": 16785408,
+          "caller": "0x38290"
+        },
+        {
+          "method": "release",
+          "receiver": 16785408,
+          "caller": "0x382c0"
+        },
+        {
+          "method": "alloc",
+          "receiver": 0,
+          "caller": "0x38300"
+        },
+        {
+          "method": "fileURLWithPath:",
+          "receiver": 0,
+          "caller": "0x38328"
+        },
+        {
+          "method": "initWithContentsOfURL:error:",
+          "receiver": 16785424,
+          "caller": "0x3833c",
+          "file": "knights_gameplay_03.mp3"
+        },
+        {
+          "method": "setNumberOfLoops:",
+          "receiver": 16785424,
+          "caller": "0x3837c",
+          "value": 100
+        },
+        {
+          "method": "setVolume:",
+          "receiver": 16785424,
+          "caller": "0x3839c",
+          "value": 0.5
+        },
+        {
+          "method": "play",
+          "receiver": 16785424,
+          "caller": "0x383b0"
+        }
+      ]
+    },
+    {
+      "request": 1,
+      "muted": false,
+      "disabled": false,
+      "current_track": 1,
+      "player": 16785424,
+      "state": {
+        "playing": true,
+        "file": "knights_gameplay_03.mp3",
+        "loops": 100,
+        "volume": 0.5
+      },
+      "events": []
+    },
+    {
+      "request": 0,
+      "muted": false,
+      "disabled": false,
+      "current_track": 0,
+      "player": 16785440,
+      "state": {
+        "playing": true,
+        "file": "knights_gameplay_02.mp3",
+        "loops": 100,
+        "volume": 0.5
+      },
+      "events": [
+        {
+          "method": "mainBundle",
+          "receiver": 0,
+          "caller": "0x381f0"
+        },
+        {
+          "method": "pathForResource:ofType:",
+          "receiver": 16777472,
+          "caller": "0x38204",
+          "resource": "knights_gameplay_02.mp3"
+        },
+        {
+          "method": "isPlaying",
+          "receiver": 16785424,
+          "caller": "0x38270"
+        },
+        {
+          "method": "stop",
+          "receiver": 16785424,
+          "caller": "0x38290"
+        },
+        {
+          "method": "release",
+          "receiver": 16785424,
+          "caller": "0x382c0"
+        },
+        {
+          "method": "alloc",
+          "receiver": 0,
+          "caller": "0x38300"
+        },
+        {
+          "method": "fileURLWithPath:",
+          "receiver": 0,
+          "caller": "0x38328"
+        },
+        {
+          "method": "initWithContentsOfURL:error:",
+          "receiver": 16785440,
+          "caller": "0x3833c",
+          "file": "knights_gameplay_02.mp3"
+        },
+        {
+          "method": "setNumberOfLoops:",
+          "receiver": 16785440,
+          "caller": "0x3837c",
+          "value": 100
+        },
+        {
+          "method": "setVolume:",
+          "receiver": 16785440,
+          "caller": "0x3839c",
+          "value": 0.5
+        },
+        {
+          "method": "play",
+          "receiver": 16785440,
+          "caller": "0x383b0"
+        }
+      ]
+    },
+    {
+      "request": 10,
+      "muted": true,
+      "disabled": false,
+      "current_track": 0,
+      "player": 16785440,
+      "state": {
+        "playing": false,
+        "file": "knights_gameplay_02.mp3",
+        "loops": 100,
+        "volume": 0.5
+      },
+      "events": [
+        {
+          "method": "isPlaying",
+          "receiver": 16785440,
+          "caller": "0x38270"
+        },
+        {
+          "method": "stop",
+          "receiver": 16785440,
+          "caller": "0x38290"
+        }
+      ]
+    },
+    {
+      "request": 0,
+      "muted": false,
+      "disabled": false,
+      "current_track": 0,
+      "player": 16785440,
+      "state": {
+        "playing": false,
+        "file": "knights_gameplay_02.mp3",
+        "loops": 100,
+        "volume": 0.5
+      },
+      "events": []
+    },
+    {
+      "request": 1,
+      "muted": false,
+      "disabled": false,
+      "current_track": 1,
+      "player": 16785456,
+      "state": {
+        "playing": true,
+        "file": "knights_gameplay_03.mp3",
+        "loops": 100,
+        "volume": 0.5
+      },
+      "events": [
+        {
+          "method": "mainBundle",
+          "receiver": 0,
+          "caller": "0x38234"
+        },
+        {
+          "method": "pathForResource:ofType:",
+          "receiver": 16777472,
+          "caller": "0x38248",
+          "resource": "knights_gameplay_03.mp3"
+        },
+        {
+          "method": "isPlaying",
+          "receiver": 16785440,
+          "caller": "0x38270"
+        },
+        {
+          "method": "release",
+          "receiver": 16785440,
+          "caller": "0x382c0"
+        },
+        {
+          "method": "alloc",
+          "receiver": 0,
+          "caller": "0x38300"
+        },
+        {
+          "method": "fileURLWithPath:",
+          "receiver": 0,
+          "caller": "0x38328"
+        },
+        {
+          "method": "initWithContentsOfURL:error:",
+          "receiver": 16785456,
+          "caller": "0x3833c",
+          "file": "knights_gameplay_03.mp3"
+        },
+        {
+          "method": "setNumberOfLoops:",
+          "receiver": 16785456,
+          "caller": "0x3837c",
+          "value": 100
+        },
+        {
+          "method": "setVolume:",
+          "receiver": 16785456,
+          "caller": "0x3839c",
+          "value": 0.5
+        },
+        {
+          "method": "play",
+          "receiver": 16785456,
+          "caller": "0x383b0"
+        }
+      ]
+    },
+    {
+      "request": 0,
+      "muted": false,
+      "disabled": true,
+      "current_track": 1,
+      "player": 16785456,
+      "state": {
+        "playing": true,
+        "file": "knights_gameplay_03.mp3",
+        "loops": 100,
+        "volume": 0.5
+      },
+      "events": []
+    }
+  ],
+  "pause_resume": [
+    {
+      "function": "0x1c934",
+      "events": [],
+      "player": 16785456,
+      "state": {
+        "playing": true,
+        "file": "knights_gameplay_03.mp3",
+        "loops": 100,
+        "volume": 0.5
+      }
+    },
+    {
+      "function": "0x1ca54",
+      "events": [],
+      "player": 16785456,
+      "state": {
+        "playing": true,
+        "file": "knights_gameplay_03.mp3",
+        "loops": 100,
+        "volume": 0.5
+      }
+    }
+  ],
+  "volume_update": [
+    {
+      "method": "setVolume:",
+      "receiver": 16785456,
+      "caller": "0x37b90",
+      "value": 0.25
+    }
+  ],
+  "muted_mode_changes": [
+    {
+      "case": "mute_stops_then_unmute_same_group",
+      "steps": [
+        {
+          "request": 0,
+          "muted": false,
+          "disabled": false,
+          "current_track": 0,
+          "player": 16785408,
+          "state": {
+            "playing": true,
+            "file": "knights_gameplay_02.mp3",
+            "loops": 100,
+            "volume": 0.5
+          },
+          "events": [
+            {
+              "method": "mainBundle",
+              "receiver": 0,
+              "caller": "0x381f0"
+            },
+            {
+              "method": "pathForResource:ofType:",
+              "receiver": 16777472,
+              "caller": "0x38204",
+              "resource": "knights_gameplay_02.mp3"
+            },
+            {
+              "method": "alloc",
+              "receiver": 0,
+              "caller": "0x38300"
+            },
+            {
+              "method": "fileURLWithPath:",
+              "receiver": 0,
+              "caller": "0x38328"
+            },
+            {
+              "method": "initWithContentsOfURL:error:",
+              "receiver": 16785408,
+              "caller": "0x3833c",
+              "file": "knights_gameplay_02.mp3"
+            },
+            {
+              "method": "setNumberOfLoops:",
+              "receiver": 16785408,
+              "caller": "0x3837c",
+              "value": 100
+            },
+            {
+              "method": "setVolume:",
+              "receiver": 16785408,
+              "caller": "0x3839c",
+              "value": 0.5
+            },
+            {
+              "method": "play",
+              "receiver": 16785408,
+              "caller": "0x383b0"
+            }
+          ]
+        },
+        {
+          "request": 10,
+          "muted": true,
+          "disabled": false,
+          "current_track": 0,
+          "player": 16785408,
+          "state": {
+            "playing": false,
+            "file": "knights_gameplay_02.mp3",
+            "loops": 100,
+            "volume": 0.5
+          },
+          "events": [
+            {
+              "method": "isPlaying",
+              "receiver": 16785408,
+              "caller": "0x38270"
+            },
+            {
+              "method": "stop",
+              "receiver": 16785408,
+              "caller": "0x38290"
+            }
+          ]
+        },
+        {
+          "request": 0,
+          "muted": false,
+          "disabled": false,
+          "current_track": 0,
+          "player": 16785408,
+          "state": {
+            "playing": false,
+            "file": "knights_gameplay_02.mp3",
+            "loops": 100,
+            "volume": 0.5
+          },
+          "events": []
+        }
+      ]
+    },
+    {
+      "case": "change_while_muted_then_return_old_group",
+      "steps": [
+        {
+          "request": 0,
+          "muted": false,
+          "disabled": false,
+          "current_track": 0,
+          "player": 16785408,
+          "state": {
+            "playing": true,
+            "file": "knights_gameplay_02.mp3",
+            "loops": 100,
+            "volume": 0.5
+          },
+          "events": [
+            {
+              "method": "mainBundle",
+              "receiver": 0,
+              "caller": "0x381f0"
+            },
+            {
+              "method": "pathForResource:ofType:",
+              "receiver": 16777472,
+              "caller": "0x38204",
+              "resource": "knights_gameplay_02.mp3"
+            },
+            {
+              "method": "alloc",
+              "receiver": 0,
+              "caller": "0x38300"
+            },
+            {
+              "method": "fileURLWithPath:",
+              "receiver": 0,
+              "caller": "0x38328"
+            },
+            {
+              "method": "initWithContentsOfURL:error:",
+              "receiver": 16785408,
+              "caller": "0x3833c",
+              "file": "knights_gameplay_02.mp3"
+            },
+            {
+              "method": "setNumberOfLoops:",
+              "receiver": 16785408,
+              "caller": "0x3837c",
+              "value": 100
+            },
+            {
+              "method": "setVolume:",
+              "receiver": 16785408,
+              "caller": "0x3839c",
+              "value": 0.5
+            },
+            {
+              "method": "play",
+              "receiver": 16785408,
+              "caller": "0x383b0"
+            }
+          ]
+        },
+        {
+          "request": 1,
+          "muted": true,
+          "disabled": false,
+          "current_track": 0,
+          "player": 0,
+          "state": {},
+          "events": [
+            {
+              "method": "mainBundle",
+              "receiver": 0,
+              "caller": "0x38234"
+            },
+            {
+              "method": "pathForResource:ofType:",
+              "receiver": 16777472,
+              "caller": "0x38248",
+              "resource": "knights_gameplay_03.mp3"
+            },
+            {
+              "method": "isPlaying",
+              "receiver": 16785408,
+              "caller": "0x38270"
+            },
+            {
+              "method": "stop",
+              "receiver": 16785408,
+              "caller": "0x38290"
+            },
+            {
+              "method": "release",
+              "receiver": 16785408,
+              "caller": "0x382c0"
+            }
+          ]
+        },
+        {
+          "request": 0,
+          "muted": false,
+          "disabled": false,
+          "current_track": 0,
+          "player": 0,
+          "state": {},
+          "events": []
+        }
+      ]
+    },
+    {
+      "case": "change_while_muted_then_enter_new_group",
+      "steps": [
+        {
+          "request": 0,
+          "muted": false,
+          "disabled": false,
+          "current_track": 0,
+          "player": 16785408,
+          "state": {
+            "playing": true,
+            "file": "knights_gameplay_02.mp3",
+            "loops": 100,
+            "volume": 0.5
+          },
+          "events": [
+            {
+              "method": "mainBundle",
+              "receiver": 0,
+              "caller": "0x381f0"
+            },
+            {
+              "method": "pathForResource:ofType:",
+              "receiver": 16777472,
+              "caller": "0x38204",
+              "resource": "knights_gameplay_02.mp3"
+            },
+            {
+              "method": "alloc",
+              "receiver": 0,
+              "caller": "0x38300"
+            },
+            {
+              "method": "fileURLWithPath:",
+              "receiver": 0,
+              "caller": "0x38328"
+            },
+            {
+              "method": "initWithContentsOfURL:error:",
+              "receiver": 16785408,
+              "caller": "0x3833c",
+              "file": "knights_gameplay_02.mp3"
+            },
+            {
+              "method": "setNumberOfLoops:",
+              "receiver": 16785408,
+              "caller": "0x3837c",
+              "value": 100
+            },
+            {
+              "method": "setVolume:",
+              "receiver": 16785408,
+              "caller": "0x3839c",
+              "value": 0.5
+            },
+            {
+              "method": "play",
+              "receiver": 16785408,
+              "caller": "0x383b0"
+            }
+          ]
+        },
+        {
+          "request": 1,
+          "muted": true,
+          "disabled": false,
+          "current_track": 0,
+          "player": 0,
+          "state": {},
+          "events": [
+            {
+              "method": "mainBundle",
+              "receiver": 0,
+              "caller": "0x38234"
+            },
+            {
+              "method": "pathForResource:ofType:",
+              "receiver": 16777472,
+              "caller": "0x38248",
+              "resource": "knights_gameplay_03.mp3"
+            },
+            {
+              "method": "isPlaying",
+              "receiver": 16785408,
+              "caller": "0x38270"
+            },
+            {
+              "method": "stop",
+              "receiver": 16785408,
+              "caller": "0x38290"
+            },
+            {
+              "method": "release",
+              "receiver": 16785408,
+              "caller": "0x382c0"
+            }
+          ]
+        },
+        {
+          "request": 1,
+          "muted": false,
+          "disabled": false,
+          "current_track": 1,
+          "player": 16785424,
+          "state": {
+            "playing": true,
+            "file": "knights_gameplay_03.mp3",
+            "loops": 100,
+            "volume": 0.5
+          },
+          "events": [
+            {
+              "method": "mainBundle",
+              "receiver": 0,
+              "caller": "0x38234"
+            },
+            {
+              "method": "pathForResource:ofType:",
+              "receiver": 16777472,
+              "caller": "0x38248",
+              "resource": "knights_gameplay_03.mp3"
+            },
+            {
+              "method": "alloc",
+              "receiver": 0,
+              "caller": "0x38300"
+            },
+            {
+              "method": "fileURLWithPath:",
+              "receiver": 0,
+              "caller": "0x38328"
+            },
+            {
+              "method": "initWithContentsOfURL:error:",
+              "receiver": 16785424,
+              "caller": "0x3833c",
+              "file": "knights_gameplay_03.mp3"
+            },
+            {
+              "method": "setNumberOfLoops:",
+              "receiver": 16785424,
+              "caller": "0x3837c",
+              "value": 100
+            },
+            {
+              "method": "setVolume:",
+              "receiver": 16785424,
+              "caller": "0x3839c",
+              "value": 0.5
+            },
+            {
+              "method": "play",
+              "receiver": 16785424,
+              "caller": "0x383b0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "muted_boot_then_unmute_game",
+      "steps": [
+        {
+          "request": 0,
+          "muted": true,
+          "disabled": false,
+          "current_track": 4294967295,
+          "player": 0,
+          "state": {},
+          "events": [
+            {
+              "method": "mainBundle",
+              "receiver": 0,
+              "caller": "0x381f0"
+            },
+            {
+              "method": "pathForResource:ofType:",
+              "receiver": 16777472,
+              "caller": "0x38204",
+              "resource": "knights_gameplay_02.mp3"
+            }
+          ]
+        },
+        {
+          "request": 1,
+          "muted": true,
+          "disabled": false,
+          "current_track": 4294967295,
+          "player": 0,
+          "state": {},
+          "events": [
+            {
+              "method": "mainBundle",
+              "receiver": 0,
+              "caller": "0x38234"
+            },
+            {
+              "method": "pathForResource:ofType:",
+              "receiver": 16777472,
+              "caller": "0x38248",
+              "resource": "knights_gameplay_03.mp3"
+            }
+          ]
+        },
+        {
+          "request": 1,
+          "muted": false,
+          "disabled": false,
+          "current_track": 1,
+          "player": 16785408,
+          "state": {
+            "playing": true,
+            "file": "knights_gameplay_03.mp3",
+            "loops": 100,
+            "volume": 0.5
+          },
+          "events": [
+            {
+              "method": "mainBundle",
+              "receiver": 0,
+              "caller": "0x38234"
+            },
+            {
+              "method": "pathForResource:ofType:",
+              "receiver": 16777472,
+              "caller": "0x38248",
+              "resource": "knights_gameplay_03.mp3"
+            },
+            {
+              "method": "alloc",
+              "receiver": 0,
+              "caller": "0x38300"
+            },
+            {
+              "method": "fileURLWithPath:",
+              "receiver": 0,
+              "caller": "0x38328"
+            },
+            {
+              "method": "initWithContentsOfURL:error:",
+              "receiver": 16785408,
+              "caller": "0x3833c",
+              "file": "knights_gameplay_03.mp3"
+            },
+            {
+              "method": "setNumberOfLoops:",
+              "receiver": 16785408,
+              "caller": "0x3837c",
+              "value": 100
+            },
+            {
+              "method": "setVolume:",
+              "receiver": 16785408,
+              "caller": "0x3839c",
+              "value": 0.5
+            },
+            {
+              "method": "play",
+              "receiver": 16785408,
+              "caller": "0x383b0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Original ARM SwitchSoundtrack and UpdateSoundtrackVolume run unchanged. Objective-C methods intercepted and recorded; isPlaying modeled from play/stop. No sound played, no OS decoder/mixer timing claimed."
+}

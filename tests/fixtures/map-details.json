@@ -1,0 +1,4426 @@
+{
+  "binary_sha256": "a4c5b8a013d79b55532e038674fbe752fdb98877cf54e5106251ae4e6d9330e1",
+  "controls": [
+    {
+      "rect": [
+        4294967292,
+        270,
+        115,
+        61
+      ],
+      "type": 2,
+      "text": "Menu",
+      "normal": "shop_button_pas.png",
+      "pressed": "shop_button_act.png",
+      "callback": "0x1d958"
+    },
+    {
+      "rect": [
+        378,
+        270,
+        115,
+        61
+      ],
+      "type": 2,
+      "text": "Play",
+      "normal": "shop_button_pas.png",
+      "pressed": "shop_button_act.png",
+      "callback": "0x1d96c"
+    },
+    {
+      "rect": [
+        326,
+        265,
+        60,
+        60
+      ],
+      "type": 1,
+      "text": "",
+      "normal": "button_i_pass.png",
+      "pressed": "button_i_act.png",
+      "callback": "0x1eaac"
+    }
+  ],
+  "fixtures": [
+    {
+      "selected": 0,
+      "completed": false,
+      "record": 0,
+      "current": 0,
+      "panel": 0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_01.jpg",
+          "x": -420.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_02.jpg",
+          "x": -164.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_03.jpg",
+          "x": 92.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_04.jpg",
+          "x": 348.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_05.jpg",
+          "x": -420.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_06.jpg",
+          "x": -164.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_07.jpg",
+          "x": 92.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_08.jpg",
+          "x": 348.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_09.jpg",
+          "x": -420.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_10.jpg",
+          "x": -164.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_11.jpg",
+          "x": 92.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_12.jpg",
+          "x": 348.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_fx.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 322.0,
+          "y": 368.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 421.0,
+          "y": 187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 292.0,
+          "y": 116.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": -74.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 494.0,
+          "y": 22.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": 283.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 335.0,
+          "y": 236.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 364.0,
+          "y": -106.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 306.0,
+          "y": 23.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 229.0,
+          "y": -82.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 115.0,
+          "y": 376.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface.png",
+          "x": 0.0,
+          "y": 192.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface_up.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "Level 1",
+          "x": 126.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            175,
+            60
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "First Encounter",
+          "x": 244.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            40
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Survive 8 days",
+          "x": 115.0,
+          "y": 297.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Last Score:",
+          "x": 5.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            0,
+            255,
+            255
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "---",
+          "x": 99.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Best Score:",
+          "x": 191.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            245,
+            215,
+            0
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "---",
+          "x": 286.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 2,
+      "completed": false,
+      "record": 5,
+      "current": 3,
+      "panel": 0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_01.jpg",
+          "x": -420.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_02.jpg",
+          "x": -164.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_03.jpg",
+          "x": 92.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_04.jpg",
+          "x": 348.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_05.jpg",
+          "x": -420.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_06.jpg",
+          "x": -164.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_07.jpg",
+          "x": 92.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_08.jpg",
+          "x": 348.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_09.jpg",
+          "x": -420.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_10.jpg",
+          "x": -164.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_11.jpg",
+          "x": 92.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_12.jpg",
+          "x": 348.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 322.0,
+          "y": 368.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 421.0,
+          "y": 187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_fx.png",
+          "x": 421.0,
+          "y": 187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 292.0,
+          "y": 116.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": -74.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 494.0,
+          "y": 22.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": 283.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 335.0,
+          "y": 236.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 364.0,
+          "y": -106.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 306.0,
+          "y": 23.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 229.0,
+          "y": -82.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 115.0,
+          "y": 376.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface.png",
+          "x": 0.0,
+          "y": 192.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface_up.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "Level 3",
+          "x": 126.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            175,
+            60
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Marching Knights",
+          "x": 244.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            40
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Survive 10 days",
+          "x": 115.0,
+          "y": 297.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Last Score:",
+          "x": 5.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            0,
+            255,
+            255
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "005",
+          "x": 99.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Best Score:",
+          "x": 191.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            245,
+            215,
+            0
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "003",
+          "x": 286.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 11,
+      "completed": true,
+      "record": 25,
+      "current": 25,
+      "panel": 0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_01.jpg",
+          "x": -420.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_02.jpg",
+          "x": -164.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_03.jpg",
+          "x": 92.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_04.jpg",
+          "x": 348.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_05.jpg",
+          "x": -420.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_06.jpg",
+          "x": -164.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_07.jpg",
+          "x": 92.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_08.jpg",
+          "x": 348.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_09.jpg",
+          "x": -420.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_10.jpg",
+          "x": -164.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_11.jpg",
+          "x": 92.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_12.jpg",
+          "x": 348.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 322.0,
+          "y": 368.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 421.0,
+          "y": 187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 292.0,
+          "y": 116.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 455.0,
+          "y": -74.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 494.0,
+          "y": 22.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 455.0,
+          "y": 283.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 335.0,
+          "y": 236.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 364.0,
+          "y": -106.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 306.0,
+          "y": 23.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_open.png",
+          "x": 229.0,
+          "y": -82.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_defending.png",
+          "x": 115.0,
+          "y": 376.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_fx.png",
+          "x": 115.0,
+          "y": 376.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface.png",
+          "x": 0.0,
+          "y": 192.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface_up.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "Level 12",
+          "x": 126.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            175,
+            60
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Full Power",
+          "x": 244.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            40
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Survive 25 days",
+          "x": 115.0,
+          "y": 297.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Last Score:",
+          "x": 5.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            0,
+            255,
+            255
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "025",
+          "x": 99.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Best Score:",
+          "x": 191.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            245,
+            215,
+            0
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "025",
+          "x": 286.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 378.0,
+          "y": 2.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "selected": 0,
+      "completed": true,
+      "record": 8,
+      "current": 0,
+      "panel": 17,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_01.jpg",
+          "x": -420.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_02.jpg",
+          "x": -164.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_03.jpg",
+          "x": 92.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_04.jpg",
+          "x": 348.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_05.jpg",
+          "x": -420.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_06.jpg",
+          "x": -164.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_07.jpg",
+          "x": 92.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_08.jpg",
+          "x": 348.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_09.jpg",
+          "x": -420.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_10.jpg",
+          "x": -164.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_11.jpg",
+          "x": 92.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_12.jpg",
+          "x": 348.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "point_defending.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_fx.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 322.0,
+          "y": 368.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 421.0,
+          "y": 187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 292.0,
+          "y": 116.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": -74.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 494.0,
+          "y": 22.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": 283.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 335.0,
+          "y": 236.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 364.0,
+          "y": -106.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 306.0,
+          "y": 23.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 229.0,
+          "y": -82.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 115.0,
+          "y": 376.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface.png",
+          "x": 0.0,
+          "y": 209.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface_up.png",
+          "x": 0.0,
+          "y": -17.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "Level 1",
+          "x": 126.0,
+          "y": 295.0,
+          "align": 2,
+          "rgb": [
+            255,
+            175,
+            60
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "First Encounter",
+          "x": 244.0,
+          "y": 295.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            40
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Survive 8 days",
+          "x": 115.0,
+          "y": 314.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Last Score:",
+          "x": 5.0,
+          "y": -15.0,
+          "align": 0,
+          "rgb": [
+            0,
+            255,
+            255
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "008",
+          "x": 99.0,
+          "y": -16.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Best Score:",
+          "x": 191.0,
+          "y": -15.0,
+          "align": 0,
+          "rgb": [
+            245,
+            215,
+            0
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "---",
+          "x": 286.0,
+          "y": -16.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 378.0,
+          "y": -15.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "selected": 0,
+      "completed": true,
+      "record": 71999,
+      "current": 71999,
+      "panel": 0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_01.jpg",
+          "x": -420.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_02.jpg",
+          "x": -164.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_03.jpg",
+          "x": 92.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_04.jpg",
+          "x": 348.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_05.jpg",
+          "x": -420.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_06.jpg",
+          "x": -164.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_07.jpg",
+          "x": 92.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_08.jpg",
+          "x": 348.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_09.jpg",
+          "x": -420.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_10.jpg",
+          "x": -164.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_11.jpg",
+          "x": 92.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_12.jpg",
+          "x": 348.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "point_defending.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_fx.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 322.0,
+          "y": 368.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 421.0,
+          "y": 187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 292.0,
+          "y": 116.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": -74.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 494.0,
+          "y": 22.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": 283.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 335.0,
+          "y": 236.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 364.0,
+          "y": -106.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 306.0,
+          "y": 23.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 229.0,
+          "y": -82.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 115.0,
+          "y": 376.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface.png",
+          "x": 0.0,
+          "y": 192.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface_up.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "Level 1",
+          "x": 126.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            175,
+            60
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "First Encounter",
+          "x": 244.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            40
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Survive 8 days",
+          "x": 115.0,
+          "y": 297.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Last Score:",
+          "x": 5.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            0,
+            255,
+            255
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "71999",
+          "x": 99.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Best Score:",
+          "x": 191.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            245,
+            215,
+            0
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "71999",
+          "x": 286.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 378.0,
+          "y": 2.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "selected": 0,
+      "completed": true,
+      "record": 72000,
+      "current": 72000,
+      "panel": 0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_01.jpg",
+          "x": -420.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_02.jpg",
+          "x": -164.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_03.jpg",
+          "x": 92.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_04.jpg",
+          "x": 348.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_05.jpg",
+          "x": -420.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_06.jpg",
+          "x": -164.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_07.jpg",
+          "x": 92.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_08.jpg",
+          "x": 348.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_09.jpg",
+          "x": -420.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_10.jpg",
+          "x": -164.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_11.jpg",
+          "x": 92.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_12.jpg",
+          "x": 348.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "point_defending.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_fx.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 322.0,
+          "y": 368.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 421.0,
+          "y": 187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 292.0,
+          "y": 116.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": -74.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 494.0,
+          "y": 22.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": 283.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 335.0,
+          "y": 236.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 364.0,
+          "y": -106.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 306.0,
+          "y": 23.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 229.0,
+          "y": -82.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 115.0,
+          "y": 376.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface.png",
+          "x": 0.0,
+          "y": 192.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface_up.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "Level 1",
+          "x": 126.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            175,
+            60
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "First Encounter",
+          "x": 244.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            40
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Survive 8 days",
+          "x": 115.0,
+          "y": 297.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Last Score:",
+          "x": 5.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            0,
+            255,
+            255
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "72000",
+          "x": 99.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Best Score:",
+          "x": 191.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            245,
+            215,
+            0
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "72000",
+          "x": 286.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 378.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 398.0,
+          "y": 2.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "selected": 0,
+      "completed": true,
+      "record": 108000,
+      "current": 108000,
+      "panel": 0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_01.jpg",
+          "x": -420.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_02.jpg",
+          "x": -164.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_03.jpg",
+          "x": 92.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_04.jpg",
+          "x": 348.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_05.jpg",
+          "x": -420.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_06.jpg",
+          "x": -164.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_07.jpg",
+          "x": 92.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_08.jpg",
+          "x": 348.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_09.jpg",
+          "x": -420.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_10.jpg",
+          "x": -164.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_11.jpg",
+          "x": 92.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_12.jpg",
+          "x": 348.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "point_defending.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_fx.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 322.0,
+          "y": 368.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 421.0,
+          "y": 187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 292.0,
+          "y": 116.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": -74.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 494.0,
+          "y": 22.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": 283.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 335.0,
+          "y": 236.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 364.0,
+          "y": -106.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 306.0,
+          "y": 23.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 229.0,
+          "y": -82.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 115.0,
+          "y": 376.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface.png",
+          "x": 0.0,
+          "y": 192.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface_up.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "Level 1",
+          "x": 126.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            175,
+            60
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "First Encounter",
+          "x": 244.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            40
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Survive 8 days",
+          "x": 115.0,
+          "y": 297.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Last Score:",
+          "x": 5.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            0,
+            255,
+            255
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "108000",
+          "x": 99.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Best Score:",
+          "x": 191.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            245,
+            215,
+            0
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "108000",
+          "x": 286.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 378.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 398.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 418.0,
+          "y": 2.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "selected": 0,
+      "completed": true,
+      "record": 144000,
+      "current": 144000,
+      "panel": 0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_01.jpg",
+          "x": -420.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_02.jpg",
+          "x": -164.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_03.jpg",
+          "x": 92.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_04.jpg",
+          "x": 348.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_05.jpg",
+          "x": -420.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_06.jpg",
+          "x": -164.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_07.jpg",
+          "x": 92.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_08.jpg",
+          "x": 348.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_09.jpg",
+          "x": -420.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_10.jpg",
+          "x": -164.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_11.jpg",
+          "x": 92.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_12.jpg",
+          "x": 348.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "point_defending.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_fx.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 322.0,
+          "y": 368.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 421.0,
+          "y": 187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 292.0,
+          "y": 116.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": -74.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 494.0,
+          "y": 22.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": 283.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 335.0,
+          "y": 236.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 364.0,
+          "y": -106.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 306.0,
+          "y": 23.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 229.0,
+          "y": -82.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 115.0,
+          "y": 376.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface.png",
+          "x": 0.0,
+          "y": 192.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface_up.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "Level 1",
+          "x": 126.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            175,
+            60
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "First Encounter",
+          "x": 244.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            40
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Survive 8 days",
+          "x": 115.0,
+          "y": 297.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Last Score:",
+          "x": 5.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            0,
+            255,
+            255
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "144000",
+          "x": 99.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Best Score:",
+          "x": 191.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            245,
+            215,
+            0
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "144000",
+          "x": 286.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 378.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 398.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 418.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 438.0,
+          "y": 2.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "selected": 0,
+      "completed": true,
+      "record": 180000,
+      "current": 180000,
+      "panel": 0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_01.jpg",
+          "x": -420.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_02.jpg",
+          "x": -164.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_03.jpg",
+          "x": 92.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_04.jpg",
+          "x": 348.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_05.jpg",
+          "x": -420.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_06.jpg",
+          "x": -164.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_07.jpg",
+          "x": 92.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_08.jpg",
+          "x": 348.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_09.jpg",
+          "x": -420.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_10.jpg",
+          "x": -164.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_11.jpg",
+          "x": 92.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_12.jpg",
+          "x": 348.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "point_defending.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_fx.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 322.0,
+          "y": 368.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 421.0,
+          "y": 187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 292.0,
+          "y": 116.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": -74.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 494.0,
+          "y": 22.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": 283.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 335.0,
+          "y": 236.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 364.0,
+          "y": -106.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 306.0,
+          "y": 23.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 229.0,
+          "y": -82.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 115.0,
+          "y": 376.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface.png",
+          "x": 0.0,
+          "y": 192.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface_up.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "Level 1",
+          "x": 126.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            175,
+            60
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "First Encounter",
+          "x": 244.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            40
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Survive 8 days",
+          "x": 115.0,
+          "y": 297.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Last Score:",
+          "x": 5.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            0,
+            255,
+            255
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "180000",
+          "x": 99.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Best Score:",
+          "x": 191.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            245,
+            215,
+            0
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "180000",
+          "x": 286.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 378.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 398.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 418.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 438.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 458.0,
+          "y": 2.0,
+          "radians": 0
+        }
+      ]
+    },
+    {
+      "selected": 0,
+      "completed": true,
+      "record": 300000,
+      "current": 300000,
+      "panel": 0,
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_01.jpg",
+          "x": -420.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_02.jpg",
+          "x": -164.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_03.jpg",
+          "x": 92.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_04.jpg",
+          "x": 348.0,
+          "y": -180.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_05.jpg",
+          "x": -420.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_06.jpg",
+          "x": -164.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_07.jpg",
+          "x": 92.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_08.jpg",
+          "x": 348.0,
+          "y": 76.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_09.jpg",
+          "x": -420.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_10.jpg",
+          "x": -164.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_11.jpg",
+          "x": 92.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_12.jpg",
+          "x": 348.0,
+          "y": 332.0,
+          "radians": 0
+        },
+        {
+          "op": "scaled",
+          "image": "point_defending.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_fx.png",
+          "x": 225.0,
+          "y": 168.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 322.0,
+          "y": 368.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 421.0,
+          "y": 187.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 292.0,
+          "y": 116.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": -74.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 494.0,
+          "y": 22.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 455.0,
+          "y": 283.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 335.0,
+          "y": 236.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 364.0,
+          "y": -106.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 306.0,
+          "y": 23.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 229.0,
+          "y": -82.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "point_capture.png",
+          "x": 115.0,
+          "y": 376.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface.png",
+          "x": 0.0,
+          "y": 192.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "map_interface_up.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "Level 1",
+          "x": 126.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            175,
+            60
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "First Encounter",
+          "x": 244.0,
+          "y": 278.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            40
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Survive 8 days",
+          "x": 115.0,
+          "y": 297.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Last Score:",
+          "x": 5.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            0,
+            255,
+            255
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "300000",
+          "x": 99.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Best Score:",
+          "x": 191.0,
+          "y": 2.0,
+          "align": 0,
+          "rgb": [
+            245,
+            215,
+            0
+          ],
+          "size": 0.699999988079071,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "300000",
+          "x": 286.0,
+          "y": 1.0,
+          "align": 0,
+          "rgb": [
+            245,
+            245,
+            245
+          ],
+          "size": 0.800000011920929,
+          "alpha": 1.0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 378.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 398.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 418.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 438.0,
+          "y": 2.0,
+          "radians": 0
+        },
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "mapstar.png",
+          "x": 458.0,
+          "y": 2.0,
+          "radians": 0
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "won": false,
+      "score": 1234,
+      "best": 0,
+      "endless": false,
+      "after": [
+        1234,
+        1234
+      ],
+      "completed": false,
+      "next_open": false
+    },
+    {
+      "won": false,
+      "score": 12,
+      "best": 1234,
+      "endless": false,
+      "after": [
+        12,
+        1234
+      ],
+      "completed": false,
+      "next_open": false
+    },
+    {
+      "won": true,
+      "score": 5678,
+      "best": 1234,
+      "endless": false,
+      "after": [
+        5678,
+        5678
+      ],
+      "completed": true,
+      "next_open": true
+    },
+    {
+      "won": true,
+      "score": 99,
+      "best": 0,
+      "endless": true,
+      "after": [
+        0,
+        0
+      ],
+      "completed": false,
+      "next_open": false
+    }
+  ],
+  "hints": [
+    {
+      "selected": 0,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Use sacrificers to earn\n sacrifice points, you will\n  need them for other\n   purchases.",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 1,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "drag fireball around for\n  a while to grow it. This\n   will result in bigger\n     explosions.",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 2,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "\nFlick creeps into ground\n   for bigger damage.",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 3,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "\n  Door updates are\n  disabled in this level, \n   be careful!",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 4,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "\nIf you can't pass the level,\n lower the difficulty using\n   Options menu.",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 5,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "  Touch hidden Assassin\nto reveal his position, or\n  simply grab and flick\n    him into sky.",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 6,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Titans are tough. Smash\n them into the ground\n   or drop them at least\n     twice to kill.",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 7,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "\nWizards cast protection -\n grab them before they\n   do it!",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 8,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "\nEnjoy two types of\n    jumpers",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 9,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "\nThis level is absolutely\n   random - expect\n     anything!",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 10,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Door upgrade will be\n  available after day 8.",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "selected": 11,
+      "draws": [
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Now use all you've learned\n to sustain the full power\n of enemy forces.",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 217.0,
+          "y": 230.0,
+          "sx": 0.05000000074505806,
+          "sy": -0.05000000074505806,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "OK",
+          "x": 205.0,
+          "y": 215.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.05000000074505806,
+          "alpha": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "binary_sha256": "a4c5b8a013d79b55532e038674fbe752fdb98877cf54e5106251ae4e6d9330e1",
+  "cases": [
+    {
+      "mode": "campaign",
+      "ui": "menu",
+      "defeated": false,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "campaign",
+      "ui": "menu",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "campaign",
+      "ui": "battle",
+      "defeated": false,
+      "available": true,
+      "saved_files": [
+        "recent1.sav"
+      ]
+    },
+    {
+      "mode": "campaign",
+      "ui": "battle",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "campaign",
+      "ui": "shop",
+      "defeated": false,
+      "available": true,
+      "saved_files": [
+        "recent1.sav"
+      ]
+    },
+    {
+      "mode": "campaign",
+      "ui": "shop",
+      "defeated": true,
+      "available": true,
+      "saved_files": [
+        "recent1.sav"
+      ]
+    },
+    {
+      "mode": "campaign",
+      "ui": "result",
+      "defeated": false,
+      "available": true,
+      "saved_files": [
+        "recent1.sav"
+      ]
+    },
+    {
+      "mode": "campaign",
+      "ui": "result",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "campaign",
+      "ui": "map",
+      "defeated": false,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "campaign",
+      "ui": "map",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "endless",
+      "ui": "menu",
+      "defeated": false,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "endless",
+      "ui": "menu",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "endless",
+      "ui": "battle",
+      "defeated": false,
+      "available": true,
+      "saved_files": [
+        "recent2.sav"
+      ]
+    },
+    {
+      "mode": "endless",
+      "ui": "battle",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "endless",
+      "ui": "shop",
+      "defeated": false,
+      "available": true,
+      "saved_files": [
+        "recent2.sav"
+      ]
+    },
+    {
+      "mode": "endless",
+      "ui": "shop",
+      "defeated": true,
+      "available": true,
+      "saved_files": [
+        "recent2.sav"
+      ]
+    },
+    {
+      "mode": "endless",
+      "ui": "result",
+      "defeated": false,
+      "available": true,
+      "saved_files": [
+        "recent2.sav"
+      ]
+    },
+    {
+      "mode": "endless",
+      "ui": "result",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "endless",
+      "ui": "map",
+      "defeated": false,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "endless",
+      "ui": "map",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "madness",
+      "ui": "menu",
+      "defeated": false,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "madness",
+      "ui": "menu",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "madness",
+      "ui": "battle",
+      "defeated": false,
+      "available": true,
+      "saved_files": [
+        "recent3.sav"
+      ]
+    },
+    {
+      "mode": "madness",
+      "ui": "battle",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "madness",
+      "ui": "shop",
+      "defeated": false,
+      "available": true,
+      "saved_files": [
+        "recent3.sav"
+      ]
+    },
+    {
+      "mode": "madness",
+      "ui": "shop",
+      "defeated": true,
+      "available": true,
+      "saved_files": [
+        "recent3.sav"
+      ]
+    },
+    {
+      "mode": "madness",
+      "ui": "result",
+      "defeated": false,
+      "available": true,
+      "saved_files": [
+        "recent3.sav"
+      ]
+    },
+    {
+      "mode": "madness",
+      "ui": "result",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "madness",
+      "ui": "map",
+      "defeated": false,
+      "available": false,
+      "saved_files": []
+    },
+    {
+      "mode": "madness",
+      "ui": "map",
+      "defeated": true,
+      "available": false,
+      "saved_files": []
+    }
+  ],
+  "done": [
+    {
+      "mode": "campaign",
+      "calls": [
+        {
+          "function": "0x1995c",
+          "argument": 944752
+        },
+        {
+          "function": "0x1d780",
+          "argument": 10
+        }
+      ]
+    },
+    {
+      "mode": "endless",
+      "calls": [
+        {
+          "function": "0x1d780",
+          "argument": 5
+        },
+        {
+          "function": "0x22178",
+          "argument": 0
+        }
+      ]
+    },
+    {
+      "mode": "madness",
+      "calls": [
+        {
+          "function": "0x1d780",
+          "argument": 5
+        },
+        {
+          "function": "0x22178",
+          "argument": 1
+        }
+      ]
+    }
+  ]
+}

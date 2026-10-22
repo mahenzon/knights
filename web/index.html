@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#111b1a"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="Defend your castle, throw attackers, and build your defenses. Play Knights Onrush in your browser or offline.">
+<link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<link rel="icon" href="./assets/Icon.png"><link rel="stylesheet" href="./style.css">
+<link rel="preload" as="image" href="./assets/menu_big_button.png">
+<title>Knights Onrush</title>
+</head>
+<body>
+<!-- biome-ignore lint/a11y/useMediaCaption: Instrumental soundtrack has no spoken dialogue. -->
+<audio id="music" preload="auto" src="./assets/knights_gameplay_02.mp3"></audio>
+<main>
+  <div id="stage">
+    <canvas id="game" width="480" height="320" aria-label="Knights Onrush battlefield. Drag and flick knights to defend the castle."></canvas>
+    <nav id="menu" aria-label="Main menu" hidden></nav>
+    <button type="button" id="pause" aria-label="Pause game" hidden>Ⅱ</button>
+    <section id="campaign-map" hidden aria-label="Campaign map">
+      <div id="map-points"></div>
+      <div id="map-caption" aria-live="polite"></div>
+    </section>
+    <section id="castle-ui" hidden aria-label="Game menus"></section>
+    <section id="panel" aria-labelledby="panel-title">
+      <h1 id="panel-title">Knights Onrush</h1>
+      <p id="panel-text">Preparing your castle…</p>
+      <progress id="loading" value="0" max="1" aria-label="Loading game"></progress>
+      <div id="panel-actions"></div>
+    </section>
+  </div>
+  <footer><span id="build-label">Knights Onrush</span><span id="offline" role="status">Preparing offline play…</span><button type="button" id="power" hidden>Battery saver: off</button><button type="button" id="update" hidden>Update game</button><button type="button" id="fullscreen" aria-label="Enter full screen" title="Full screen" hidden>⛶</button></footer>
+  <p id="notice" role="status"></p>
+</main>
+<script type="module" src="./game.mjs"></script>
+</body></html>

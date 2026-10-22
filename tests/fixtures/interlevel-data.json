@@ -1,0 +1,327 @@
+{
+  "binary_sha256": "a4c5b8a013d79b55532e038674fbe752fdb98877cf54e5106251ae4e6d9330e1",
+  "screens": [
+    {
+      "phase": "shop",
+      "day": 1,
+      "kills": 53,
+      "day_kills": 7,
+      "buttons": [
+        {
+          "rect": [
+            14,
+            256,
+            115,
+            61
+          ],
+          "text": "Go Next",
+          "normal": "shop_button_pas.png",
+          "pressed": "shop_button_act.png"
+        },
+        {
+          "rect": [
+            348,
+            256,
+            115,
+            61
+          ],
+          "text": "Shop",
+          "normal": "shop_button_pas.png",
+          "pressed": "shop_button_act.png"
+        }
+      ],
+      "draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "shop_background.jpg",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "text",
+          "text": "Day 1 of 8 results:",
+          "x": 236.0,
+          "y": 95.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "size": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Enemies Killed: 7",
+          "x": 240.0,
+          "y": 130.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "size": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Score: 12345",
+          "x": 240.0,
+          "y": 160.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "size": 1.0
+        }
+      ]
+    },
+    {
+      "phase": "complete",
+      "day": 8,
+      "kills": 53,
+      "day_kills": 7,
+      "buttons": [
+        {
+          "rect": [
+            14,
+            256,
+            115,
+            61
+          ],
+          "text": "Done",
+          "normal": "shop_button_pas.png",
+          "pressed": "shop_button_act.png"
+        }
+      ],
+      "draws": [
+        {
+          "op": "stretch",
+          "image": "shop_background.jpg",
+          "x": 0.0,
+          "y": 320.0,
+          "x2": 480.0,
+          "y2": -90.0
+        },
+        {
+          "op": "text",
+          "text": "Victory!",
+          "x": 236.0,
+          "y": 120.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "size": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Day 8 reached.",
+          "x": 236.0,
+          "y": 150.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "size": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Total Enemies Killed: 53",
+          "x": 240.0,
+          "y": 180.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "size": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Final Score: 18345",
+          "x": 240.0,
+          "y": 210.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "size": 1.0
+        }
+      ]
+    },
+    {
+      "phase": "failed",
+      "day": 3,
+      "kills": 53,
+      "day_kills": 7,
+      "buttons": [
+        {
+          "rect": [
+            14,
+            256,
+            115,
+            61
+          ],
+          "text": "Done",
+          "normal": "shop_button_pas.png",
+          "pressed": "shop_button_act.png"
+        }
+      ],
+      "draws": [
+        {
+          "op": "stretch",
+          "image": "shop_background.jpg",
+          "x": 0.0,
+          "y": 320.0,
+          "x2": 480.0,
+          "y2": -90.0
+        },
+        {
+          "op": "text",
+          "text": "Defeat!",
+          "x": 236.0,
+          "y": 120.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "size": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Day 3 reached.",
+          "x": 236.0,
+          "y": 150.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "size": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Total Enemies Killed: 53",
+          "x": 240.0,
+          "y": 180.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "size": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Final Score: 18345",
+          "x": 240.0,
+          "y": 210.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "size": 1.0
+        }
+      ]
+    }
+  ],
+  "purchase": [
+    {
+      "op": "scaled",
+      "image": "shop_buble.png",
+      "x": 238.0,
+      "y": 138.0,
+      "sx": 1.0,
+      "sy": -1.0,
+      "alpha": 1.0
+    },
+    {
+      "op": "text",
+      "text": "Are you sure you want to\npurchase this?",
+      "x": 95.0,
+      "y": 70.0,
+      "align": 0,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": 1.0
+    },
+    {
+      "op": "text",
+      "text": "Steel Door",
+      "x": 238.0,
+      "y": 122.0,
+      "align": 2,
+      "rgb": [
+        255,
+        255,
+        0
+      ],
+      "size": 1.0
+    },
+    {
+      "op": "scaled",
+      "image": "shop_button_pas.png",
+      "x": 182.0,
+      "y": 190.0,
+      "sx": 1.0,
+      "sy": -1.0,
+      "alpha": 1.0
+    },
+    {
+      "op": "text",
+      "text": "NO",
+      "x": 170.0,
+      "y": 175.0,
+      "align": 2,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": 1.0
+    },
+    {
+      "op": "scaled",
+      "image": "shop_button_pas.png",
+      "x": 309.0,
+      "y": 190.0,
+      "sx": 1.0,
+      "sy": -1.0,
+      "alpha": 1.0
+    },
+    {
+      "op": "text",
+      "text": "YES",
+      "x": 297.0,
+      "y": 175.0,
+      "align": 2,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": 1.0
+    }
+  ]
+}

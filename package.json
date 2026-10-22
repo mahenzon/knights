@@ -1,0 +1,23 @@
+{
+  "name": "knights-onrush-restoration",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "python3 tools/build_web.py",
+    "dev": "npm run build && python3 -m http.server 8875 --bind 127.0.0.1 --directory build/web",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome lint web tests tools/check.mjs && cargo clippy --manifest-path engine/Cargo.toml --all-targets --offline -- -D warnings",
+    "format": "biome format --write web tests tools/check.mjs package.json tsconfig.json biome.json && cargo fmt --manifest-path engine/Cargo.toml",
+    "format:check": "biome format web tests tools/check.mjs package.json tsconfig.json biome.json && cargo fmt --manifest-path engine/Cargo.toml -- --check",
+    "test": "node tools/check.mjs",
+    "test:native": "node tools/check.mjs --native",
+    "check": "npm run build && npm run typecheck && npm run lint && npm run format:check && npm test"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "typescript": "7.0.2"
+  }
+}

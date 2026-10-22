@@ -1,0 +1,644 @@
+{
+  "binary_sha256": "a4c5b8a013d79b55532e038674fbe752fdb98877cf54e5106251ae4e6d9330e1",
+  "saved_dialog_backdrops": [
+    {
+      "mode": "endless",
+      "before": {
+        "controls": [
+          {
+            "text": "Campaign",
+            "scale": 1.0
+          },
+          {
+            "text": "Endless Siege",
+            "scale": 1.0
+          },
+          {
+            "text": "Madness",
+            "scale": 1.0
+          },
+          {
+            "text": "Back",
+            "scale": 0.8500000238418579
+          }
+        ],
+        "fade": 210.0
+      },
+      "opened": {
+        "controls": [
+          {
+            "text": "Campaign",
+            "scale": 1.0
+          },
+          {
+            "text": "Endless Siege",
+            "scale": 1.0
+          },
+          {
+            "text": "Madness",
+            "scale": 1.0
+          },
+          {
+            "text": "Back",
+            "scale": 0.8500000238418579
+          }
+        ],
+        "fade": 210.0
+      },
+      "dialog_draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            210
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.8500000238418579,
+          "sy": -0.8500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ],
+      "after_no": {
+        "controls": [
+          {
+            "text": "Campaign",
+            "scale": 1.0
+          },
+          {
+            "text": "Endless Siege",
+            "scale": 1.0
+          },
+          {
+            "text": "Madness",
+            "scale": 1.0
+          },
+          {
+            "text": "Back",
+            "scale": 0.8500000238418579
+          }
+        ],
+        "fade": 210.0
+      },
+      "routes": []
+    },
+    {
+      "mode": "madness",
+      "before": {
+        "controls": [
+          {
+            "text": "Campaign",
+            "scale": 1.0
+          },
+          {
+            "text": "Endless Siege",
+            "scale": 1.0
+          },
+          {
+            "text": "Madness",
+            "scale": 1.0
+          },
+          {
+            "text": "Back",
+            "scale": 0.8500000238418579
+          }
+        ],
+        "fade": 210.0
+      },
+      "opened": {
+        "controls": [
+          {
+            "text": "Campaign",
+            "scale": 1.0
+          },
+          {
+            "text": "Endless Siege",
+            "scale": 1.0
+          },
+          {
+            "text": "Madness",
+            "scale": 1.0
+          },
+          {
+            "text": "Back",
+            "scale": 0.8500000238418579
+          }
+        ],
+        "fade": 210.0
+      },
+      "dialog_draws": [
+        {
+          "frame": 0,
+          "op": "blit",
+          "image": "menu_background.png",
+          "x": 0.0,
+          "y": 0.0,
+          "radians": 0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            100,
+            100,
+            0,
+            210
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 81.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Campaign",
+          "x": 233.0,
+          "y": 66.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 146.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Endless Siege",
+          "x": 233.0,
+          "y": 131.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "menu_big_button.png",
+          "x": 245.0,
+          "y": 211.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Madness",
+          "x": 233.0,
+          "y": 196.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "menu_big_button_active.png",
+          "x": 245.0,
+          "y": 291.0,
+          "sx": 0.8500000238418579,
+          "sy": -0.8500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "Back",
+          "x": 233.0,
+          "y": 276.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 0.8500000238418579,
+          "alpha": 1.0
+        },
+        {
+          "op": "fill",
+          "rect": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "rgba": [
+            105,
+            105,
+            5,
+            191
+          ]
+        },
+        {
+          "op": "scaled",
+          "image": "shop_buble.png",
+          "x": 238.0,
+          "y": 138.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "  Saved game detected.\n   Load and continue?",
+          "x": 95.0,
+          "y": 70.0,
+          "align": 0,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 182.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "NO",
+          "x": 170.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "scaled",
+          "image": "shop_button_pas.png",
+          "x": 309.0,
+          "y": 190.0,
+          "sx": 1.0,
+          "sy": -1.0,
+          "alpha": 1.0
+        },
+        {
+          "op": "text",
+          "text": "YES",
+          "x": 297.0,
+          "y": 175.0,
+          "align": 2,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": 1.0,
+          "alpha": 1.0
+        }
+      ],
+      "after_no": {
+        "controls": [
+          {
+            "text": "Campaign",
+            "scale": 1.0
+          },
+          {
+            "text": "Endless Siege",
+            "scale": 1.0
+          },
+          {
+            "text": "Madness",
+            "scale": 1.0
+          },
+          {
+            "text": "Back",
+            "scale": 0.8500000238418579
+          }
+        ],
+        "fade": 210.0
+      },
+      "routes": []
+    }
+  ],
+  "terminal_acknowledgement": [
+    {
+      "won": true,
+      "before": {
+        "completed": false,
+        "next_open": false,
+        "scores": [
+          0,
+          0
+        ],
+        "run_score": 12345
+      },
+      "after_result_draws": {
+        "completed": false,
+        "next_open": false,
+        "scores": [
+          0,
+          0
+        ],
+        "run_score": 40345
+      },
+      "result_draw_count": 65,
+      "done_control": {
+        "rect": [
+          14,
+          256,
+          115,
+          61
+        ],
+        "type": 0,
+        "text": "Done",
+        "normal": "shop_button_pas.png",
+        "pressed": "shop_button_act.png",
+        "callback": "0x206bc"
+      },
+      "after_done": {
+        "completed": true,
+        "next_open": true,
+        "scores": [
+          40345,
+          40345
+        ],
+        "run_score": 40345
+      },
+      "routes": [
+        {
+          "address": "0x1d780",
+          "argument": 10
+        }
+      ]
+    },
+    {
+      "won": false,
+      "before": {
+        "completed": false,
+        "next_open": false,
+        "scores": [
+          0,
+          0
+        ],
+        "run_score": 12345
+      },
+      "after_result_draws": {
+        "completed": false,
+        "next_open": false,
+        "scores": [
+          0,
+          0
+        ],
+        "run_score": 40345
+      },
+      "result_draw_count": 65,
+      "done_control": {
+        "rect": [
+          14,
+          256,
+          115,
+          61
+        ],
+        "type": 0,
+        "text": "Done",
+        "normal": "shop_button_pas.png",
+        "pressed": "shop_button_act.png",
+        "callback": "0x22274"
+      },
+      "after_done": {
+        "completed": false,
+        "next_open": false,
+        "scores": [
+          40345,
+          40345
+        ],
+        "run_score": 40345
+      },
+      "routes": [
+        {
+          "address": "0x1d780",
+          "argument": 10
+        }
+      ]
+    }
+  ],
+  "scope": "Actual Play/Endless/Madness callbacks, mainMenu Draw, dialog update/draw/NO; actual supplied victory/defeat result InitMode, 65 Draws and selected Done callback. All navigation, OS files, assets, GPU and audio intercepted. No natural battle completion claimed and no user saves touched."
+}
