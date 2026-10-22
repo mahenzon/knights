@@ -36,9 +36,8 @@ artifacts are not part of the game download.
 3. Run **Actions → Check and deploy GitHub Pages → Run workflow** on the default
    branch, or push a commit to it. Pull requests and other branches run checks
    without deploying. Deployment waits for `npm run check` to pass.
-4. Open the URL shown by the **github-pages** deployment and run the device
-   checks against that address. Add the confirmed public game URL to the
-   README when it is available.
+4. Configure [the custom domain](#custom-domain-knightsmahenzonru), open
+   `https://knights.mahenzon.ru` and run the device checks against that address.
 
 The [workflow](../.github/workflows/pages.yaml) installs Node.js 24, Python 3.12
 and the Rust toolchain pinned in `rust-toolchain.toml`, then uploads only
@@ -55,6 +54,46 @@ Actions are pinned to full commit SHAs, with release versions in comments.
 opens pull requests; review and merge them to keep the workflow current.
 The npm lockfile uses public npm registry URLs so GitHub-hosted runners can
 install the pinned tools without access to a private registry.
+
+### Custom domain: knights.mahenzon.ru
+
+1. In the repository's **Settings → Pages**, select **GitHub Actions** as the
+   publishing source. Under **Custom domain**, enter `knights.mahenzon.ru` and
+   click **Save**. Save this setting before adding DNS records.
+2. At the DNS provider for `mahenzon.ru`, create this record:
+
+   | Type | Name / host | Target / value | TTL |
+   | --- | --- | --- | --- |
+   | `CNAME` | `knights` | `<GITHUB_OWNER>.github.io` | `3600` or Auto |
+
+   Replace `<GITHUB_OWNER>` with the GitHub username or organization that owns
+   this repository. Do not include `https://` or the repository name. Providers
+   that require the full hostname should use `knights.mahenzon.ru` in the name
+   field. Use DNS-only mode if the provider offers proxying, and remove any
+   conflicting `A` or `AAAA` records for `knights`; leave the apex domain's
+   records unchanged.
+3. Run **Actions → Check and deploy GitHub Pages → Run workflow** on the default
+   branch. This is also the retry path if the first push ran before Pages was
+   enabled. Later pushes to the default branch deploy automatically after the
+   checks pass. No deployment token or secret needs to be added.
+4. Once GitHub's DNS check and certificate provisioning finish, enable
+   **Enforce HTTPS** in **Settings → Pages**. DNS propagation can take up to
+   24 hours. Verify `https://knights.mahenzon.ru` and use that address for
+   installed apps and future updates.
+
+For this Actions-based publishing workflow, GitHub stores the custom domain
+in the Pages settings. A `CNAME` file in the repository or uploaded artifact
+is ignored and is not required. See GitHub's
+[custom-domain instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain).
+
+To check DNS after saving the record:
+
+```sh
+dig +short CNAME knights.mahenzon.ru
+```
+
+The answer should be `<GITHUB_OWNER>.github.io.`. Browser saves from another
+hostname, including a temporary `github.io` URL, do not transfer to this domain.
 
 ## Other static hosts
 
