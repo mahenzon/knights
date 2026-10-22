@@ -64,10 +64,10 @@ install the pinned tools without access to a private registry.
 
    | Type | Name / host | Target / value | TTL |
    | --- | --- | --- | --- |
-   | `CNAME` | `knights` | `<GITHUB_OWNER>.github.io` | `3600` or Auto |
+   | `CNAME` | `knights` | `mahenzon.github.io` | `3600` or Auto |
 
-   Replace `<GITHUB_OWNER>` with the GitHub username or organization that owns
-   this repository. Do not include `https://` or the repository name. Providers
+   `mahenzon` is the GitHub account that owns this repository.
+   Do not include `https://` or the repository name. Providers
    that require the full hostname should use `knights.mahenzon.ru` in the name
    field. Use DNS-only mode if the provider offers proxying, and remove any
    conflicting `A` or `AAAA` records for `knights`; leave the apex domain's
@@ -92,7 +92,7 @@ To check DNS after saving the record:
 dig +short CNAME knights.mahenzon.ru
 ```
 
-The answer should be `<GITHUB_OWNER>.github.io.`. Browser saves from another
+The answer should be `mahenzon.github.io.`. Browser saves from another
 hostname, including a temporary `github.io` URL, do not transfer to this domain.
 
 ## Other static hosts
