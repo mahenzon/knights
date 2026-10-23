@@ -30,8 +30,15 @@
       <div id="panel-actions"></div>
     </section>
   </div>
-  <footer><span id="build-label">Knights Onrush</span><span id="offline" role="status">Preparing offline play…</span><button type="button" id="power" hidden>Battery saver: off</button><button type="button" id="update" hidden>Update game</button><button type="button" id="fullscreen" aria-label="Enter full screen" title="Full screen" hidden>⛶</button></footer>
+  <footer><span id="build-label">Knights Onrush</span><span id="offline" role="status">Preparing offline play…</span><button type="button" id="install" hidden>Install app</button><button type="button" id="power" hidden>Battery saver: off</button><button type="button" id="update" hidden>Update game</button><button type="button" id="fullscreen" aria-label="Enter full screen" title="Full screen" hidden>⛶</button></footer>
   <p id="notice" role="status"></p>
 </main>
+<dialog id="install-dialog" aria-labelledby="install-title" aria-describedby="install-steps">
+  <h2 id="install-title">Play as an app</h2>
+  <p>Launch Knights Onrush from your home screen without browser controls.</p>
+  <p id="install-steps"></p>
+  <form method="dialog"><button type="submit" autofocus>Got it</button></form>
+</dialog>
+<script type="module" src="./install.mjs"></script>
 <script type="module" src="./game.mjs"></script>
 </body></html>

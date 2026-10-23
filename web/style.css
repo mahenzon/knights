@@ -260,7 +260,7 @@ footer {
 /* Size the fixed 3:2 playfield against the current viewport, including mobile chrome. */
 :root {
   --view-height: 100svh;
-  --outside-game: 56px;
+  --outside-game: 64px;
 }
 @supports (height: 100dvh) {
   :root {
@@ -301,6 +301,33 @@ body {
   padding: 3px 9px;
   font: 12px system-ui;
 }
+#install {
+  flex-shrink: 0;
+  min-height: 44px;
+  padding: 4px 10px;
+  font: 700 12px system-ui;
+}
+#install-dialog {
+  width: min(420px, calc(100% - 32px));
+  max-height: calc(100% - 32px);
+  overflow: auto;
+  padding: 24px;
+  color: #fff4c8;
+  background: #172c29;
+  border: 2px solid #a99c6e;
+  border-radius: 14px;
+  font: 16px / 1.5 system-ui;
+}
+#install-dialog::backdrop {
+  background: #000b;
+}
+#install-dialog h2 {
+  margin: 0;
+  color: #ffe678;
+}
+#install-dialog form {
+  text-align: right;
+}
 :root:fullscreen,
 :root.immersive {
   --outside-game: 0px;
@@ -332,7 +359,7 @@ body {
 }
 @media (orientation: landscape) and (max-height: 500px) {
   :root {
-    --outside-game: 40px;
+    --outside-game: 56px;
   }
   footer {
     font-size: 10px;

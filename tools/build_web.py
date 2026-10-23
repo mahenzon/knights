@@ -16,7 +16,7 @@ def build():
     subprocess.run([str(ROOT/'node_modules/.bin/tsc')],cwd=ROOT,check=True)
     subprocess.run(['cargo','build','--manifest-path',str(ROOT/'engine/Cargo.toml'),'--release','--target','wasm32-unknown-unknown','--offline'],check=True)
     OUT.mkdir(parents=True,exist_ok=True)
-    files=['index.html','style.css','game.mjs','audio.mjs','offline.mjs','assets.mjs','enemies.mjs','hud.mjs','shop.mjs','play.mjs','options.mjs','scores.mjs','font.mjs','campaign.mjs','lifecycle.mjs','scene.mjs','map.mjs','game-data.json','manifest.webmanifest']
+    files=['index.html','style.css','game.mjs','install.mjs','audio.mjs','offline.mjs','assets.mjs','enemies.mjs','hud.mjs','shop.mjs','play.mjs','options.mjs','scores.mjs','font.mjs','campaign.mjs','lifecycle.mjs','scene.mjs','map.mjs','game-data.json','manifest.webmanifest']
     for name in files:
         source=ROOT/('build/browser' if name.endswith('.mjs') else 'web')/name
         shutil.copy2(source,OUT/name)
