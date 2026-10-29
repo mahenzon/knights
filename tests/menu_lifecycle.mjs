@@ -19,6 +19,7 @@ function fixture() {
   let played = 0;
   let cleared = 0;
   const context = vm.createContext({
+    saveSession: true,
     settings: { sound: true },
     previewMuted: false,
     audioEpoch: 0,

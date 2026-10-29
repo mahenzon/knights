@@ -23,6 +23,7 @@ for (const screen of ['menu', 'credits', 'help']) {
   let starts = 0;
   let audio = 0;
   const context = vm.createContext({
+    saveSession: true,
     screen,
     backgrounded: true,
     document: { hidden: true },

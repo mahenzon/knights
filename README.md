@@ -42,6 +42,8 @@ Installed offline play with sound has been checked on Android. iPhone and iPad o
 
 Your progress saves automatically in this browser on this device. Campaign, Endless Siege, and Madness each keep their own saved run.
 
+Only one game tab or installed window can run at a time. This keeps an older window from overwriting your progress. If another window is open, close it and retry here. Use a current browser; the game will explain if this protection is unavailable.
+
 For a break, tap **Pause** or press **Escape**. Switching tabs or apps also pauses and saves the battle. Choose **Resume** when you return. **Abort** ends the current run and removes its battle save.
 
 Use the same browser and game address to keep playing your save. Saves do not sync between devices, and there is no export or backup feature yet. Clearing the site's browser data removes your progress; browsers may also remove stored data when space is low.

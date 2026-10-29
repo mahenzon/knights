@@ -151,11 +151,6 @@ let run = null,
 let lastAnnouncedSecond = -1;
 let audioEpoch = 0;
 let audioPending = Promise.resolve();
-try {
-  settings = readSettings(localStorage.getItem(SETTINGS_KEY));
-  currentDifficulty = settings.difficulty;
-  best = Number(localStorage.getItem('knights-best') || 0);
-} catch {}
 const powerButton = $('#power');
 powerButton.hidden = !dev;
 function powerLabel() {
@@ -249,6 +244,10 @@ function message(text) {
   notice.textContent = text;
 }
 function storageSet(key, value) {
+  if (!saveSession) {
+    message('This tab cannot save. Close the other game window, then reload this tab.');
+    return false;
+  }
   try {
     localStorage.setItem(key, value);
     return true;
@@ -2011,6 +2010,7 @@ function applyMusicSettings() {
   if (settings.muted) music?.pause();
 }
 function resumeAudioOnGesture() {
+  if (!saveSession) return;
   if (
     backgrounded &&
     !document.hidden &&
@@ -2322,4 +2322,63 @@ if (new URLSearchParams(location.search).get('perf') === '1') {
     ].join('\n');
   });
 }
-boot();
+let saveSession = false,
+  sessionRequested = false,
+  sessionEnded = false,
+  releaseSaveSession;
+async function startSession() {
+  if (sessionRequested || sessionEnded) return;
+  if (!navigator.locks) {
+    show(
+      'Browser update needed',
+      'This browser cannot protect your saved game across tabs. Open the game in a current browser.',
+    );
+    return;
+  }
+  sessionRequested = true;
+  try {
+    await navigator.locks.request(SAVE_KEY, { ifAvailable: true }, async (lock) => {
+      if (sessionEnded) return;
+      if (!lock) {
+        show('Game already open', 'Close Knights Onrush in your other tab or window, then retry.', [
+          ['Try again', () => location.reload()],
+        ]);
+        return;
+      }
+      saveSession = true;
+      try {
+        settings = readSettings(localStorage.getItem(SETTINGS_KEY));
+        currentDifficulty = settings.difficulty;
+        best = Number(localStorage.getItem('knights-best') || 0);
+      } catch {}
+      powerLabel();
+      await new Promise((resolve) => {
+        releaseSaveSession = resolve;
+        boot().catch(() => {
+          show('Could not load the game', 'Reload this tab to try again.', [
+            ['Try again', () => location.reload()],
+          ]);
+        });
+      });
+    });
+  } catch {
+    show('Could not protect your save', 'Close other game windows, then retry.', [
+      ['Try again', () => location.reload()],
+    ]);
+  } finally {
+    saveSession = false;
+    releaseSaveSession = undefined;
+    sessionRequested = false;
+  }
+}
+// Release only after the earlier pagehide handler has saved the final checkpoint.
+window.addEventListener('pagehide', () => {
+  saveSession = false;
+  sessionEnded = true;
+  releaseSaveSession?.();
+});
+window.addEventListener('pageshow', (event) => {
+  // A restored page can contain an older run after another window owned the save.
+  if (event.persisted) location.reload();
+});
+startSession();
