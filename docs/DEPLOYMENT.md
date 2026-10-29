@@ -126,6 +126,12 @@ browser saves and a separate installation; temporary tunnel URLs are unsuitable
 as the lasting address. Old preview-session details remain in
 [progress](PROGRESS.md) and should not be used as current deployment instructions.
 
+The offline installer checks every file against the build's SHA-256 digest,
+including files reused after an interrupted download. If a deployment changes
+during installation, mismatched files cannot activate as part of that release;
+the previous active cache stays available. Publish the generated files together
+and keep their bytes unchanged.
+
 The build includes 192 px and 512 px PNG manifest icons and a 180 px Apple touch
 icon. Android's installed app may update its manifest separately from the game
 service worker, so a page refresh alone may not apply display changes. Preserve

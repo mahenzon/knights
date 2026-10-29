@@ -43,10 +43,14 @@ def build():
         shutil.copy2(source,OUT/destination)
         files.append(destination)
     version=hashlib.sha256()
-    for name in files:version.update(name.encode());version.update((OUT/name).read_bytes())
+    hashes={}
+    for name in files:
+        content=(OUT/name).read_bytes()
+        hashes[name]=hashlib.sha256(content).hexdigest()
+        version.update(name.encode());version.update(content)
     worker=(ROOT/'web/sw.js').read_text()
     version.update(worker.encode())
-    (OUT/'sw.js').write_text('const VERSION='+json.dumps(version.hexdigest()[:16])+';\nconst FILES='+json.dumps(files)+';\n'+worker)
+    (OUT/'sw.js').write_text('const VERSION='+json.dumps(version.hexdigest()[:16])+';\nconst FILES='+json.dumps(files)+';\nconst HASHES='+json.dumps(hashes)+';\n'+worker)
     expected=set(files)|{'sw.js'}
     actual={str(p.relative_to(OUT)) for p in OUT.rglob('*') if p.is_file()}
     if actual!=expected:raise ValueError(f'Unexpected output files: {actual-expected}')

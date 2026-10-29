@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
+import { createHash, webcrypto } from 'node:crypto';
 import { waitForActiveWorker } from '../build/web/offline.mjs';
 
 class Worker extends EventTarget {
@@ -40,7 +41,15 @@ assert.equal(
 const origin = 'https://knights.example',
   scope = `${origin}/games/knights/`,
   prefix = `knights-web:${scope}:`,
-  files = ['index.html', 'game.mjs', 'knights_core.wasm', 'assets/music.mp3'],
+  files = [
+    'index.html',
+    'game.mjs',
+    'knights_core.wasm',
+    'assets/music.mp3',
+    'game-data.json',
+    'style.css',
+    'art/castle.pack',
+  ],
   failedPath = `${scope}knights_core.wasm`,
   stores = new Map([
     [`${prefix}old`, new Map()],
@@ -50,7 +59,10 @@ const origin = 'https://knights.example',
   requests = [],
   listeners = {},
   notices = [];
-let unavailable = true;
+let unavailable = true,
+  wrongRelease = false,
+  rollover = false;
+const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex');
 const caches = {
   async open(key) {
     if (!stores.has(key)) stores.set(key, new Map());
@@ -61,6 +73,9 @@ const caches = {
       },
       async put(url, response) {
         entries.set(url, new Response(await response.arrayBuffer()));
+      },
+      async delete(url) {
+        return entries.delete(url);
       },
       async keys() {
         return [...entries.keys()];
@@ -77,12 +92,15 @@ const caches = {
 const context = vm.createContext({
   VERSION: 'new',
   FILES: files,
+  HASHES: Object.fromEntries(files.map((name) => [name, sha256(`download:${scope}${name}`)])),
+  crypto: webcrypto,
   URL,
   Response,
   caches,
   fetch: async (url) => {
     requests.push(url);
     if (unavailable && url === failedPath) return new Response(null, { status: 503 });
+    if (wrongRelease || (rollover && requests.length > 6)) return new Response('another release');
     return new Response(`download:${url}`);
   },
   self: {
@@ -117,13 +135,39 @@ await dispatch('message', {
   source: { postMessage: (value) => notices.push(value.type) },
 });
 assert.deepEqual(notices, [], 'an incomplete download must never announce offline readiness');
-// Let the independent successful response writes finish before retrying this worker version.
-await new Promise((resolve) => setImmediate(resolve));
 unavailable = false;
 requests.length = 0;
 await dispatch('install');
 assert.deepEqual(requests, [failedPath], 'retry downloads only the missing file');
 assert.ok(stores.has(`${prefix}old`), 'installation alone does not evict the active version');
+
+stores.get(`${prefix}new`).set(failedPath, new Response('corrupted cached bytes'));
+wrongRelease = true;
+requests.length = 0;
+await assert.rejects(dispatch('install'), /Offline file version mismatch/);
+assert.deepEqual(requests, [failedPath], 'a corrupt cached file must be downloaded again');
+assert.equal(stores.get(`${prefix}new`).has(failedPath), false, 'bad cached bytes are discarded');
+assert.ok(stores.has(`${prefix}old`), 'a bad response cannot replace the working release');
+wrongRelease = false;
+requests.length = 0;
+await dispatch('install');
+assert.deepEqual(requests, [failedPath], 'retry retains the already verified files');
+
+stores.delete(`${prefix}new`);
+rollover = true;
+requests.length = 0;
+await assert.rejects(dispatch('install'), /Offline file version mismatch/);
+assert.equal(stores.get(`${prefix}new`).size, 6, 'an HTTP 200 from the next release is not cached');
+assert.ok(stores.has(`${prefix}old`), 'deployment during download preserves the active release');
+await dispatch('message', {
+  data: { type: 'status' },
+  source: { postMessage: (value) => notices.push(value.type) },
+});
+assert.deepEqual(notices, [], 'a mixed release must never announce offline readiness');
+rollover = false;
+requests.length = 0;
+await dispatch('install');
+assert.deepEqual(requests, [`${scope}art/castle.pack`]);
 await dispatch('activate');
 assert.deepEqual(notices, ['offline-ready']);
 assert.equal(stores.has(`${prefix}old`), false);
@@ -144,7 +188,12 @@ listeners.fetch({
 assert.equal(await (await offlinePage).text(), `download:${scope}index.html`);
 const manifest = JSON.parse(fs.readFileSync('build/web/manifest.webmanifest'));
 assert.equal(manifest.display, 'fullscreen', 'Installed game requests hidden system bars');
-const packed = JSON.parse(fs.readFileSync('build/web/sw.js', 'utf8').match(/const FILES=(.*);/)[1]);
+const builtWorker = fs.readFileSync('build/web/sw.js', 'utf8'),
+  packed = JSON.parse(builtWorker.match(/const FILES=(.*);/)[1]),
+  hashes = JSON.parse(builtWorker.match(/const HASHES=(.*);/)[1]);
+assert.deepEqual(Object.keys(hashes), packed, 'every offline file has an expected digest');
+for (const name of packed)
+  assert.equal(hashes[name], sha256(fs.readFileSync(`build/web/${name}`)), name);
 for (const icon of [
   ...manifest.icons,
   { src: './apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
@@ -164,5 +213,5 @@ assert.ok(
   fs.readFileSync('build/web/index.html', 'utf8').includes('href="./apple-touch-icon.png"'),
 );
 console.log(
-  'Offline: failed first install reports failure, retry reuses files, updates are atomic, subpath launch works.',
+  'Offline: interrupted and mixed releases reject, cached files are verified, retry reuses valid files, subpath launch works.',
 );
