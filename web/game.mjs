@@ -62,7 +62,7 @@ import {
   endFlagY,
 } from './scene.mjs';
 import { Soundtrack } from './audio.mjs';
-import { waitForActiveWorker } from './offline.mjs';
+import { waitForOfflineReady } from './offline.mjs';
 import { ImageLoader, battleAssets, mapAssets, helpAssets } from './assets.mjs';
 import {
   developerMode,
@@ -144,7 +144,8 @@ let settings = readSettings(null),
   currentDifficulty = 'normal';
 let audioUnlocked = false,
   audioWanted = false;
-let offlineStarted = false;
+let offlineTask = null,
+  preparingOffline = false;
 let run = null,
   landscape = null,
   backgrounded = false;
@@ -470,6 +471,8 @@ async function castleMenu(result = null) {
   } catch {}
   if (!dev) {
     show('Campaign', 'Opening the map…');
+    $('#loading').hidden = false;
+    $('#loading').value = 0;
     try {
       await loadImages(mapAssets);
     } catch {
@@ -2152,13 +2155,16 @@ async function sound(name, menuEffect = false) {
   } catch {}
 }
 async function offline() {
-  if (offlineStarted) return;
-  offlineStarted = true;
+  if (offlineTask) return offlineTask;
+  offlineTask = downloadOffline();
+  return offlineTask;
+}
+async function downloadOffline() {
   const status = $('#offline');
   if (!isSecureContext || !('serviceWorker' in navigator)) {
     status.textContent =
       'Offline play is unavailable here. Use a secure game link in Safari or Chrome.';
-    return;
+    return false;
   }
   status.textContent = 'Preparing offline play…';
   try {
@@ -2191,19 +2197,29 @@ async function offline() {
         if (worker.state === 'installed') offerUpdate();
       });
     };
-    const worker = await waitForActiveWorker(registration);
-    worker.postMessage({ type: 'status' });
+    await waitForOfflineReady(navigator.serviceWorker, registration, (completed, total) => {
+      status.textContent = `Downloading offline game… ${completed}/${total} files`;
+      if (preparingOffline) {
+        $('#loading').max = total;
+        $('#loading').value = completed;
+        $('#panel-text').textContent =
+          `Saving the complete game for offline play… ${completed}/${total} files. Keep this app open.`;
+      }
+    });
+    status.textContent = 'Ready offline';
     navigator.storage?.persist?.().catch(() => {});
+    return true;
   } catch {
-    offlineStarted = false;
+    offlineTask = null;
     status.textContent = 'Offline download interrupted · reconnect to retry';
+    return false;
   }
 }
 navigator.serviceWorker?.addEventListener('message', (event) => {
   if (event.data?.type === 'offline-ready') $('#offline').textContent = 'Ready offline';
 });
 window.addEventListener('online', () => {
-  if (data && !offlineStarted) offline();
+  if (data && !offlineTask) offline();
 });
 async function boot() {
   prepareAudio('menu');
@@ -2226,6 +2242,37 @@ async function boot() {
     );
     imageLoader = new ImageLoader(data.art, assets, decodeImage);
     glyphs = parseFont(font);
+    const installed =
+      Boolean(navigator.standalone) ||
+      window.matchMedia('(display-mode: standalone), (display-mode: fullscreen)').matches;
+    preparingOffline = installed;
+    if (installed) {
+      show(
+        'Preparing offline play',
+        'Downloading the complete game. This is only needed once. Keep this app open.',
+      );
+      $('#loading').hidden = false;
+      $('#loading').removeAttribute('value');
+    }
+    const downloaded = offline();
+    if (installed && !(await downloaded)) {
+      preparingOffline = false;
+      const actions = [['Try again', () => location.reload()]];
+      const update = $('#update');
+      if (!update.hidden && update.onclick)
+        actions.unshift(['Update game', () => update.onclick()]);
+      show(
+        'Offline download incomplete',
+        'Reconnect to the internet and try again. Your saved progress is kept.',
+        actions,
+      );
+      return;
+    }
+    preparingOffline = false;
+    if (installed) show('Preparing your castle', 'Preparing the menus and campaign map…');
+    $('#loading').hidden = false;
+    $('#loading').max = 1;
+    $('#loading').value = 0;
     await loadImages([
       'menu_background.png',
       'font_interface.png',
@@ -2233,11 +2280,15 @@ async function boot() {
       ...playAssets,
       ...optionAssets,
       ...helpAssets,
+      ...mapAssets,
     ]);
     resize();
     toMenu();
-    if (navigator.serviceWorker?.controller) offline();
-    setTimeout(warmMenu, 0);
+    setTimeout(() => {
+      downloaded.then((ready) => {
+        if (ready) warmMenu();
+      });
+    }, 0);
   } catch (error) {
     console.error('Could not load Knights Onrush', error);
     show('Could not load the game', 'Check your internet connection, then try again.', [

@@ -108,6 +108,7 @@ const bootContext = vm.createContext({
   mainAssets: [],
   playAssets: [],
   optionAssets: [],
+  mapAssets: [],
   helpAssets,
   fetch: async () => ({
     ok: true,
@@ -131,6 +132,9 @@ const bootContext = vm.createContext({
     menuOpened = true;
   },
   navigator: {},
+  window: { matchMedia: () => ({ matches: false }) },
+  offline: async () => true,
+  $: () => ({ removeAttribute() {} }),
   setTimeout() {},
   warmMenu() {},
   show(title, error) {

@@ -34,7 +34,11 @@ parameters. A normal first tap may be necessary to unlock audio.
 
 1. Wait for **Ready offline**, then choose Safari **Share → Add to Home Screen**.
    Keep **Open as Web App** enabled if Safari offers it. Launch the knight icon:
-   the game should open without Safari's address bar.
+   the game should open without Safari's address bar. Keep this installed app
+   online and open until **Preparing offline play** completes and the main menu
+   appears. Check readiness here even if Safari had already shown **Ready
+   offline**; the installed app may have separate storage. **Play → Campaign**
+   should then open the prepared map promptly.
 2. Turn the device landscape. Check **Options → Done**, then **Play → Campaign →
    Play** (or **YES → Resume** if a save is offered). Throw one knight and pause.
    Check music/effects, touch alignment and the full 3:2 playfield. It must fit

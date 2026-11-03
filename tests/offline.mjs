@@ -58,7 +58,11 @@ const origin = 'https://knights.example',
   ]),
   requests = [],
   listeners = {},
-  notices = [];
+  notices = [],
+  progress = [],
+  otherNotices = [];
+const receive = (value) =>
+  value.type === 'offline-progress' ? progress.push(value) : notices.push(value.type);
 let unavailable = true,
   wrongRelease = false,
   rollover = false;
@@ -78,7 +82,7 @@ const caches = {
         return entries.delete(url);
       },
       async keys() {
-        return [...entries.keys()];
+        return [...entries.keys()].map((url) => new Request(url));
       },
     };
   },
@@ -111,8 +115,13 @@ const context = vm.createContext({
     },
     clients: {
       async claim() {},
-      async matchAll() {
-        return [{ postMessage: (value) => notices.push(value.type) }];
+      async matchAll(options) {
+        assert.equal(options.type, 'window');
+        assert.equal(options.includeUncontrolled, true, 'first-install windows receive progress');
+        return [
+          { url: `${scope}?mute=1`, postMessage: receive },
+          { url: `${origin}/other/`, postMessage: (value) => otherNotices.push(value) },
+        ];
       },
     },
   },
@@ -132,13 +141,21 @@ await assert.rejects(dispatch('install'), /Offline download failed/);
 assert.ok(stores.has(`${prefix}old`), 'interrupted updates retain the working version');
 await dispatch('message', {
   data: { type: 'status' },
-  source: { postMessage: (value) => notices.push(value.type) },
+  source: { postMessage: receive },
 });
-assert.deepEqual(notices, [], 'an incomplete download must never announce offline readiness');
+assert.deepEqual(notices, ['offline-error'], 'an incomplete download explicitly rejects readiness');
+assert.equal(progress.at(-1).completed, files.length - 1);
+assert.equal(progress.at(-1).total, files.length);
 unavailable = false;
 requests.length = 0;
+progress.length = 0;
 await dispatch('install');
 assert.deepEqual(requests, [failedPath], 'retry downloads only the missing file');
+assert.deepEqual(
+  progress.map((value) => value.completed).sort((a, b) => a - b),
+  Array.from({ length: files.length + 1 }, (_, index) => index),
+  'progress includes every verified reused file',
+);
 assert.ok(stores.has(`${prefix}old`), 'installation alone does not evict the active version');
 
 stores.get(`${prefix}new`).set(failedPath, new Response('corrupted cached bytes'));
@@ -161,15 +178,23 @@ assert.equal(stores.get(`${prefix}new`).size, 6, 'an HTTP 200 from the next rele
 assert.ok(stores.has(`${prefix}old`), 'deployment during download preserves the active release');
 await dispatch('message', {
   data: { type: 'status' },
-  source: { postMessage: (value) => notices.push(value.type) },
+  source: { postMessage: receive },
 });
-assert.deepEqual(notices, [], 'a mixed release must never announce offline readiness');
+assert.deepEqual(
+  notices,
+  ['offline-error', 'offline-error'],
+  'a mixed release cannot report ready',
+);
 rollover = false;
 requests.length = 0;
 await dispatch('install');
 assert.deepEqual(requests, [`${scope}art/castle.pack`]);
+await dispatch('message', { data: { type: 'status' }, source: { postMessage: receive } });
+assert.equal(notices.at(-1), 'offline-ready', 'a complete cache acknowledges status');
+assert.equal(progress.at(-1).completed, files.length);
 await dispatch('activate');
-assert.deepEqual(notices, ['offline-ready']);
+assert.deepEqual(notices, ['offline-error', 'offline-error', 'offline-ready', 'offline-ready']);
+assert.deepEqual(otherNotices, [], 'messages never reach another installation scope');
 assert.equal(stores.has(`${prefix}old`), false);
 assert.equal(stores.get(`${prefix}new`).size, files.length);
 assert.ok(
@@ -177,6 +202,27 @@ assert.ok(
   'other installation caches are preserved',
 );
 assert.ok(stores.has('knights-web-legacy'), 'unscoped legacy caches have unknown ownership');
+
+stores.get(`${prefix}new`).delete(failedPath);
+await dispatch('message', { data: { type: 'status' }, source: { postMessage: receive } });
+assert.equal(notices.at(-1), 'offline-error', 'an evicted active file requires repair');
+requests.length = 0;
+unavailable = true;
+await dispatch('message', { data: { type: 'repair-offline' }, source: { postMessage: receive } });
+assert.equal(notices.at(-1), 'offline-error', 'failed repair is retryable');
+assert.deepEqual(requests, [failedPath]);
+assert.equal(stores.get(`${prefix}new`).size, files.length - 1, 'repair preserves usable files');
+unavailable = false;
+requests.length = 0;
+await Promise.all([
+  dispatch('message', { data: { type: 'repair-offline' }, source: { postMessage: receive } }),
+  dispatch('message', { data: { type: 'repair-offline' }, source: { postMessage: receive } }),
+]);
+assert.deepEqual(requests, [failedPath], 'simultaneous repair requests share one verified refill');
+assert.equal(stores.get(`${prefix}new`).size, files.length);
+assert.deepEqual(notices.slice(-2), ['offline-ready', 'offline-ready']);
+await dispatch('message', { data: { type: 'status' }, source: { postMessage: receive } });
+assert.equal(notices.at(-1), 'offline-ready', 'the unchanged active worker is ready after repair');
 
 let offlinePage;
 listeners.fetch({

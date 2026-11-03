@@ -2,38 +2,53 @@
 const PREFIX = `knights-web:${self.registration.scope}:`;
 const CACHE = `${PREFIX}${VERSION}`;
 const paths = FILES.map((path) => new URL(path, self.registration.scope).href);
-self.addEventListener('install', (event) =>
-  event.waitUntil(
-    (async () => {
-      const cache = await caches.open(CACHE);
-      let cursor = 0;
-      const downloads = await Promise.allSettled(
-        Array.from({ length: 6 }, async () => {
-          while (cursor < paths.length) {
-            const index = cursor++,
-              url = paths[index],
-              hash = HASHES[FILES[index]],
-              cached = await cache.match(url);
-            if (cached && (await matchesHash(cached, hash))) continue;
+let population;
+function ensureFiles() {
+  population ??= (async () => {
+    const cache = await caches.open(CACHE);
+    let cursor = 0,
+      completed = 0;
+    await broadcast({ type: 'offline-progress', completed, total: paths.length });
+    const downloads = await Promise.allSettled(
+      Array.from({ length: 6 }, async () => {
+        while (cursor < paths.length) {
+          const index = cursor++,
+            url = paths[index],
+            hash = HASHES[FILES[index]],
+            cached = await cache.match(url);
+          if (!cached || !(await matchesHash(cached, hash))) {
             if (cached) await cache.delete(url);
             const response = await fetch(url, { cache: 'reload' });
             if (!response.ok) throw Error('Offline download failed');
             if (!(await matchesHash(response, hash))) throw Error('Offline file version mismatch');
             await cache.put(url, response);
           }
-        }),
-      );
-      const failed = downloads.find((result) => result.status === 'rejected');
-      if (failed) throw failed.reason;
-    })(),
-  ),
-);
+          await broadcast({
+            type: 'offline-progress',
+            completed: ++completed,
+            total: paths.length,
+          });
+        }
+      }),
+    );
+    const failed = downloads.find((result) => result.status === 'rejected');
+    if (failed) throw failed.reason;
+  })().finally(() => {
+    population = undefined;
+  });
+  return population;
+}
+self.addEventListener('install', (event) => event.waitUntil(ensureFiles()));
 async function matchesHash(response, expected) {
   const digest = await crypto.subtle.digest('SHA-256', await response.clone().arrayBuffer());
   return (
     [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, '0')).join('') ===
     expected
   );
+}
+async function broadcast(message) {
+  for (const client of await self.clients.matchAll({ type: 'window', includeUncontrolled: true }))
+    if (client.url.startsWith(self.registration.scope)) client.postMessage(message);
 }
 self.addEventListener('activate', (event) =>
   event.waitUntil(
@@ -42,8 +57,7 @@ self.addEventListener('activate', (event) =>
       for (const key of await caches.keys())
         if (key.startsWith(PREFIX) && key !== CACHE) await caches.delete(key);
       await self.clients.claim();
-      for (const client of await self.clients.matchAll())
-        client.postMessage({ type: 'offline-ready' });
+      await broadcast({ type: 'offline-ready' });
     })(),
   ),
 );
@@ -87,12 +101,30 @@ self.addEventListener('message', (event) => {
     event.waitUntil(self.skipWaiting());
     return;
   }
+  if (event.data?.type === 'repair-offline') {
+    event.waitUntil(
+      (async () => {
+        event.source?.postMessage({ type: 'offline-repairing' });
+        try {
+          await ensureFiles();
+          event.source?.postMessage({ type: 'offline-ready' });
+        } catch {
+          event.source?.postMessage({ type: 'offline-error' });
+        }
+      })(),
+    );
+    return;
+  }
   if (event.data?.type !== 'status') return;
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE);
-      const keys = await cache.keys();
-      if (keys.length === paths.length) event.source?.postMessage({ type: 'offline-ready' });
+      const urls = new Set((await cache.keys()).map((request) => request.url));
+      const completed = paths.filter((url) => urls.has(url)).length;
+      event.source?.postMessage({ type: 'offline-progress', completed, total: paths.length });
+      event.source?.postMessage({
+        type: completed === paths.length ? 'offline-ready' : 'offline-error',
+      });
     })(),
   );
 });

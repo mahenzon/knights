@@ -36,6 +36,8 @@ Installation is optional—you can play in a browser tab.
    - **iPhone or iPad:** in Safari, choose **Share → Add to Home Screen**. Leave **Open as Web App** enabled if offered.
 3. Open the knight icon to play. Once the download is complete, you can play without an internet connection.
 
+On the installed app's first launch, keep it open and online while **Preparing offline play** downloads the complete game. The main menu appears after that download and the campaign map are ready. Later launches use the downloaded files. Installing the icon alone does not finish this download; a download completed in Safari may not carry over to the installed app.
+
 Installed offline play with sound has been checked on Android. iPhone and iPad offline play and audio are still being tested.
 
 ## Keep your progress

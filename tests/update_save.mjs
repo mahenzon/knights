@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
-import { waitForActiveWorker } from '../build/web/offline.mjs';
+import { waitForOfflineReady } from '../build/web/offline.mjs';
 
 const source = fs.readFileSync('web/game.mjs', 'utf8');
 const section = (from, to) => source.slice(source.indexOf(from), source.indexOf(to));
@@ -11,7 +11,18 @@ for (const phase of ['battle', 'failed', 'menu']) {
     controls = { '#offline': {}, '#update': {} },
     worker = Object.assign(new EventTarget(), {
       state: 'activated',
-      postMessage: ({ type }) => requests.push(type),
+      postMessage: ({ type }) => {
+        requests.push(type);
+        if (type === 'status')
+          queueMicrotask(() => {
+            serviceWorker.dispatchEvent(
+              Object.assign(new Event('message'), {
+                data: { type: 'offline-ready' },
+                source: worker,
+              }),
+            );
+          });
+      },
     }),
     registration = { active: worker, waiting: worker },
     serviceWorker = Object.assign(new EventTarget(), {
@@ -44,10 +55,11 @@ for (const phase of ['battle', 'failed', 'menu']) {
     pauseScreen() {},
     stopAudio: () => stops++,
     location: { reload: () => reloads++ },
-    offlineStarted: false,
+    offlineTask: null,
+    preparingOffline: false,
     isSecureContext: true,
     navigator: { serviceWorker },
-    waitForActiveWorker,
+    waitForOfflineReady,
     $: (selector) => controls[selector],
   });
   vm.runInContext(
