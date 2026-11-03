@@ -1,8 +1,7 @@
 # Physical-device release checks
 
-Use the release candidate's permanent HTTPS address chosen in the
-[deployment guide](DEPLOYMENT.md). Record the URL, commit, device model,
-browser and OS version with every result. Previous tunnel URLs are historical
+Use the release candidate's permanent HTTPS address. Record the URL, commit,
+device model, browser and OS version with every result. Previous tunnel URLs are historical
 and may no longer serve the candidate.
 
 Earlier checks confirmed Android installation, fullscreen, installed offline

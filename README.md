@@ -13,8 +13,7 @@ Defend your castle, fling the invaders, and come back for one more day.
 
 A browser restoration of the 2009 castle-defense game, with its original artwork and soundtrack. Play with a mouse or touchscreen, then install it for offline adventures. No account needed.
 
-Planned play address: [knights.mahenzon.ru](https://knights.mahenzon.ru), available
-after [GitHub Pages setup](docs/DEPLOYMENT.md#custom-domain-knightsmahenzonru).
+Play at [knights.mahenzon.ru](https://knights.mahenzon.ru).
 
 ## Your first battle
 
@@ -66,4 +65,4 @@ Original game, artwork, and soundtrack: **Moregames Entertainment / Chillingo**.
 
 ## For contributors
 
-To build or host the game, see the [development guide](docs/DEVELOPMENT.md) and [publishing guide](docs/DEPLOYMENT.md).
+For local setup and verification, see the [development guide](docs/DEVELOPMENT.md).

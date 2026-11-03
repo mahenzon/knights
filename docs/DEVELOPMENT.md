@@ -1,8 +1,8 @@
 # Development
 
 This guide covers local setup, diagnostics and implementation details. For player
-instructions, start with the [README](../README.md); for release preparation,
-use the [deployment guide](DEPLOYMENT.md).
+instructions, start with the [README](../README.md). Release validation is recorded
+in [acceptance](ACCEPTANCE.md) and the [physical-device checks](DEVICE-TESTING.md).
 
 ## Quick start
 
@@ -29,7 +29,7 @@ none of those npm packages ship in the game.
    Ctrl+C when finished.
 
 The static website is generated in `build/web/`. The server binds only to this
-computer; use the [deployment guide](DEPLOYMENT.md) for testing on a phone.
+computer. Phone validation is covered by the [physical-device checks](DEVICE-TESTING.md).
 
 ## Commands
 
@@ -88,7 +88,7 @@ A clean checkout can run `npm ci && npm run check` with the pinned Rust
 toolchain, Node24 and Python3 installed. Normal tests use focused fixtures in
 `tests/fixtures/`, alongside Rust, browser, Wasm and Python regressions. The
 GitHub Actions workflow runs these checks and deploys only `build/web/` to
-Pages; see [deployment setup](DEPLOYMENT.md#github-pages).
+Pages.
 
 ## Optional native replay checks
 

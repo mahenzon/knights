@@ -43,8 +43,7 @@ battery/thermal or GPU-completion measurement. See [rendering measurements](REND
 Remaining audio limit: [sound dispatch evidence](../research/sound-dispatch-notes.md).
 Current renderer evidence and limitations: [development notes](DEVELOPMENT.md#combined-battlefield-comparison).
 Full dated receipts: [progress](PROGRESS.md).
-Current static-hosting instructions are in [deployment](DEPLOYMENT.md); the
-116-file ZIP is historical release evidence.
+The 116-file ZIP is historical release evidence.
 
 Wave scheduling additionally matches2,510 integrated native frames: ordinary,
 triple and forced waves, prefix growth, crowd limits including corpses,
